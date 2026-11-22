@@ -7,6 +7,7 @@ A typed SAT vocabulary trainer for one learner, with a dashboard and a daily ema
 - **Sort (day one).** One pass through the 100 words, rating each "know it", "shaky" or "no idea". "Know it" is only a claim: those words go to the drills to be confirmed. The rest go to the coach, most frequently reported first.
 - **Coach sessions (typed).** About ten minutes a day in a chat. The coach tests words that are due and teaches new ones, mostly through fresh sentences with a blank, "why not this other word" follow-ups, secondary meanings, and look-alike contrasts. It grades each word, which sets when the word comes back.
 - **Words in Context drills.** The digital SAT's format: a short passage, four choices. Practice mode explains each answer; timed mode runs at test pace (about 71 seconds a question). 200 questions, two per word.
+- **Flashcards.** Flip through the words being learned, new words, or the whole list. Self-graded: "had it" changes nothing, a miss sends the word back to the coach.
 - **Word list.** Each word has a plain definition, an example, a memory hook, near-synonyms, what it gets confused with, and any second sense the SAT uses.
 - **Points, levels and milestones.** Worked out from existing practice records (`lib/rewards.ts`); nothing extra is stored.
 - **View as the learner.** Parents can open the learner's screens from the dashboard. The preview is read-only.
@@ -15,7 +16,7 @@ A typed SAT vocabulary trainer for one learner, with a dashboard and a daily ema
 
 ## Setup
 
-1. **Supabase.** Create a new project (separate from any other trainer). In the SQL editor, run `supabase/migrations/001_init.sql`, then run the `insert into members` statement at the bottom of that file with the family's real emails (one `learner`, one or more `parent`).
+1. **Supabase.** Create a new project (separate from any other trainer). In the SQL editor, run `supabase/migrations/001_init.sql` (and `002_cards.sql` if the database was created before flashcards were added), then run the `insert into members` statement at the bottom of that file with the family's real emails (one `learner`, one or more `parent`).
 2. **Sign-in email.** In Supabase, Authentication > Email Templates > Magic Link, add `{{ .Token }}` to the body so the email shows a 6-digit code. Under Authentication > URL Configuration, set the site URL to the deployed address.
 3. **Keys.** Copy `.env.example` to `.env.local` and fill it in.
 4. **Run.** `npm install`, then `npm run dev`.

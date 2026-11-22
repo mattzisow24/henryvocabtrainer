@@ -127,6 +127,11 @@ export default async function HomePage() {
         </Link>
       </div>
 
+      <Link href="/cards" className="card block p-4 transition-transform active:scale-[0.98]">
+        <p className="font-semibold text-navy">Flashcards</p>
+        <p className="text-sm text-ink-2">Flip through the words you are learning. Good for spare minutes; it does not replace the session.</p>
+      </Link>
+
       <section className="card space-y-3 p-4">
         <div className="flex items-baseline justify-between">
           <h2 className="text-lg font-semibold text-navy">The {p.total} words</h2>

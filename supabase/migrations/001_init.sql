@@ -63,7 +63,7 @@ create table if not exists reviews (
   id bigint generated always as identity primary key,
   learner_id uuid not null references auth.users on delete cascade,
   word_id text not null,
-  source text not null check (source in ('coach', 'drill', 'sort')),
+  source text not null check (source in ('coach', 'drill', 'sort', 'cards')),
   grade text not null check (grade in ('knew', 'partial', 'missed')),
   session_id uuid references sessions on delete set null,
   day date not null,

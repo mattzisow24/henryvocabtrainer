@@ -59,7 +59,14 @@ export default async function WordsPage({ searchParams }: { searchParams: Promis
   return (
     <div className="space-y-4">
       <div>
-        <h1 className="text-3xl font-semibold text-navy">Word list</h1>
+        <div className="flex items-center justify-between gap-3">
+          <h1 className="text-3xl font-semibold text-navy">Word list</h1>
+          {(member.role === "learner" || member.preview) && (
+            <Link href="/cards" className="btn shrink-0">
+              Flashcards
+            </Link>
+          )}
+        </div>
         <p className="text-ink-2">
           {WORDS.length} words in study order: the ones students most often report meeting on the SAT come first. Open a word for an example, its
           other senses, and what it gets confused with.

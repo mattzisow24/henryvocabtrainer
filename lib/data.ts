@@ -35,7 +35,7 @@ export type DrillRow = {
   created_at: string;
 };
 
-export type ReviewRow = { word_id: string; source: "coach" | "drill" | "sort"; grade: Grade; day: string };
+export type ReviewRow = { word_id: string; source: "coach" | "drill" | "sort" | "cards"; grade: Grade; day: string };
 
 export async function loadStates(db: SupabaseClient): Promise<Map<string, StateRow>> {
   const { data, error } = await db.from("word_state").select("*").limit(2000);

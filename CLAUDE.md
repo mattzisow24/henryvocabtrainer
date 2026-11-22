@@ -34,7 +34,7 @@ Typed SAT vocabulary trainer for one learner (Henry, 16), with a dashboard and d
 - Rewards (points, levels, milestones) are derived from practice records in `lib/rewards.ts`, never stored. Milestone badges are text marks rendered by `components/badge.tsx`; there is no artwork. Changes need a test in `lib/rewards.test.ts`.
 - Parent preview ("View as Henry") must stay read-only: every write path checks `role === "learner"`.
 - Any change to scheduling (`lib/srs.ts`, `lib/plan.ts`) needs a test in `lib/srs.test.ts`. The intervals are deliberately short and new words stop `NEW_WORD_CUTOFF_DAYS` before the test; revisit both if the target moves to a later sitting.
-- A self-rating in the first-day sort is a claim, not evidence: it never marks a word mastered.
+- A self-rating is a claim, not evidence: the first-day sort never marks a word mastered, and a flashcard "had it" never promotes a word. A flashcard miss does send the word back to the coach. Flashcards earn no points.
 
 ## Commands
 - `npm run dev`, `npm run build`, `npm run lint`, `npm test`, `npm run check:content`

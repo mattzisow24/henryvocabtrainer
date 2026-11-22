@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { addDays, daysBetween, streak } from "./dates";
 import { dailyPlan, drillPlan, newWordQuota } from "./plan";
-import { applyCoachGrade, applyDrillAnswer, applySort, newState, stageOf, type WordState } from "./srs";
+import { applyCardMiss, applyCoachGrade, applyDrillAnswer, applySort, newState, stageOf, type WordState } from "./srs";
 import { QUESTIONS, questionsFor, WORDS } from "./words";
 
 const DAY = "2026-11-22";
@@ -72,6 +72,17 @@ describe("drill answers", () => {
   it("sends a missed word back to the coach today", () => {
     const placed: WordState = { ...newState(W, DAY), box: 4, due: addDays(DAY, 8), seen: 4 };
     expect(applyDrillAnswer(placed, false, DAY)).toMatchObject({ box: 1, due: DAY, lapses: 1, last_grade: "missed" });
+  });
+});
+
+describe("flashcards", () => {
+  it("sends an admitted miss back to the coach and counts a lapse if the word was known", () => {
+    const known: WordState = { ...newState(W, DAY), box: 4, due: addDays(DAY, 3), seen: 3, correct: 3 };
+    expect(applyCardMiss(known, DAY)).toMatchObject({ box: 1, due: DAY, lapses: 1, seen: 4, correct: 3, last_grade: "missed" });
+  });
+
+  it("leaves a word that has never been taught as new", () => {
+    expect(applyCardMiss(newState(W, DAY), DAY)).toEqual(newState(W, DAY));
   });
 });
 

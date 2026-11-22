@@ -87,6 +87,24 @@ export function applyDrillAnswer(prev: WordState, correct: boolean, day: string)
   return next;
 }
 
+/**
+ * A flashcard he says he missed. Flashcards are self-graded, so "had it"
+ * changes nothing (a self-rating is a claim, not evidence), but an admitted
+ * miss is reliable: the word goes back to the coach. A word that has never
+ * been taught stays new.
+ */
+export function applyCardMiss(prev: WordState, day: string): WordState {
+  if (prev.box === 0) return prev;
+  return {
+    ...prev,
+    seen: prev.seen + 1,
+    lapses: prev.box >= 3 ? prev.lapses + 1 : prev.lapses,
+    box: 1,
+    due: day,
+    last_grade: "missed",
+  };
+}
+
 export type Stage = "new" | "learning" | "mastered";
 
 export function stageOf(state: WordState | undefined): Stage {
