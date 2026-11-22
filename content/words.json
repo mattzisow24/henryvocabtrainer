@@ -1,0 +1,2491 @@
+[
+ {
+  "id": "ameliorate",
+  "word": "ameliorate",
+  "pos": "verb",
+  "definition": "to make a bad situation better, without necessarily fixing it",
+  "example": "The new drainage canals ameliorated the flooding, though low streets still filled after heavy storms.",
+  "hook": "\"Melior\" is Latin for better. A-melior-ate: make better.",
+  "synonyms": [
+   "improve",
+   "alleviate",
+   "ease"
+  ],
+  "confusedWith": [
+   "mitigate (makes harm less severe; ameliorate makes the situation better)",
+   "exacerbate (the opposite)"
+  ],
+  "senses": [],
+  "priority": 1,
+  "tier": 1,
+  "reports": 25,
+  "testDates": 5,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "eschew",
+  "word": "eschew",
+  "pos": "verb",
+  "definition": "to deliberately avoid or do without something, usually on principle",
+  "example": "The architect eschewed ornament, leaving the concrete walls bare.",
+  "hook": "Related to \"shy\": to shy away from something by choice.",
+  "synonyms": [
+   "shun",
+   "avoid",
+   "forgo"
+  ],
+  "confusedWith": [
+   "renounce (give up something you had; eschew is to steer clear of it)"
+  ],
+  "senses": [],
+  "priority": 2,
+  "tier": 1,
+  "reports": 24,
+  "testDates": 4,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "misconstrue",
+  "word": "misconstrue",
+  "pos": "verb",
+  "definition": "to interpret something wrongly",
+  "example": "Critics misconstrued the novel's satire as a sincere endorsement.",
+  "hook": "To construe is to construct a meaning. Misconstrue: build the wrong one.",
+  "synonyms": [
+   "misinterpret",
+   "misread",
+   "misunderstand"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 3,
+  "tier": 1,
+  "reports": 21,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "enumerate",
+  "word": "enumerate",
+  "pos": "verb",
+  "definition": "to list things one by one",
+  "example": "The report enumerates twelve separate causes of the bridge failure.",
+  "hook": "e + numer (number): to number off each item.",
+  "synonyms": [
+   "list",
+   "itemize",
+   "catalog"
+  ],
+  "confusedWith": [
+   "elaborate (explain in detail, which is not the same as listing)"
+  ],
+  "senses": [],
+  "priority": 4,
+  "tier": 1,
+  "reports": 20,
+  "testDates": 5,
+  "listGloss": "List or count one by one",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "ubiquitous",
+  "word": "ubiquitous",
+  "pos": "adjective",
+  "definition": "found everywhere; so common it seems to be everywhere at once",
+  "example": "By 2015, smartphones were ubiquitous on college campuses.",
+  "hook": "Latin ubique = everywhere. Wi-Fi is ubiquitous.",
+  "synonyms": [
+   "omnipresent",
+   "widespread",
+   "pervasive"
+  ],
+  "confusedWith": [
+   "pervasive (spread all through one thing; ubiquitous is in all places)"
+  ],
+  "senses": [],
+  "priority": 5,
+  "tier": 1,
+  "reports": 19,
+  "testDates": 6,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "spurious",
+  "word": "spurious",
+  "pos": "adjective",
+  "definition": "false or fake, though it may look genuine or logical at first",
+  "example": "The correlation between ice cream sales and drownings is spurious: summer heat drives both.",
+  "hook": "Anchor it to \"spurious correlation\": looks real, is not.",
+  "synonyms": [
+   "bogus",
+   "false",
+   "specious"
+  ],
+  "confusedWith": [
+   "specious (sounds right but is wrong; very close)",
+   "spontaneous"
+  ],
+  "senses": [],
+  "priority": 6,
+  "tier": 1,
+  "reports": 19,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "supplant",
+  "word": "supplant",
+  "pos": "verb",
+  "definition": "to take the place of something, pushing it out",
+  "example": "Streaming supplanted DVD rentals within a decade.",
+  "hook": "sup (under) + plant: it grows underneath until it pushes the old one out.",
+  "synonyms": [
+   "replace",
+   "displace",
+   "supersede"
+  ],
+  "confusedWith": [
+   "supplement (adds to; supplant replaces)"
+  ],
+  "senses": [],
+  "priority": 7,
+  "tier": 1,
+  "reports": 19,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "anomalous",
+  "word": "anomalous",
+  "pos": "adjective",
+  "definition": "different from what is normal or expected; not fitting the pattern",
+  "example": "One anomalous reading of 40°C in January turned out to be a broken sensor.",
+  "hook": "The outlier on the scatter plot. a (not) + nomos (rule): it does not follow the rule.",
+  "synonyms": [
+   "atypical",
+   "irregular",
+   "aberrant"
+  ],
+  "confusedWith": [
+   "analogous (similar)",
+   "anonymous"
+  ],
+  "senses": [],
+  "priority": 8,
+  "tier": 1,
+  "reports": 17,
+  "testDates": 4,
+  "listGloss": "Different from what is usual or expected",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "engender",
+  "word": "engender",
+  "pos": "verb",
+  "definition": "to cause a feeling, situation or condition to arise",
+  "example": "The secrecy surrounding the merger engendered distrust among employees.",
+  "hook": "Shares \"gen\" with generate and genesis: to give birth to a feeling or condition.",
+  "synonyms": [
+   "produce",
+   "give rise to",
+   "foster"
+  ],
+  "confusedWith": [
+   "endanger"
+  ],
+  "senses": [],
+  "priority": 9,
+  "tier": 1,
+  "reports": 17,
+  "testDates": 4,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "evince",
+  "word": "evince",
+  "pos": "verb",
+  "definition": "to show or reveal a quality or feeling clearly",
+  "example": "Her early sketches evince a fascination with machinery.",
+  "hook": "\"Evidence\" as a verb: to evince is to give evidence of. It is not \"convince.\"",
+  "synonyms": [
+   "reveal",
+   "display",
+   "manifest"
+  ],
+  "confusedWith": [
+   "evoke (call up a feeling in someone else)",
+   "convince"
+  ],
+  "senses": [],
+  "priority": 10,
+  "tier": 1,
+  "reports": 16,
+  "testDates": 4,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "idiosyncratic",
+  "word": "idiosyncratic",
+  "pos": "adjective",
+  "definition": "peculiar to one individual; quirky in a way that is distinctively one's own",
+  "example": "His idiosyncratic notation made the proofs hard for anyone else to follow.",
+  "hook": "idio = one's own (as in idiom). One person's private mix of habits.",
+  "synonyms": [
+   "distinctive",
+   "quirky",
+   "individual"
+  ],
+  "confusedWith": [
+   "anomalous (off-pattern, but not necessarily personal)"
+  ],
+  "senses": [],
+  "priority": 11,
+  "tier": 1,
+  "reports": 15,
+  "testDates": 4,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "efface",
+  "word": "efface",
+  "pos": "verb",
+  "definition": "to erase or wear away",
+  "example": "Centuries of wind had effaced the inscription on the tomb.",
+  "hook": "e (out) + face: rub the face off a coin.",
+  "synonyms": [
+   "erase",
+   "obliterate",
+   "wear away"
+  ],
+  "confusedWith": [
+   "deface (damage the surface without erasing it)"
+  ],
+  "senses": [
+   {
+    "meaning": "(efface oneself) to make oneself inconspicuous",
+    "example": "A self-effacing host, she let her guests do the talking."
+   }
+  ],
+  "priority": 12,
+  "tier": 1,
+  "reports": 15,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "incongruous",
+  "word": "incongruous",
+  "pos": "adjective",
+  "definition": "out of place; not fitting with its surroundings or with the rest",
+  "example": "A glass skyscraper looked incongruous among the medieval rooftops.",
+  "hook": "Geometry: congruent shapes match. Incongruous: it does not match.",
+  "synonyms": [
+   "out of place",
+   "mismatched",
+   "discordant"
+  ],
+  "confusedWith": [
+   "anomalous (breaks a pattern in data; incongruous clashes with a setting)"
+  ],
+  "senses": [],
+  "priority": 13,
+  "tier": 1,
+  "reports": 14,
+  "testDates": 7,
+  "listGloss": "Out of place or inconsistent with its surroundings",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "proxy",
+  "word": "proxy",
+  "pos": "noun",
+  "definition": "something measured or used in place of the thing you actually care about; a stand-in",
+  "example": "Tree-ring width serves as a proxy for past rainfall.",
+  "hook": "A proxy server stands in for your computer; a proxy variable stands in for one you cannot measure.",
+  "synonyms": [
+   "stand-in",
+   "substitute",
+   "surrogate"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "a person authorized to act or vote for someone else",
+    "example": "She voted by proxy at the shareholder meeting."
+   }
+  ],
+  "priority": 14,
+  "tier": 1,
+  "reports": 14,
+  "testDates": 5,
+  "listGloss": "Something used in place of another thing",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "superfluous",
+  "word": "superfluous",
+  "pos": "adjective",
+  "definition": "more than is needed; unnecessary",
+  "example": "Once the graph was labeled, the caption explaining it was superfluous.",
+  "hook": "super (over) + flu (flow, as in fluid): overflowing past what is needed.",
+  "synonyms": [
+   "unnecessary",
+   "redundant",
+   "excess"
+  ],
+  "confusedWith": [
+   "superficial (shallow)",
+   "extraneous (does not belong; superfluous is simply extra)"
+  ],
+  "senses": [],
+  "priority": 15,
+  "tier": 1,
+  "reports": 14,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "lament",
+  "word": "lament",
+  "pos": "verb",
+  "definition": "to express grief or regret about something",
+  "example": "Teachers lament the decline of cursive handwriting.",
+  "hook": "A lamentation is a song of mourning. To lament is to say \"alas\" out loud.",
+  "synonyms": [
+   "mourn",
+   "bemoan",
+   "deplore"
+  ],
+  "confusedWith": [
+   "regret (can be private; a lament is expressed)"
+  ],
+  "senses": [
+   {
+    "meaning": "(noun) an expression of grief, often a poem or song",
+    "example": "The poem is a lament for a drowned friend."
+   }
+  ],
+  "priority": 16,
+  "tier": 1,
+  "reports": 14,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "admonition",
+  "word": "admonition",
+  "pos": "noun",
+  "definition": "a firm warning or mild scolding about behavior",
+  "example": "Despite the coach's admonition to pace themselves, the runners sprinted the first lap.",
+  "hook": "Shares \"mon\" with monitor: a hall monitor warns you.",
+  "synonyms": [
+   "warning",
+   "caution",
+   "reprimand"
+  ],
+  "confusedWith": [
+   "admiration"
+  ],
+  "senses": [],
+  "priority": 17,
+  "tier": 1,
+  "reports": 14,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "unequivocal",
+  "word": "unequivocal",
+  "pos": "adjective",
+  "definition": "leaving no doubt; completely clear and unambiguous",
+  "example": "The committee's answer was an unequivocal no.",
+  "hook": "Equivocal = \"equal voices,\" so it could go either way. Unequivocal: one voice, one meaning.",
+  "synonyms": [
+   "unambiguous",
+   "clear-cut",
+   "definite"
+  ],
+  "confusedWith": [
+   "equivocal (the opposite)",
+   "irrefutable (cannot be disproved; unequivocal cannot be misread)"
+  ],
+  "senses": [],
+  "priority": 18,
+  "tier": 1,
+  "reports": 13,
+  "testDates": 6,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "corroborate",
+  "word": "corroborate",
+  "pos": "verb",
+  "definition": "to support a claim with additional, independent evidence",
+  "example": "Satellite images corroborated the villagers' account of the flood.",
+  "hook": "co + robor (strength, as in robust): a second source makes the claim robust.",
+  "synonyms": [
+   "confirm",
+   "substantiate",
+   "back up"
+  ],
+  "confusedWith": [
+   "collaborate (work together)"
+  ],
+  "senses": [],
+  "priority": 19,
+  "tier": 1,
+  "reports": 13,
+  "testDates": 4,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "nominal",
+  "word": "nominal",
+  "pos": "adjective",
+  "definition": "in name only, without the real power or substance the name suggests",
+  "example": "The king was the nominal head of state, but the generals held real power.",
+  "hook": "nom = name (nominate, nomenclature). Nominal: existing mostly as a name.",
+  "synonyms": [
+   "titular",
+   "so-called",
+   "token"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "(of a sum) very small, far below the real value",
+    "example": "The museum charges a nominal fee of one dollar."
+   },
+   {
+    "meaning": "(economics) not adjusted for inflation",
+    "example": "Nominal wages rose, but real wages fell."
+   }
+  ],
+  "priority": 20,
+  "tier": 1,
+  "reports": 13,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "imbue",
+  "word": "imbue",
+  "pos": "verb",
+  "definition": "to fill or saturate something with a quality, feeling or idea",
+  "example": "Her grandmother's stories imbued her with a love of the sea.",
+  "hook": "Like cloth soaking up dye until it is colored all the way through. Pattern: imbue X with Y.",
+  "synonyms": [
+   "infuse",
+   "suffuse",
+   "instill"
+  ],
+  "confusedWith": [
+   "imbibe (drink)",
+   "endow"
+  ],
+  "senses": [],
+  "priority": 21,
+  "tier": 1,
+  "reports": 13,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "dearth",
+  "word": "dearth",
+  "pos": "noun",
+  "definition": "a shortage; too little of something",
+  "example": "A dearth of rain left the reservoirs half empty.",
+  "hook": "When something is scarce it gets \"dear\" (expensive). Dearth = scarcity. It is not \"death.\"",
+  "synonyms": [
+   "scarcity",
+   "shortage",
+   "lack"
+  ],
+  "confusedWith": [
+   "plethora and myriad (the opposites)"
+  ],
+  "senses": [],
+  "priority": 22,
+  "tier": 1,
+  "reports": 12,
+  "testDates": 4,
+  "listGloss": "An insufficient amount",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "detrimental",
+  "word": "detrimental",
+  "pos": "adjective",
+  "definition": "harmful; causing damage",
+  "example": "Sleep loss is detrimental to memory.",
+  "hook": "Shares a root with detritus (worn-away debris): something that wears you down.",
+  "synonyms": [
+   "harmful",
+   "damaging",
+   "deleterious"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 23,
+  "tier": 1,
+  "reports": 12,
+  "testDates": 4,
+  "listGloss": "Harmful",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "precipitate",
+  "word": "precipitate",
+  "pos": "verb",
+  "definition": "to cause something, usually bad, to happen suddenly or sooner than it otherwise would",
+  "example": "The assassination precipitated a war that had been brewing for years.",
+  "hook": "Chemistry: a precipitate drops out of solution all at once. Same root as precipice: events go over the edge.",
+  "synonyms": [
+   "trigger",
+   "hasten",
+   "bring on"
+  ],
+  "confusedWith": [
+   "participate"
+  ],
+  "senses": [
+   {
+    "meaning": "(adjective, pronounced pre-SIP-i-tit) done too fast, without enough thought",
+    "example": "a precipitate decision to resign"
+   },
+   {
+    "meaning": "(chemistry) to come out of solution as a solid",
+    "example": "Salt precipitates as the water evaporates."
+   }
+  ],
+  "priority": 24,
+  "tier": 1,
+  "reports": 12,
+  "testDates": 4,
+  "listGloss": "Cause something to happen suddenly",
+  "listCheck": "imprecise",
+  "listNote": "Right as far as it goes. It leaves out \"sooner than expected,\" and it omits the adjective sense (hasty, rash), which the SAT also tests."
+ },
+ {
+  "id": "stipulate",
+  "word": "stipulate",
+  "pos": "verb",
+  "definition": "to state as a required condition, especially in an agreement or rule",
+  "example": "The lease stipulates that rent is due on the first of the month.",
+  "hook": "A stipulation is the fine print. If the contract stipulates it, it is required.",
+  "synonyms": [
+   "specify",
+   "require",
+   "lay down"
+  ],
+  "confusedWith": [
+   "speculate (guess)",
+   "stimulate"
+  ],
+  "senses": [],
+  "priority": 25,
+  "tier": 1,
+  "reports": 12,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "paradigmatic",
+  "word": "paradigmatic",
+  "pos": "adjective",
+  "definition": "serving as the typical or model example of something",
+  "example": "The Dust Bowl is the paradigmatic case of a human-made ecological disaster.",
+  "hook": "A paradigm is the model or pattern (as in \"paradigm shift\"). Paradigmatic: the textbook case.",
+  "synonyms": [
+   "exemplary",
+   "archetypal",
+   "classic"
+  ],
+  "confusedWith": [
+   "quintessential (the purest example; nearly the same)"
+  ],
+  "senses": [],
+  "priority": 26,
+  "tier": 1,
+  "reports": 12,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "vindicate",
+  "word": "vindicate",
+  "pos": "verb",
+  "definition": "to show that someone or something was right or justified after doubt or blame",
+  "example": "The retest vindicated the inspector who had insisted on it.",
+  "hook": "\"Vindicated by history\": proved right in the end.",
+  "synonyms": [
+   "justify",
+   "prove right",
+   "clear"
+  ],
+  "confusedWith": [
+   "vindictive (vengeful)",
+   "exonerate (clear of blame for wrongdoing; vindicate proves you were right)"
+  ],
+  "senses": [],
+  "priority": 27,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 6,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "exploit",
+  "word": "exploit",
+  "pos": "verb",
+  "definition": "to make full use of a resource, property or opportunity",
+  "example": "The turbine exploits the temperature difference between surface and deep water.",
+  "hook": "Think of a software exploit: it takes full advantage of something that is there.",
+  "synonyms": [
+   "utilize",
+   "harness",
+   "capitalize on"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "to use a person or group unfairly for your own gain",
+    "example": "Factory owners exploited child workers."
+   },
+   {
+    "meaning": "(noun, EX-ploit) a bold or notable feat",
+    "example": "the explorer's early exploits"
+   }
+  ],
+  "priority": 28,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 6,
+  "listGloss": "Use something to gain an advantage",
+  "listCheck": "imprecise",
+  "listNote": "Fine for the negative sense. On the SAT the verb is usually neutral: to make full use of a resource or property, with no unfairness implied. The noun sense (a daring feat) is missing."
+ },
+ {
+  "id": "eclipse",
+  "word": "eclipse",
+  "pos": "verb",
+  "definition": "to surpass something so far that it seems unimportant by comparison",
+  "example": "Her second novel eclipsed the first in both sales and reputation.",
+  "hook": "The moon blocks the sun: the nearer body blots out the other.",
+  "synonyms": [
+   "overshadow",
+   "surpass",
+   "outshine"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 29,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 5,
+  "listGloss": "Overshadow or surpass",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "amorphous",
+  "word": "amorphous",
+  "pos": "adjective",
+  "definition": "without a clear shape, structure or definition",
+  "example": "The committee began as an amorphous group of volunteers with no chair and no agenda.",
+  "hook": "a (without) + morph (shape). An amorphous solid such as glass has no crystal lattice.",
+  "synonyms": [
+   "shapeless",
+   "formless",
+   "unstructured"
+  ],
+  "confusedWith": [
+   "nebulous (hazy as an idea; amorphous lacks structure)"
+  ],
+  "senses": [],
+  "priority": 30,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 4,
+  "listGloss": "Lacking a definite form",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "irrefutable",
+  "word": "irrefutable",
+  "pos": "adjective",
+  "definition": "impossible to disprove",
+  "example": "The video gave irrefutable proof that the bridge had been closed.",
+  "hook": "ir (not) + refute + able: cannot be refuted.",
+  "synonyms": [
+   "undeniable",
+   "incontrovertible",
+   "conclusive"
+  ],
+  "confusedWith": [
+   "unequivocal (cannot be misread; irrefutable cannot be disproved)"
+  ],
+  "senses": [],
+  "priority": 31,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "multifarious",
+  "word": "multifarious",
+  "pos": "adjective",
+  "definition": "of many different kinds; having great variety",
+  "example": "The museum's multifarious collection runs from fossils to pinball machines.",
+  "hook": "Read it as \"multi-various.\"",
+  "synonyms": [
+   "diverse",
+   "varied",
+   "manifold"
+  ],
+  "confusedWith": [
+   "nefarious (wicked)",
+   "myriad (many in number; multifarious is many in kind)"
+  ],
+  "senses": [],
+  "priority": 32,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "proponent",
+  "word": "proponent",
+  "pos": "noun",
+  "definition": "a person who argues in favor of something",
+  "example": "She is a leading proponent of year-round schooling.",
+  "hook": "pro (for) + pon (put): someone who puts the case forward. The opposite is an opponent.",
+  "synonyms": [
+   "advocate",
+   "supporter",
+   "champion"
+  ],
+  "confusedWith": [
+   "detractor (the opposite)"
+  ],
+  "senses": [],
+  "priority": 33,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "pragmatic",
+  "word": "pragmatic",
+  "pos": "adjective",
+  "definition": "concerned with what works in practice rather than with theory or ideals",
+  "example": "The pragmatic fix was to patch the old code, not rewrite it.",
+  "hook": "Greek pragma = deed. A cousin of \"practical.\"",
+  "synonyms": [
+   "practical",
+   "realistic",
+   "hardheaded"
+  ],
+  "confusedWith": [
+   "dogmatic (sticks to principle regardless of results)"
+  ],
+  "senses": [],
+  "priority": 34,
+  "tier": 1,
+  "reports": 11,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "attenuate",
+  "word": "attenuate",
+  "pos": "verb",
+  "definition": "to weaken or reduce the strength of something",
+  "example": "Thick walls attenuate the signal from the router.",
+  "hook": "Contains \"tenu\" as in tenuous (thin): to thin out. Signals attenuate with distance.",
+  "synonyms": [
+   "weaken",
+   "diminish",
+   "dampen"
+  ],
+  "confusedWith": [
+   "accentuate (the opposite)",
+   "mitigate (lessen harm; attenuate lessens strength or intensity)"
+  ],
+  "senses": [],
+  "priority": 35,
+  "tier": 1,
+  "reports": 10,
+  "testDates": 5,
+  "listGloss": "Reduce in strength or intensity",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "pervasive",
+  "word": "pervasive",
+  "pos": "adjective",
+  "definition": "spread throughout something, so that it is present in every part",
+  "example": "A pervasive smell of paint hung over the whole building.",
+  "hook": "per (through) + vas (go, as in invade): it goes all the way through.",
+  "synonyms": [
+   "widespread",
+   "prevalent",
+   "all-encompassing"
+  ],
+  "confusedWith": [
+   "persuasive",
+   "ubiquitous (in all places; pervasive is all through one thing)"
+  ],
+  "senses": [],
+  "priority": 36,
+  "tier": 1,
+  "reports": 10,
+  "testDates": 5,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "induce",
+  "word": "induce",
+  "pos": "verb",
+  "definition": "to cause something to happen or exist",
+  "example": "The drug induces sleep within twenty minutes.",
+  "hook": "in + duc (lead, as in conduct): to lead into. Physics: a changing field induces a current.",
+  "synonyms": [
+   "cause",
+   "bring about",
+   "produce"
+  ],
+  "confusedWith": [
+   "deduce (reason to a conclusion)"
+  ],
+  "senses": [
+   {
+    "meaning": "to persuade someone to do something",
+    "example": "Nothing could induce her to sell the house."
+   }
+  ],
+  "priority": 37,
+  "tier": 1,
+  "reports": 10,
+  "testDates": 4,
+  "listGloss": "Bring about or cause",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "perfunctory",
+  "word": "perfunctory",
+  "pos": "adjective",
+  "definition": "done quickly and with little care, just to get it over with",
+  "example": "He gave the essay a perfunctory proofread and missed three typos.",
+  "hook": "per + funct (function): only going through the motions.",
+  "synonyms": [
+   "cursory",
+   "mechanical",
+   "token"
+  ],
+  "confusedWith": [
+   "peremptory (bossy and final)"
+  ],
+  "senses": [],
+  "priority": 38,
+  "tier": 1,
+  "reports": 10,
+  "testDates": 4,
+  "listGloss": "Done with little care or interest",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "copious",
+  "word": "copious",
+  "pos": "adjective",
+  "definition": "in large amounts; plentiful",
+  "example": "The paper's copious footnotes take up half of every page.",
+  "hook": "A cornucopia is the horn of plenty.",
+  "synonyms": [
+   "abundant",
+   "plentiful",
+   "ample"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 39,
+  "tier": 1,
+  "reports": 10,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "extraneous",
+  "word": "extraneous",
+  "pos": "adjective",
+  "definition": "not relevant or essential to the matter at hand; coming from outside",
+  "example": "Delete the extraneous columns before you run the analysis.",
+  "hook": "Same root as \"strange\" and \"stranger\": an outsider to the topic.",
+  "synonyms": [
+   "irrelevant",
+   "unrelated",
+   "peripheral"
+  ],
+  "confusedWith": [
+   "extemporaneous (unrehearsed)",
+   "superfluous (more than needed; extraneous does not belong at all)"
+  ],
+  "senses": [],
+  "priority": 40,
+  "tier": 1,
+  "reports": 10,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "augment",
+  "word": "augment",
+  "pos": "verb",
+  "definition": "to make something larger or stronger by adding to it",
+  "example": "She augments her income by tutoring on weekends.",
+  "hook": "Augmented reality adds a layer to what is already there.",
+  "synonyms": [
+   "increase",
+   "enlarge",
+   "supplement"
+  ],
+  "confusedWith": [
+   "supplant (replaces; augment adds)"
+  ],
+  "senses": [],
+  "priority": 41,
+  "tier": 2,
+  "reports": 9,
+  "testDates": 6,
+  "listGloss": "Increase or add to",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "buttress",
+  "word": "buttress",
+  "pos": "verb",
+  "definition": "to support or strengthen an argument, claim or structure",
+  "example": "The lawyer buttressed her case with two new witnesses.",
+  "hook": "Flying buttresses hold up cathedral walls.",
+  "synonyms": [
+   "bolster",
+   "reinforce",
+   "shore up"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "(noun) a support built against a wall",
+    "example": "stone buttresses along the nave"
+   }
+  ],
+  "priority": 42,
+  "tier": 2,
+  "reports": 9,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "obfuscate",
+  "word": "obfuscate",
+  "pos": "verb",
+  "definition": "to make something harder to understand, often on purpose",
+  "example": "The contract's dense wording obfuscates who is actually responsible.",
+  "hook": "ob + fusc (dark): to darken. Obfuscated code is scrambled so it cannot be read.",
+  "synonyms": [
+   "obscure",
+   "muddy",
+   "cloud"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 43,
+  "tier": 2,
+  "reports": 9,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "tantamount",
+  "word": "tantamount",
+  "pos": "adjective",
+  "definition": "equivalent in effect or seriousness; as good as (always \"tantamount to\")",
+  "example": "Leaving the gate unlocked was tantamount to inviting the thieves in.",
+  "hook": "Read it as \"the same amount.\"",
+  "synonyms": [
+   "equivalent",
+   "equal",
+   "the same as"
+  ],
+  "confusedWith": [
+   "analogous (similar enough to compare; tantamount means it amounts to the same thing)"
+  ],
+  "senses": [],
+  "priority": 44,
+  "tier": 2,
+  "reports": 9,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "convoluted",
+  "word": "convoluted",
+  "pos": "adjective",
+  "definition": "extremely complicated and hard to follow, with many twists",
+  "example": "The instructions were so convoluted that most users gave up at step four.",
+  "hook": "con + volut (roll, as in revolve): rolled up on itself, like the folds of the brain.",
+  "synonyms": [
+   "tangled",
+   "intricate",
+   "tortuous"
+  ],
+  "confusedWith": [
+   "byzantine (complicated because of rules and procedures)"
+  ],
+  "senses": [],
+  "priority": 45,
+  "tier": 2,
+  "reports": 9,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "reconcile",
+  "word": "reconcile",
+  "pos": "verb",
+  "definition": "to make two apparently conflicting things consistent with each other",
+  "example": "The accountant could not reconcile the receipts with the ledger.",
+  "hook": "Reconciling a bank statement: making two records agree.",
+  "synonyms": [
+   "square",
+   "harmonize",
+   "resolve"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "to restore friendly relations",
+    "example": "The brothers reconciled after years of silence."
+   },
+   {
+    "meaning": "(reconcile oneself to) to accept something unwelcome",
+    "example": "She reconciled herself to a long wait."
+   }
+  ],
+  "priority": 46,
+  "tier": 2,
+  "reports": 9,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "mitigate",
+  "word": "mitigate",
+  "pos": "verb",
+  "definition": "to make something less severe or harmful",
+  "example": "Seat belts mitigate the effects of a crash; they do not prevent one.",
+  "hook": "\"Mitigating circumstances\" reduce a sentence.",
+  "synonyms": [
+   "lessen",
+   "alleviate",
+   "soften"
+  ],
+  "confusedWith": [
+   "militate (weigh against)",
+   "assuage (ease a feeling; mitigate lessens harm or risk)"
+  ],
+  "senses": [],
+  "priority": 47,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 5,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "conspicuous",
+  "word": "conspicuous",
+  "pos": "adjective",
+  "definition": "easy to notice; standing out",
+  "example": "The typo in the headline was conspicuous.",
+  "hook": "spic = look (inspect, spectacle). \"Conspicuous by its absence.\"",
+  "synonyms": [
+   "noticeable",
+   "prominent",
+   "obvious"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 48,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "orthodox",
+  "word": "orthodox",
+  "pos": "adjective",
+  "definition": "following established, generally accepted beliefs or methods",
+  "example": "The orthodox treatment is surgery; she proposed physical therapy instead.",
+  "hook": "ortho (straight, correct: orthodontist, orthogonal) + dox (opinion).",
+  "synonyms": [
+   "conventional",
+   "traditional",
+   "mainstream"
+  ],
+  "confusedWith": [
+   "paradox",
+   "idiosyncratic (the opposite spirit)"
+  ],
+  "senses": [],
+  "priority": 49,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "exhaustive",
+  "word": "exhaustive",
+  "pos": "adjective",
+  "definition": "covering every possible element; complete and thorough",
+  "example": "An exhaustive test suite checks every branch of the code.",
+  "hook": "It exhausts the possibilities, not the reader.",
+  "synonyms": [
+   "comprehensive",
+   "thorough",
+   "complete"
+  ],
+  "confusedWith": [
+   "exhausting (tiring)"
+  ],
+  "senses": [],
+  "priority": 50,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "catalyze",
+  "word": "catalyze",
+  "pos": "verb",
+  "definition": "to cause a change or event to start, or to speed it up",
+  "example": "The grant catalyzed a wave of research on battery storage.",
+  "hook": "A catalyst lowers the activation energy: the reaction was possible, and now it goes.",
+  "synonyms": [
+   "spark",
+   "trigger",
+   "accelerate"
+  ],
+  "confusedWith": [
+   "precipitate (brings on something bad, suddenly; catalyze is neutral)"
+  ],
+  "senses": [],
+  "priority": 51,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "counterfactual",
+  "word": "counterfactual",
+  "pos": "adjective",
+  "definition": "describing what would have happened if something had been different",
+  "example": "A counterfactual history imagines the war ending in 1916.",
+  "hook": "Counter to fact: the \"what if\" case, like asking how the control group would have done with the drug.",
+  "synonyms": [
+   "hypothetical",
+   "what-if",
+   "contrary to fact"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "(noun) a what-if scenario used as a comparison",
+    "example": "Without a counterfactual, you cannot say what the policy changed."
+   }
+  ],
+  "priority": 52,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "foreground",
+  "word": "foreground",
+  "pos": "verb",
+  "definition": "to make something the most prominent or emphasized feature",
+  "example": "The documentary foregrounds the engineers rather than the astronauts.",
+  "hook": "Put it in the foreground of the picture, where the eye goes first.",
+  "synonyms": [
+   "emphasize",
+   "highlight",
+   "spotlight"
+  ],
+  "confusedWith": [
+   "accentuate (make more noticeable; foreground makes it the main subject)"
+  ],
+  "senses": [],
+  "priority": 53,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "quintessential",
+  "word": "quintessential",
+  "pos": "adjective",
+  "definition": "being the purest or most typical example of something",
+  "example": "The trench coat is the quintessential detective's outfit.",
+  "hook": "Quinta essentia, the \"fifth element\": the purest essence of a thing.",
+  "synonyms": [
+   "classic",
+   "archetypal",
+   "definitive"
+  ],
+  "confusedWith": [
+   "paradigmatic (the model case; nearly the same)"
+  ],
+  "senses": [],
+  "priority": 54,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "untenable",
+  "word": "untenable",
+  "pos": "adjective",
+  "definition": "impossible to defend or keep up (of a position, claim or situation)",
+  "example": "After the leak, the minister's position became untenable.",
+  "hook": "ten = hold (tenacious, tenant): it cannot be held.",
+  "synonyms": [
+   "indefensible",
+   "unsustainable",
+   "insupportable"
+  ],
+  "confusedWith": [
+   "irrefutable (the opposite for a claim)"
+  ],
+  "senses": [],
+  "priority": 55,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "diminutive",
+  "word": "diminutive",
+  "pos": "adjective",
+  "definition": "very small",
+  "example": "The diminutive robot fits inside a pill capsule.",
+  "hook": "Shares its root with diminish, minus and mini.",
+  "synonyms": [
+   "tiny",
+   "miniature",
+   "minute"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "(noun) a shortened or affectionate form of a name",
+    "example": "\"Kate\" is a diminutive of Katherine."
+   }
+  ],
+  "priority": 56,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "temper",
+  "word": "temper",
+  "pos": "verb",
+  "definition": "to make something less extreme by adding a balancing element",
+  "example": "She tempered her criticism with a few words of praise.",
+  "hook": "Tempered steel and tempered glass are treated so they are less brittle. This is not the noun \"temper\" (anger).",
+  "synonyms": [
+   "moderate",
+   "soften",
+   "qualify"
+  ],
+  "confusedWith": [
+   "tamper (interfere with)"
+  ],
+  "senses": [],
+  "priority": 57,
+  "tier": 2,
+  "reports": 8,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "harbinger",
+  "word": "harbinger",
+  "pos": "noun",
+  "definition": "a sign that something is coming",
+  "example": "The first crocus is a harbinger of spring.",
+  "hook": "Originally the person sent ahead of an army to arrange lodging: the one who arrives first.",
+  "synonyms": [
+   "omen",
+   "forerunner",
+   "herald"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 58,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 4,
+  "listGloss": "A sign of something to come",
+  "listCheck": "ok",
+  "listNote": ""
+ },
+ {
+  "id": "abate",
+  "word": "abate",
+  "pos": "verb",
+  "definition": "to become less intense; to die down",
+  "example": "The fever abated on the third day.",
+  "hook": "A rebate reduces the price; \"bated breath\" is held-back breath.",
+  "synonyms": [
+   "subside",
+   "ease",
+   "diminish"
+  ],
+  "confusedWith": [
+   "abet (help someone do wrong)"
+  ],
+  "senses": [],
+  "priority": 59,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "appraise",
+  "word": "appraise",
+  "pos": "verb",
+  "definition": "to judge the value or quality of something",
+  "example": "A jeweler appraised the ring at $4,000.",
+  "hook": "It has \"price\" inside it: to set a price on.",
+  "synonyms": [
+   "evaluate",
+   "assess",
+   "value"
+  ],
+  "confusedWith": [
+   "apprise (inform: \"apprise me of the results\")"
+  ],
+  "senses": [],
+  "priority": 60,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "insuperable",
+  "word": "insuperable",
+  "pos": "adjective",
+  "definition": "impossible to overcome",
+  "example": "The language barrier proved difficult but not insuperable.",
+  "hook": "super = over. In-super-able: you cannot get over it. A twin of insurmountable.",
+  "synonyms": [
+   "insurmountable",
+   "unconquerable",
+   "overwhelming"
+  ],
+  "confusedWith": [
+   "insufferable (unbearable)"
+  ],
+  "senses": [],
+  "priority": 61,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "attrition",
+  "word": "attrition",
+  "pos": "noun",
+  "definition": "gradual wearing down or reduction through steady loss or pressure",
+  "example": "The team shrank by attrition as members graduated and were not replaced.",
+  "hook": "A \"war of attrition\" is won by grinding the other side down.",
+  "synonyms": [
+   "erosion",
+   "wearing down",
+   "gradual loss"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 62,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "elicit",
+  "word": "elicit",
+  "pos": "verb",
+  "definition": "to draw out a response, answer or reaction",
+  "example": "The question elicited a long silence.",
+  "hook": "e (out) + lic (lure): to lure it out.",
+  "synonyms": [
+   "draw out",
+   "evoke",
+   "prompt"
+  ],
+  "confusedWith": [
+   "illicit (illegal)"
+  ],
+  "senses": [],
+  "priority": 63,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "scrupulous",
+  "word": "scrupulous",
+  "pos": "adjective",
+  "definition": "extremely careful to be accurate, thorough or morally right",
+  "example": "She kept scrupulous records of every expense.",
+  "hook": "Scruples are moral hesitations. Someone scrupulous has plenty of them.",
+  "synonyms": [
+   "meticulous",
+   "conscientious",
+   "painstaking"
+  ],
+  "confusedWith": [
+   "unscrupulous (the opposite)",
+   "perfunctory (the opposite in effort)"
+  ],
+  "senses": [],
+  "priority": 64,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "byzantine",
+  "word": "byzantine",
+  "pos": "adjective",
+  "definition": "excessively complicated, with rules or procedures that are hard to navigate",
+  "example": "The visa process is byzantine: nine forms, four offices, no clear order.",
+  "hook": "The Byzantine court was famous for its layers of officials and intrigue.",
+  "synonyms": [
+   "labyrinthine",
+   "convoluted",
+   "tortuous"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 65,
+  "tier": 2,
+  "reports": 7,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "subordinate",
+  "word": "subordinate",
+  "pos": "verb",
+  "definition": "to treat something as less important than something else",
+  "example": "The design subordinates style to safety.",
+  "hook": "sub (under) + ordin (rank, order): to rank it under. Pattern: subordinate X to Y.",
+  "synonyms": [
+   "rank below",
+   "make secondary",
+   "put second"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "(adjective) lower in rank or importance",
+    "example": "a subordinate role"
+   },
+   {
+    "meaning": "(noun) a person of lower rank",
+    "example": "She treats her subordinates fairly."
+   }
+  ],
+  "priority": 66,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 4,
+  "listGloss": "Lower in rank or importance",
+  "listCheck": "ok",
+  "listNote": "Accurate for the adjective. SAT blanks more often use the verb: to subordinate X to Y."
+ },
+ {
+  "id": "accentuate",
+  "word": "accentuate",
+  "pos": "verb",
+  "definition": "to make something more noticeable or more intense",
+  "example": "The lighting accentuates the texture of the stone.",
+  "hook": "To put an accent on it.",
+  "synonyms": [
+   "emphasize",
+   "heighten",
+   "intensify"
+  ],
+  "confusedWith": [
+   "attenuate (weaken: the near-opposite and a look-alike)"
+  ],
+  "senses": [],
+  "priority": 67,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "analogous",
+  "word": "analogous",
+  "pos": "adjective",
+  "definition": "similar in a way that allows a useful comparison (analogous to)",
+  "example": "A neuron firing is loosely analogous to a transistor switching.",
+  "hook": "From \"analogy.\" Biology: analogous structures do the same job but evolved separately.",
+  "synonyms": [
+   "comparable",
+   "parallel",
+   "akin"
+  ],
+  "confusedWith": [
+   "anomalous (off-pattern)",
+   "tantamount (amounts to the same thing)"
+  ],
+  "senses": [],
+  "priority": 68,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "inconsequential",
+  "word": "inconsequential",
+  "pos": "adjective",
+  "definition": "not important; having no real effect",
+  "example": "The rounding error was inconsequential.",
+  "hook": "No consequences.",
+  "synonyms": [
+   "trivial",
+   "negligible",
+   "insignificant"
+  ],
+  "confusedWith": [
+   "immaterial (not relevant; inconsequential is too small to matter)"
+  ],
+  "senses": [],
+  "priority": 69,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "manifest",
+  "word": "manifest",
+  "pos": "verb",
+  "definition": "to show itself; to become apparent",
+  "example": "The fault manifests only when the engine is cold.",
+  "hook": "A manifesto makes aims public; symptoms manifest when they become visible.",
+  "synonyms": [
+   "appear",
+   "show",
+   "emerge"
+  ],
+  "confusedWith": [
+   "evince (a thing evinces a quality; a quality manifests itself)"
+  ],
+  "senses": [
+   {
+    "meaning": "(adjective) clear and obvious",
+    "example": "a manifest error"
+   },
+   {
+    "meaning": "(noun) a list of a ship's or plane's cargo or passengers",
+    "example": "the passenger manifest"
+   }
+  ],
+  "priority": 70,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "myriad",
+  "word": "myriad",
+  "pos": "adjective",
+  "definition": "countless; very many",
+  "example": "The app failed for myriad reasons.",
+  "hook": "Greek myrias = ten thousand.",
+  "synonyms": [
+   "countless",
+   "innumerable",
+   "numerous"
+  ],
+  "confusedWith": [
+   "multifarious (many kinds; myriad is many in number)",
+   "dearth (the opposite as a noun)"
+  ],
+  "senses": [
+   {
+    "meaning": "(noun) a very large number",
+    "example": "a myriad of stars"
+   }
+  ],
+  "priority": 71,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "assuage",
+  "word": "assuage",
+  "pos": "verb",
+  "definition": "to ease an unpleasant feeling such as fear, guilt, doubt or hunger",
+  "example": "The pilot's calm announcement assuaged the passengers' fears.",
+  "hook": "The \"suage\" is from Latin suavis, sweet (as in suave): to sweeten a bad feeling.",
+  "synonyms": [
+   "soothe",
+   "relieve",
+   "allay"
+  ],
+  "confusedWith": [
+   "mitigate (lessens harm or risk; assuage eases a feeling)"
+  ],
+  "senses": [],
+  "priority": 72,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "contrived",
+  "word": "contrived",
+  "pos": "adjective",
+  "definition": "so obviously planned or forced that it seems artificial",
+  "example": "The coincidence that ends the film feels contrived.",
+  "hook": "To contrive is to scheme something up. A contrived ending looks engineered.",
+  "synonyms": [
+   "artificial",
+   "forced",
+   "strained"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 73,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "palpable",
+  "word": "palpable",
+  "pos": "adjective",
+  "definition": "so strong or obvious that it can almost be felt physically",
+  "example": "The tension in the room was palpable.",
+  "hook": "palp = touch. A doctor palpates your abdomen.",
+  "synonyms": [
+   "tangible",
+   "perceptible",
+   "unmistakable"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 74,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "prohibitive",
+  "word": "prohibitive",
+  "pos": "adjective",
+  "definition": "(of a cost or barrier) so high that it prevents people from doing something",
+  "example": "The cost of a full rewrite was prohibitive.",
+  "hook": "The price prohibits you.",
+  "synonyms": [
+   "exorbitant",
+   "forbidding",
+   "out of reach"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 75,
+  "tier": 2,
+  "reports": 6,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "ascribe",
+  "word": "ascribe",
+  "pos": "verb",
+  "definition": "to credit something to a particular cause, source or author (ascribe X to Y)",
+  "example": "Doctors ascribed the outbreak to contaminated water.",
+  "hook": "a + scribe: to write it down under someone's name.",
+  "synonyms": [
+   "attribute",
+   "credit",
+   "assign"
+  ],
+  "confusedWith": [
+   "proscribe (forbid)",
+   "prescribe",
+   "subscribe"
+  ],
+  "senses": [],
+  "priority": 76,
+  "tier": 3,
+  "reports": 6,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "veneration",
+  "word": "veneration",
+  "pos": "noun",
+  "definition": "deep respect or reverence",
+  "example": "The veneration of ancestors is central to the festival.",
+  "hook": "Venerable means worthy of respect.",
+  "synonyms": [
+   "reverence",
+   "awe",
+   "deep respect"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 77,
+  "tier": 3,
+  "reports": 6,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "enigmatic",
+  "word": "enigmatic",
+  "pos": "adjective",
+  "definition": "mysterious and hard to interpret",
+  "example": "Her enigmatic reply left everyone guessing.",
+  "hook": "The Enigma machine: built so that nobody could read it.",
+  "synonyms": [
+   "puzzling",
+   "cryptic",
+   "inscrutable"
+  ],
+  "confusedWith": [
+   "equivocal (points two ways; enigmatic gives little to go on)"
+  ],
+  "senses": [],
+  "priority": 78,
+  "tier": 3,
+  "reports": 6,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "recapitulate",
+  "word": "recapitulate",
+  "pos": "verb",
+  "definition": "to restate the main points briefly",
+  "example": "The last slide recapitulates the three findings.",
+  "hook": "\"Recap\" is short for it. capit = head: go back over the headings.",
+  "synonyms": [
+   "summarize",
+   "restate",
+   "sum up"
+  ],
+  "confusedWith": [
+   "capitulate (surrender)"
+  ],
+  "senses": [],
+  "priority": 79,
+  "tier": 3,
+  "reports": 6,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "repudiate",
+  "word": "repudiate",
+  "pos": "verb",
+  "definition": "to reject firmly; to refuse to accept or be associated with something",
+  "example": "The senator repudiated the remarks made by his own campaign.",
+  "hook": "re + pud (shame, as in impudent): to cast off as shameful.",
+  "synonyms": [
+   "reject",
+   "disavow",
+   "disown"
+  ],
+  "confusedWith": [
+   "refute (prove wrong; repudiate only rejects)"
+  ],
+  "senses": [],
+  "priority": 80,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 5,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "substantiate",
+  "word": "substantiate",
+  "pos": "verb",
+  "definition": "to provide evidence that supports or proves a claim",
+  "example": "She could not substantiate the rumor.",
+  "hook": "To give a claim substance.",
+  "synonyms": [
+   "verify",
+   "prove",
+   "back up"
+  ],
+  "confusedWith": [
+   "corroborate (adds independent support to a claim that already has some)"
+  ],
+  "senses": [],
+  "priority": 81,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 5,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "pretext",
+  "word": "pretext",
+  "pos": "noun",
+  "definition": "a false reason given to hide the real one",
+  "example": "He left early on the pretext of a headache.",
+  "hook": "pre + text: the cover story placed in front of the real one.",
+  "synonyms": [
+   "excuse",
+   "pretense",
+   "cover story"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 82,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 4,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "transpose",
+  "word": "transpose",
+  "pos": "verb",
+  "definition": "to switch the positions of two things, or to move something into a different place or setting",
+  "example": "I transposed two digits and dialed the wrong number.",
+  "hook": "trans (across) + pose (place). A matrix transpose swaps rows and columns; musicians transpose into another key.",
+  "synonyms": [
+   "swap",
+   "interchange",
+   "shift"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 83,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "denote",
+  "word": "denote",
+  "pos": "verb",
+  "definition": "to be the sign or literal meaning of something",
+  "example": "In the table, a dash denotes missing data.",
+  "hook": "de + note: the notation for it. Denote is literal; connote is what a word suggests.",
+  "synonyms": [
+   "signify",
+   "indicate",
+   "stand for"
+  ],
+  "confusedWith": [
+   "connote (suggest beyond the literal meaning)"
+  ],
+  "senses": [],
+  "priority": 84,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "discern",
+  "word": "discern",
+  "pos": "verb",
+  "definition": "to perceive or recognize something that is not obvious",
+  "example": "I could just discern a figure in the fog.",
+  "hook": "cern = sift (as in certain, concern): to sift one thing out from the rest.",
+  "synonyms": [
+   "detect",
+   "make out",
+   "distinguish"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 85,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "extrapolate",
+  "word": "extrapolate",
+  "pos": "verb",
+  "definition": "to estimate something unknown by extending a known trend or pattern",
+  "example": "Extrapolating from this month's sales, we will sell out by June.",
+  "hook": "extra = outside: you go beyond the data. Interpolate fills in between known points.",
+  "synonyms": [
+   "project",
+   "extend",
+   "generalize"
+  ],
+  "confusedWith": [
+   "interpolate"
+  ],
+  "senses": [],
+  "priority": 86,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "extemporaneous",
+  "word": "extemporaneous",
+  "pos": "adjective",
+  "definition": "spoken or done without preparation",
+  "example": "Her extemporaneous answer was better than his prepared one.",
+  "hook": "Latin ex tempore: out of the moment.",
+  "synonyms": [
+   "improvised",
+   "impromptu",
+   "unrehearsed"
+  ],
+  "confusedWith": [
+   "extraneous (irrelevant)",
+   "contemporaneous (at the same time)"
+  ],
+  "senses": [],
+  "priority": 87,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "immaterial",
+  "word": "immaterial",
+  "pos": "adjective",
+  "definition": "not relevant to the matter at hand",
+  "example": "Whether he meant to do it is immaterial; the damage is done.",
+  "hook": "In law, a fact is \"material\" if it bears on the case. Immaterial: it does not.",
+  "synonyms": [
+   "irrelevant",
+   "beside the point",
+   "unimportant"
+  ],
+  "confusedWith": [
+   "inconsequential (too small to matter; immaterial has no bearing)"
+  ],
+  "senses": [
+   {
+    "meaning": "having no physical form",
+    "example": "Philosophers argued over whether the mind is immaterial."
+   }
+  ],
+  "priority": 88,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "supersede",
+  "word": "supersede",
+  "pos": "verb",
+  "definition": "to replace something older, weaker or out of date",
+  "example": "Version 3 supersedes all earlier releases.",
+  "hook": "super (above) + sede (sit): the new one sits above the old.",
+  "synonyms": [
+   "replace",
+   "supplant",
+   "override"
+  ],
+  "confusedWith": [
+   "supplant (pushes out, often by force or stealth; supersede replaces by being newer or better)"
+  ],
+  "senses": [],
+  "priority": 89,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "affinity",
+  "word": "affinity",
+  "pos": "noun",
+  "definition": "a natural liking for or sense of connection with something",
+  "example": "She has an affinity for languages.",
+  "hook": "Latin finis = border: neighbors, and so kin. In-laws are \"relatives by affinity.\"",
+  "synonyms": [
+   "rapport",
+   "kinship",
+   "natural liking"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "(chemistry, biology) a tendency to bind or combine with something",
+    "example": "an enzyme's affinity for its substrate"
+   },
+   {
+    "meaning": "a similarity that suggests a relationship",
+    "example": "the affinity between the two languages"
+   }
+  ],
+  "priority": 90,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "surrogate",
+  "word": "surrogate",
+  "pos": "noun",
+  "definition": "a substitute that stands in for something or someone else",
+  "example": "Researchers used reaction time as a surrogate for attention.",
+  "hook": "A surrogate key in a database stands in for the real identifier.",
+  "synonyms": [
+   "substitute",
+   "stand-in",
+   "proxy"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 91,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "delineate",
+  "word": "delineate",
+  "pos": "verb",
+  "definition": "to describe or mark out something precisely",
+  "example": "The contract delineates each partner's duties.",
+  "hook": "de + line: to draw the lines.",
+  "synonyms": [
+   "outline",
+   "define",
+   "map out"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 92,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "nebulous",
+  "word": "nebulous",
+  "pos": "adjective",
+  "definition": "vague and hazy; not clearly defined",
+  "example": "The plan was still nebulous: a goal with no steps.",
+  "hook": "A nebula is a cloud.",
+  "synonyms": [
+   "vague",
+   "hazy",
+   "ill-defined"
+  ],
+  "confusedWith": [
+   "amorphous (lacks structure; nebulous is unclear as an idea)"
+  ],
+  "senses": [],
+  "priority": 93,
+  "tier": 3,
+  "reports": 5,
+  "testDates": 1,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "equivocal",
+  "word": "equivocal",
+  "pos": "adjective",
+  "definition": "open to more than one interpretation; unclear or noncommittal",
+  "example": "The test results were equivocal, so the doctor ordered another scan.",
+  "hook": "equi (equal) + voc (voice): two equal voices. To equivocate is to hedge.",
+  "synonyms": [
+   "ambiguous",
+   "inconclusive",
+   "noncommittal"
+  ],
+  "confusedWith": [
+   "unequivocal (the opposite)",
+   "enigmatic (mysterious, not two-sided)"
+  ],
+  "senses": [],
+  "priority": 94,
+  "tier": 3,
+  "reports": 4,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "renounce",
+  "word": "renounce",
+  "pos": "verb",
+  "definition": "to formally give up a claim, right, belief or habit",
+  "example": "She renounced her citizenship.",
+  "hook": "re + nounce (announce): you announce that you are giving it back.",
+  "synonyms": [
+   "relinquish",
+   "give up",
+   "abandon"
+  ],
+  "confusedWith": [
+   "denounce (condemn publicly)",
+   "repudiate (reject as invalid; renounce gives up what was yours)"
+  ],
+  "senses": [],
+  "priority": 95,
+  "tier": 3,
+  "reports": 4,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "preclude",
+  "word": "preclude",
+  "pos": "verb",
+  "definition": "to make something impossible in advance; to rule out",
+  "example": "A prior conviction precludes him from holding the license.",
+  "hook": "pre + clude (close, as in exclude and conclude): to shut the door beforehand.",
+  "synonyms": [
+   "prevent",
+   "rule out",
+   "bar"
+  ],
+  "confusedWith": [],
+  "senses": [],
+  "priority": 96,
+  "tier": 3,
+  "reports": 4,
+  "testDates": 3,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "incipient",
+  "word": "incipient",
+  "pos": "adjective",
+  "definition": "just beginning to develop or appear",
+  "example": "The scan caught the incipient fracture before it spread.",
+  "hook": "Same root as inception: the beginning.",
+  "synonyms": [
+   "nascent",
+   "budding",
+   "emerging"
+  ],
+  "confusedWith": [
+   "insipid (bland)"
+  ],
+  "senses": [],
+  "priority": 97,
+  "tier": 3,
+  "reports": 4,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "belie",
+  "word": "belie",
+  "pos": "verb",
+  "definition": "to give a false impression of something; to contradict it",
+  "example": "His easy smile belied how nervous he was.",
+  "hook": "Be-LIE: the surface tells a lie about what is underneath. Pattern: [appearance] belies [truth].",
+  "synonyms": [
+   "contradict",
+   "mask",
+   "disguise"
+  ],
+  "confusedWith": [
+   "evince (the opposite: shows what is really there)"
+  ],
+  "senses": [],
+  "priority": 98,
+  "tier": 3,
+  "reports": 3,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "discount",
+  "word": "discount",
+  "pos": "verb",
+  "definition": "to dismiss something as unimportant or unreliable",
+  "example": "Do not discount the possibility of a sensor fault.",
+  "hook": "You mark its value down to nothing. This is not the price-cut sense.",
+  "synonyms": [
+   "dismiss",
+   "disregard",
+   "write off"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "to reduce a price",
+    "example": "The store discounted last year's models."
+   }
+  ],
+  "priority": 99,
+  "tier": 3,
+  "reports": 2,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ },
+ {
+  "id": "register",
+  "word": "register",
+  "pos": "verb",
+  "definition": "(of an instrument) to detect and show a reading",
+  "example": "The scale registered 2.4 grams.",
+  "hook": "A cash register records each sale. If something \"doesn't register,\" no reading was taken.",
+  "synonyms": [
+   "record",
+   "show",
+   "detect"
+  ],
+  "confusedWith": [],
+  "senses": [
+   {
+    "meaning": "to be noticed or understood; to sink in",
+    "example": "The warning did not register with him."
+   },
+   {
+    "meaning": "to show a feeling in one's face or voice",
+    "example": "Her face registered surprise."
+   },
+   {
+    "meaning": "(noun) the level of formality of a piece of language",
+    "example": "The essay shifts into a formal register."
+   }
+  ],
+  "priority": 100,
+  "tier": 3,
+  "reports": 3,
+  "testDates": 2,
+  "listGloss": "",
+  "listCheck": "none",
+  "listNote": ""
+ }
+]
