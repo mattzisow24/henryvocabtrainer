@@ -16,7 +16,7 @@ A typed SAT vocabulary trainer for one learner, with a dashboard and a daily ema
 
 ## Setup
 
-1. **Supabase.** Create a new project (separate from any other trainer). In the SQL editor, run `supabase/migrations/001_init.sql` (and `002_cards.sql` if the database was created before flashcards were added), then run the `insert into members` statement at the bottom of that file with the family's real emails (one `learner`, one or more `parent`).
+1. **Supabase.** Create a new project (separate from any other trainer). In the SQL editor, run `supabase/migrations/001_init.sql`, then run the `insert into members` statement at the bottom of that file with the family's real emails (one `learner`, one or more `parent`).
 2. **Sign-in email.** Nobody has a password unless you set one in Supabase, so sign-in is by emailed code or link. In Supabase, Authentication > Email Templates, set the body of both Magic Link and Confirm signup to show the code (`{{ .Token }}`) and a link to `{{ .SiteURL }}/auth/confirm?token_hash={{ .TokenHash }}&type=email`. That link works in any browser, including when you send it from the Supabase dashboard. Under Authentication > URL Configuration, set the site URL to the deployed address.
 3. **Keys.** Copy `.env.example` to `.env.local` and fill it in.
 4. **Run.** `npm install`, then `npm run dev`.

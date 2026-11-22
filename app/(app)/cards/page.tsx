@@ -30,7 +30,7 @@ export default async function CardsPage({ searchParams }: { searchParams: Promis
             forward; a miss sends it back to your coach.
           </p>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="stagger grid gap-3 sm:grid-cols-2">
           {decks.map((d) =>
             d.words.length > 0 ? (
               <Link key={d.key} href={`/cards?deck=${d.key}`} className="card block p-4">

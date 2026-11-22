@@ -33,7 +33,7 @@ export default async function MilestonesPage() {
           <p className="text-sm tabular-nums text-ink-2">{r.points.toLocaleString("en-US")} points</p>
         </div>
         <div className="h-2 overflow-hidden rounded-full bg-stage-new">
-          <div className="h-full rounded-full bg-accent" style={{ width: `${Math.max(2, (r.next?.fraction ?? 1) * 100)}%` }} />
+          <div className="bar h-full rounded-full bg-accent" style={{ width: `${Math.max(2, (r.next?.fraction ?? 1) * 100)}%` }} />
         </div>
         <p className="text-sm text-ink-2">
           {r.next ? `${r.next.pointsToGo} more for level ${r.next.level}.` : "Top level."} Levels start at{" "}
@@ -45,7 +45,7 @@ export default async function MilestonesPage() {
         </p>
       </section>
 
-      <section className="grid gap-3 sm:grid-cols-2">
+      <section className="stagger grid gap-3 sm:grid-cols-2">
         {sorted.map((t) => (
           <div key={t.id} className="card flex items-center gap-3 p-4">
             <Badge mark={t.mark} locked={!t.earned} />
@@ -57,7 +57,7 @@ export default async function MilestonesPage() {
               ) : t.progress ? (
                 <div className="flex items-center gap-2 pt-1 text-xs text-muted">
                   <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-stage-new">
-                    <div className="h-full rounded-full bg-accent" style={{ width: `${(t.progress.have / t.progress.need) * 100}%` }} />
+                    <div className="bar h-full rounded-full bg-accent" style={{ width: `${(t.progress.have / t.progress.need) * 100}%` }} />
                   </div>
                   <span className="tabular-nums">
                     {t.progress.have} / {t.progress.need}

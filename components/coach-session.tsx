@@ -66,7 +66,14 @@ export function CoachSession({ cards, preview }: { cards: Record<string, Card>; 
           headers: { "content-type": "application/json" },
           body: JSON.stringify("start" in body ? body : { sessionId: sessionId.current, text: body.text }),
         });
-        if (!res.ok || !res.body) throw new Error(res.status === 409 ? "This session has already ended." : "The coach didn't answer. Try again.");
+        if (!res.ok || !res.body) {
+          const info = (await res.json().catch(() => null)) as { error?: string; detail?: string } | null;
+          if (info?.error === "sort first") throw new Error("Sort the list first; the session is built from it.");
+          if (info?.error === "session ended") throw new Error("This session has already ended.");
+          if (res.status === 401) throw new Error("You have been signed out. Reload the page and sign in again.");
+          // Anything else is a fault on our side: show enough to trace it.
+          throw new Error(`The coach couldn't start (${res.status}${info?.detail ? `: ${info.detail}` : ""}). Try again.`);
+        }
         const reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
         let pending = "";
         for (;;) {
@@ -163,7 +170,7 @@ export function CoachSession({ cards, preview }: { cards: Record<string, Card>; 
       {progress && progress.total > 0 && (
         <div className="flex items-center gap-3 text-sm text-ink-2">
           <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-stage-new">
-            <div className="h-full rounded-full bg-accent transition-all" style={{ width: `${(progress.graded / progress.total) * 100}%` }} />
+            <div className="bar h-full rounded-full bg-accent transition-all" style={{ width: `${(progress.graded / progress.total) * 100}%` }} />
           </div>
           <span className="tabular-nums">
             {progress.graded} / {progress.total}
@@ -174,11 +181,11 @@ export function CoachSession({ cards, preview }: { cards: Record<string, Card>; 
       <div className="space-y-3" aria-live="polite">
         {lines.map((line, i) =>
           line.who === "coach" ? (
-            <p key={i} className="whitespace-pre-wrap text-[17px] leading-relaxed">
+            <p key={i} className="animate-rise whitespace-pre-wrap text-[17px] leading-relaxed">
               {line.text || "…"}
             </p>
           ) : (
-            <p key={i} className="ml-auto w-fit max-w-[85%] whitespace-pre-wrap rounded-2xl rounded-br-md bg-accent-soft px-3.5 py-2 text-navy">
+            <p key={i} className="ml-auto w-fit max-w-[85%] animate-rise whitespace-pre-wrap rounded-2xl rounded-br-md bg-accent-soft px-3.5 py-2 text-navy">
               {line.text}
             </p>
           ),

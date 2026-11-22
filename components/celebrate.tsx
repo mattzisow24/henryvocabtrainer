@@ -39,7 +39,7 @@ export function Celebrate(props: { earned: Earned[]; level: number; storageKey: 
 
   if (!fresh) return null;
   return (
-    <div className="fixed inset-0 z-40 flex items-end justify-center bg-navy/40 p-4 sm:items-center" role="dialog" aria-modal="true" aria-label="New milestone">
+    <div className="fixed inset-0 z-40 flex animate-fade items-end justify-center bg-navy/40 p-4 sm:items-center" role="dialog" aria-modal="true" aria-label="New milestone">
       <div className="card max-h-[85dvh] w-full max-w-sm animate-rise space-y-4 overflow-y-auto p-6">
         {fresh.level && (
           <div>

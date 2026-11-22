@@ -141,7 +141,7 @@ export function Drill(props: { timed: boolean; items: DrillItem[]; secondsAllowe
   if (!timed) for (let i = answers.length - 1; i >= 0 && answers[i] === items[i].answer; i--) run++;
 
   return (
-    <div className="mx-auto max-w-xl space-y-4">
+    <div key={index} className="mx-auto max-w-xl animate-rise space-y-4">
       <div className="flex items-center justify-between text-sm text-ink-2">
         <span className="tabular-nums">
           {index + 1} of {items.length}

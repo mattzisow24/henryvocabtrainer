@@ -26,7 +26,7 @@ export default async function DrillPage({ searchParams }: { searchParams: Promis
             anything you miss goes back to your coach.
           </p>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="stagger grid gap-3 sm:grid-cols-2">
           {OPTIONS.map((o) => (
             <Link key={o.title} href={`/drill?timed=${o.timed ? 1 : 0}&n=${o.n}`} className="card block p-4">
               <p className="font-semibold text-navy">{o.title}</p>

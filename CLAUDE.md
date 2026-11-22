@@ -29,11 +29,12 @@ Typed SAT vocabulary trainer for one learner (Henry, 16), with a dashboard and d
 - Mobile-first: everything must work at 375px wide. Henry also uses a laptop, so the chat and drills widen to a comfortable reading column.
 - Server components by default; client components only for the coach chat, drills, the sort and login.
 - The coach's replies are shown as plain text: no markdown.
-- Colors follow Duke University's palette (navy `#012169`, royal blue `#00539B`). Use the tokens in `app/globals.css`; do not use Duke logos or wordmarks. The look is restrained: flat cards, no confetti, no illustrations.
+- Colors follow Duke University's palette (navy `#012169`, royal blue `#00539B`). Use the tokens in `app/globals.css`; do not use Duke logos or wordmarks. The look is restrained: flat cards, no confetti, no illustrations. Motion is short and functional (content rises in, lists stagger, bars fill, cards flip, buttons respond); use the animation tokens and the `stagger` and `bar` classes in `app/globals.css`, and keep everything under half a second.
 - American spelling everywhere.
 - Rewards (points, levels, milestones) are derived from practice records in `lib/rewards.ts`, never stored. Milestone badges are text marks rendered by `components/badge.tsx`; there is no artwork. Changes need a test in `lib/rewards.test.ts`.
 - Parent preview ("View as Henry") must stay read-only: every write path checks `role === "learner"`.
 - Any change to scheduling (`lib/srs.ts`, `lib/plan.ts`) needs a test in `lib/srs.test.ts`. The intervals are deliberately short and new words stop `NEW_WORD_CUTOFF_DAYS` before the test; revisit both if the target moves to a later sitting.
+- If the database was created from an older copy of the schema, `supabase/migrations/003_conform.sql` brings it in line; it is safe to run on any database.
 - A self-rating is a claim, not evidence: the first-day sort never marks a word mastered, and a flashcard "had it" never promotes a word. A flashcard miss does send the word back to the coach. Flashcards earn no points.
 
 ## Commands

@@ -102,18 +102,18 @@ export function Sort({ words, preview }: { words: Item[]; preview: boolean }) {
       </div>
       <div className="flex items-center gap-3 text-sm text-ink-2">
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-stage-new">
-          <div className="h-full rounded-full bg-accent transition-all" style={{ width: `${(ratings.length / words.length) * 100}%` }} />
+          <div className="bar h-full rounded-full bg-accent transition-all" style={{ width: `${(ratings.length / words.length) * 100}%` }} />
         </div>
         <span className="tabular-nums">
           {ratings.length + 1} / {words.length}
         </span>
       </div>
 
-      <div className="card flex min-h-44 flex-col items-center justify-center gap-2 p-6 text-center">
+      <div key={item.id} className="card flex min-h-44 animate-rise flex-col items-center justify-center gap-2 p-6 text-center">
         <p className="font-display text-4xl font-semibold tracking-tight text-navy">{item.word}</p>
         <p className="text-sm text-muted">{item.pos}</p>
         {revealed ? (
-          <p className="mt-1 text-lg">{item.definition}</p>
+          <p className="mt-1 animate-fade text-lg">{item.definition}</p>
         ) : (
           <button className="mt-1 text-sm font-medium text-accent underline" onClick={() => setRevealed(true)}>
             Check the meaning

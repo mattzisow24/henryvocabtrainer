@@ -50,7 +50,9 @@ export async function POST(request: Request) {
     }
   } catch (err) {
     console.error("[coach] could not open session", err);
-    return NextResponse.json({ error: "could not open session" }, { status: 500 });
+    // The reason goes back to the screen: with one family using the app, a
+    // screenshot of the error should be enough to diagnose it.
+    return NextResponse.json({ error: "could not open session", detail: err instanceof Error ? err.message.slice(0, 200) : "" }, { status: 500 });
   }
 
   const encoder = new TextEncoder();

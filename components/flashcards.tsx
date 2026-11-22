@@ -82,7 +82,7 @@ export function Flashcards({ cards, deck, preview }: { cards: FlashCard[]; deck:
     <div className="mx-auto flex max-w-md flex-col gap-4">
       <div className="flex items-center gap-3 text-sm text-ink-2">
         <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-stage-new">
-          <div className="h-full rounded-full bg-accent transition-all" style={{ width: `${(cleared / cards.length) * 100}%` }} />
+          <div className="bar h-full rounded-full bg-accent transition-all" style={{ width: `${(cleared / cards.length) * 100}%` }} />
         </div>
         <span className="tabular-nums">
           {cleared} / {cards.length}
@@ -92,7 +92,7 @@ export function Flashcards({ cards, deck, preview }: { cards: FlashCard[]; deck:
       <button
         type="button"
         key={`${card.id}-${queue.length}`}
-        className="card flex min-h-72 w-full flex-col justify-center gap-2 p-6 text-left"
+        className="card flex min-h-72 w-full animate-rise flex-col justify-center gap-2 p-6 text-left"
         aria-label={flipped ? `${card.word}: ${card.definition}` : `${card.word}. Flip the card`}
         onClick={() => setFlipped(true)}
         disabled={flipped}
@@ -102,7 +102,7 @@ export function Flashcards({ cards, deck, preview }: { cards: FlashCard[]; deck:
           <span className="text-sm text-muted">{card.pos}</span>
         </span>
         {flipped ? (
-          <span className="mt-2 block animate-rise space-y-2 text-sm">
+          <span className="mt-2 block origin-top animate-flip space-y-2 text-sm">
             <span className="block text-lg">{card.definition}</span>
             <span className="block italic text-ink-2">&ldquo;{card.example}&rdquo;</span>
             {card.senses.map((s) => (

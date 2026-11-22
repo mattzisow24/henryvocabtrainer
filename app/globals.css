@@ -29,6 +29,8 @@
   --animate-pop: pop 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
   --animate-rise: rise 0.3s ease-out;
   --animate-float-up: float-up 1.6s ease-out forwards;
+  --animate-fade: fade 0.25s ease-out;
+  --animate-flip: flip 0.4s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 
 @keyframes pop {
@@ -39,6 +41,32 @@
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes flip {
+  0% {
+    transform: perspective(800px) rotateX(-75deg);
+    opacity: 0;
+  }
+  100% {
+    transform: perspective(800px) rotateX(0);
+    opacity: 1;
+  }
+}
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
   }
 }
 @keyframes rise {
@@ -78,6 +106,11 @@
 
 :root {
   color-scheme: light;
+  --ease-ui: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -114,7 +147,7 @@ summary {
   font-weight: 600;
   border: 1px solid var(--color-line);
   background: var(--color-surface);
-  transition: transform 0.1s ease;
+  transition: var(--ease-ui);
 }
 .btn:active:not(:disabled) {
   transform: scale(0.97);
@@ -126,4 +159,57 @@ summary {
   background: var(--color-accent);
   border-color: var(--color-accent);
   color: #fff;
+}
+
+/* Motion. Short and functional: things arrive, respond to touch, and fill.
+   The reduced-motion rule above switches all of it off. */
+a,
+button,
+.card {
+  transition: var(--ease-ui);
+}
+@media (hover: hover) {
+  a.card:hover,
+  button.card:hover:not(:disabled) {
+    border-color: var(--color-accent);
+    box-shadow: 0 4px 14px rgb(1 33 105 / 0.08);
+    transform: translateY(-1px);
+  }
+  .btn:hover:not(:disabled) {
+    border-color: var(--color-accent);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--color-navy);
+    border-color: var(--color-navy);
+  }
+}
+
+/* Children arrive one after another. */
+.stagger > * {
+  animation: rise 0.35s ease-out both;
+}
+.stagger > :nth-child(2) {
+  animation-delay: 0.04s;
+}
+.stagger > :nth-child(3) {
+  animation-delay: 0.08s;
+}
+.stagger > :nth-child(4) {
+  animation-delay: 0.12s;
+}
+.stagger > :nth-child(5) {
+  animation-delay: 0.16s;
+}
+.stagger > :nth-child(n + 6) {
+  animation-delay: 0.2s;
+}
+
+/* A progress bar fills from the left when it first appears. */
+.bar {
+  transform-origin: left;
+  animation: grow 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+details[open] > summary ~ * {
+  animation: rise 0.25s ease-out;
 }

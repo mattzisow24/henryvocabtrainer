@@ -43,7 +43,7 @@ export default async function HomePage() {
   const allDone = r.today.coach && r.today.drill;
 
   return (
-    <div className="space-y-4">
+    <div className="stagger space-y-4">
       <Celebrate
         earned={earned.map(({ id, name, mark, how }) => ({ id, name, mark, how }))}
         level={r.level}
@@ -79,7 +79,7 @@ export default async function HomePage() {
             )}
           </div>
           <div className="h-1.5 overflow-hidden rounded-full bg-white/15">
-            <div className="h-full rounded-full bg-white transition-all" style={{ width: `${Math.max(2, (r.next?.fraction ?? 1) * 100)}%` }} />
+            <div className="bar h-full rounded-full bg-white transition-all" style={{ width: `${Math.max(2, (r.next?.fraction ?? 1) * 100)}%` }} />
           </div>
         </div>
       </section>
