@@ -12,7 +12,7 @@ export default async function LoginPage({ searchParams }: { searchParams: Promis
     <main className="flex min-h-dvh flex-col bg-navy">
       <div className="flex flex-1 flex-col items-center justify-end px-6 pb-8 pt-12 text-center text-white">
         <h1 className="text-4xl font-semibold">{LEARNER_NAME}&apos;s SAT Vocab</h1>
-        <p className="mt-1 text-white/80">100 words. The most precise one wins.</p>
+        <p className="mt-1 text-white/80">Helping Henry grind on SAT vocab.</p>
       </div>
       <div className="rounded-t-[1.5rem] bg-canvas px-4 pb-10 pt-6">
         <LoginForm initialMessage={(error && MESSAGES[error]) || null} />
