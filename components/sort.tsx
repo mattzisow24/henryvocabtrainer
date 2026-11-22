@@ -11,9 +11,9 @@ type Item = { id: string; word: string; pos: string; definition: string };
 type Rating = "know" | "shaky" | "new";
 
 const BUTTONS: { rating: Rating; label: string; hint: string }[] = [
-  { rating: "know", label: "Know it", hint: "Could use it precisely" },
-  { rating: "shaky", label: "Shaky", hint: "Rough idea only" },
-  { rating: "new", label: "No idea", hint: "" },
+  { rating: "know", label: "Know it", hint: "Can use it" },
+  { rating: "shaky", label: "Shaky", hint: "Rough idea" },
+  { rating: "new", label: "No idea", hint: "New to me" },
 ];
 
 export function Sort({ words, preview }: { words: Item[]; preview: boolean }) {
@@ -123,9 +123,13 @@ export function Sort({ words, preview }: { words: Item[]; preview: boolean }) {
 
       <div className="grid grid-cols-3 gap-2">
         {BUTTONS.map((b) => (
-          <button key={b.rating} className="btn h-auto flex-col gap-0 rounded-2xl py-3" onClick={() => rate(b.rating)}>
-            <span>{b.label}</span>
-            {b.hint && <span className="text-xs font-normal text-muted">{b.hint}</span>}
+          <button
+            key={b.rating}
+            className="flex flex-col items-center justify-center rounded-xl border border-line bg-surface px-2 py-3 transition-transform active:scale-[0.97]"
+            onClick={() => rate(b.rating)}
+          >
+            <span className="font-semibold">{b.label}</span>
+            <span className="text-xs text-muted">{b.hint}</span>
           </button>
         ))}
       </div>

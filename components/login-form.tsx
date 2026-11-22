@@ -10,7 +10,7 @@ export function LoginForm({ initialMessage }: { initialMessage: string | null })
   const [code, setCode] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  const [step, setStep] = useState<Step>("password");
+  const [step, setStep] = useState<Step>("email");
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<string | null>(initialMessage);
 
@@ -143,7 +143,7 @@ export function LoginForm({ initialMessage }: { initialMessage: string | null })
             setStep(step === "password" ? "email" : "password");
           }}
         >
-          {step === "password" ? "Forgot your password? Email me a code" : "Use my password"}
+          {step === "password" ? "Email me a code instead" : "Use a password instead"}
         </button>
     </form>
   );
