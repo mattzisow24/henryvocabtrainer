@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import type { DrillRow, ReviewRow, SessionRow } from "./data";
-import { dailyActivity } from "./progress";
+import { dailyActivity, missedOn } from "./progress";
+import { WORDS } from "./words";
 
 const DAY = "2026-11-20";
 const session = (day: string): SessionRow => ({
@@ -44,5 +45,20 @@ describe("dailyActivity", () => {
     const days = dailyActivity({ sessions: [session("2026-09-01")], drills: [], reviews: [], day: DAY, maxDays: 14 });
     expect(days).toHaveLength(14);
     expect(days.at(-1)!.day).toBe("2026-11-07");
+  });
+});
+
+describe("missed today", () => {
+  it("lists words missed that day from any practice, in study order, ignoring the sort and other days", () => {
+    const reviews: ReviewRow[] = [
+      { word_id: "eschew", source: "drill", grade: "missed", day: DAY },
+      { word_id: "ameliorate", source: "coach", grade: "missed", day: DAY },
+      { word_id: "ameliorate", source: "cards", grade: "knew", day: DAY },
+      { word_id: "spurious", source: "cards", grade: "missed", day: DAY },
+      { word_id: "evince", source: "coach", grade: "partial", day: DAY },
+      { word_id: "efface", source: "sort", grade: "missed", day: DAY },
+      { word_id: "proxy", source: "coach", grade: "missed", day: "2026-11-19" },
+    ];
+    expect(missedOn(WORDS, reviews, DAY).map((w) => w.id)).toEqual(["ameliorate", "eschew", "spurious"]);
   });
 });

@@ -361,7 +361,7 @@ export function CoachSession({ cards, preview }: { cards: Record<string, Card>; 
               <textarea
                 ref={input}
                 rows={1}
-                className="max-h-28 min-h-11 min-w-0 flex-1 resize-none rounded-xl border border-line bg-white px-3 py-2.5 text-base outline-none focus:border-accent"
+                className="max-h-28 min-h-11 min-w-0 flex-1 resize-none rounded-xl border border-line bg-field px-3 py-2.5 text-base outline-none focus:border-accent"
                 placeholder={phase === "coach" ? "" : "Type your answer"}
                 aria-label="Your answer"
                 value={typed}

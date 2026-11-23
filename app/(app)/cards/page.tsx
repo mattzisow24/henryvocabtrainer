@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { requireLearner } from "@/lib/auth";
-import { loadStates } from "@/lib/data";
+import { loadReviews, loadStates } from "@/lib/data";
+import { today } from "@/lib/dates";
+import { missedOn } from "@/lib/progress";
 import { shuffled } from "@/lib/plan";
 import { stageOf } from "@/lib/srs";
 import { WORDS } from "@/lib/words";
@@ -11,8 +13,10 @@ const ROUND = 20;
 export default async function CardsPage({ searchParams }: { searchParams: Promise<{ deck?: string }> }) {
   const member = await requireLearner();
   const deck = (await searchParams).deck;
-  const states = await loadStates(member.supabase);
+  const day = today();
+  const [states, reviews] = await Promise.all([loadStates(member.supabase), loadReviews(member.supabase, day)]);
   const decks = [
+    { key: "missed", title: "Missed today", detail: "Everything you got wrong today, with your coach, in a drill or on a card.", words: missedOn(WORDS, reviews, day) },
     { key: "learning", title: "Learning", detail: "Words you have met and not yet mastered.", words: WORDS.filter((w) => stageOf(states.get(w.id)) === "learning") },
     { key: "new", title: "Not started", detail: "A first look at words your coach has not taught yet, in study order.", words: WORDS.filter((w) => stageOf(states.get(w.id)) === "new") },
     { key: "mastered", title: "Mastered", detail: "A check that they are still there.", words: WORDS.filter((w) => stageOf(states.get(w.id)) === "mastered") },

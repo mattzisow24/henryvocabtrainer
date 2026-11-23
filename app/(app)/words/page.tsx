@@ -16,8 +16,8 @@ const FILTERS = [
 
 const STAGE: Record<Stage, { label: string; className: string }> = {
   new: { label: "Not started", className: "bg-canvas text-muted" },
-  learning: { label: "Learning", className: "bg-accent-soft text-accent" },
-  mastered: { label: "Mastered", className: "bg-navy text-white" },
+  learning: { label: "Learning", className: "bg-accent-soft text-link" },
+  mastered: { label: "Mastered", className: "bg-brand text-white" },
 };
 
 /** Small heading above each part of a word's details. */

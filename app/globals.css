@@ -2,14 +2,18 @@
 
 /* Colors follow Duke University's palette: Duke Navy and Duke Royal Blue.
    The look is restrained: flat surfaces, modest radii, no decoration. */
-@theme inline {
+@theme {
   --color-canvas: #f1f3f8;
   --color-surface: #ffffff;
   --color-ink: #262626;
   --color-ink-2: #4a4f5a;
   --color-muted: #6b7280;
   --color-line: #e2e6ed;
+  /* navy is for text and headings; brand is the same blue as a background. */
   --color-navy: #012169;
+  --color-brand: #012169;
+  --color-link: #00539b;
+  --color-field: #ffffff;
   --color-accent: #00539b;
   --color-accent-soft: #e5eef7;
   --color-gold: #ffd960;
@@ -105,8 +109,35 @@
 }
 
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
   --ease-ui: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+/* Dark mode follows the device setting. Blues are lightened where they are
+   text and deepened where they are a background under white text. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-canvas: #0b1120;
+    --color-surface: #141c2e;
+    --color-field: #0e1525;
+    --color-ink: #e9edf5;
+    --color-ink-2: #b6bfd0;
+    --color-muted: #8a94a8;
+    --color-line: #27324b;
+    --color-navy: #cfdcfa;
+    --color-brand: #1e3a8a;
+    --color-accent: #1f6fc0;
+    --color-link: #7fb6f2;
+    --color-accent-soft: #1a2947;
+    --color-gold-soft: #33290f;
+    --color-good: #4fb9ae;
+    --color-good-soft: #12302e;
+    --color-bad: #f0915c;
+    --color-bad-soft: #3a2015;
+    --color-stage-new: #2a3654;
+    --color-stage-learning: #4f86c4;
+    --color-stage-mastered: #cfdcfa;
+  }
 }
 
 html {
@@ -171,7 +202,7 @@ button,
 @media (hover: hover) {
   a.card:hover,
   button.card:hover:not(:disabled) {
-    border-color: var(--color-accent);
+    border-color: var(--color-link);
     box-shadow: 0 4px 14px rgb(1 33 105 / 0.08);
     transform: translateY(-1px);
   }
@@ -179,8 +210,8 @@ button,
     border-color: var(--color-accent);
   }
   .btn-primary:hover:not(:disabled) {
-    background: var(--color-navy);
-    border-color: var(--color-navy);
+    background: var(--color-brand);
+    border-color: var(--color-brand);
   }
 }
 
@@ -254,5 +285,15 @@ nav a,
   30% {
     opacity: 1;
     transform: translateY(-3px);
+  }
+}
+
+/* The daily goal ring draws from empty when it appears. */
+.ring-fill {
+  animation: ring 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes ring {
+  from {
+    stroke-dashoffset: var(--ring-length);
   }
 }

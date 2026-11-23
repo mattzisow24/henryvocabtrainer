@@ -14,7 +14,14 @@ export const metadata: Metadata = {
 
 // viewportFit lets the tab bar sit above the home indicator; interactiveWidget
 // makes browsers that support it shrink the page when the keyboard opens.
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#f1f3f8", viewportFit: "cover", interactiveWidget: "resizes-content" };
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1, themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f1f3f8" },
+    { media: "(prefers-color-scheme: dark)", color: "#0b1120" },
+  ],
+  viewportFit: "cover", interactiveWidget: "resizes-content",
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

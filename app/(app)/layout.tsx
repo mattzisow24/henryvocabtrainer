@@ -22,7 +22,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-3xl flex-col px-4">
       {member.preview && (
-        <div className="-mx-4 flex items-center justify-between gap-3 bg-gold px-4 py-2 text-sm text-ink">
+        <div className="-mx-4 flex items-center justify-between gap-3 bg-gold px-4 py-2 text-sm text-[#262626]">
           <p>
             <span className="font-semibold">Viewing as {LEARNER_NAME}.</span> Nothing you do here is saved.
           </p>

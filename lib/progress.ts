@@ -125,3 +125,13 @@ export function dailyActivity(opts: {
   }
   return out;
 }
+
+/**
+ * Words missed on a given day, with the coach, in a drill or on a flashcard,
+ * in study order. A word missed and then got right later the same day still
+ * counts: one correct answer minutes later is not yet retention.
+ */
+export function missedOn(words: Word[], reviews: ReviewRow[], day: string): Word[] {
+  const ids = new Set(reviews.filter((r) => r.day === day && r.grade === "missed" && r.source !== "sort").map((r) => r.word_id));
+  return words.filter((w) => ids.has(w.id));
+}

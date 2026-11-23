@@ -7,7 +7,7 @@ export function Badge({ mark, locked = false, className = "h-12 w-12 text-sm" }:
     <span
       aria-hidden
       className={`${className} inline-flex shrink-0 items-center justify-center rounded-full border-2 font-display font-semibold tabular-nums ${
-        locked ? "border-line bg-canvas text-muted" : "border-navy bg-navy text-white"
+        locked ? "border-line bg-canvas text-muted" : "border-brand bg-brand text-white"
       }`}
     >
       {mark}

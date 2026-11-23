@@ -49,7 +49,7 @@ export function LoginForm({ initialMessage }: { initialMessage: string | null })
       return null;
     });
 
-  const input = "h-12 w-full rounded-xl border border-line bg-white px-3 text-base";
+  const input = "h-12 w-full rounded-xl border border-line bg-field px-3 text-base";
 
   return (
     <form
@@ -116,7 +116,7 @@ export function LoginForm({ initialMessage }: { initialMessage: string | null })
                 onClick={() => setShowPassword((v) => !v)}
                 aria-pressed={showPassword}
                 aria-controls="password"
-                className="absolute inset-y-0 right-0 flex w-16 items-center justify-center rounded-r-xl text-sm font-semibold text-accent"
+                className="absolute inset-y-0 right-0 flex w-16 items-center justify-center rounded-r-xl text-sm font-semibold text-link"
               >
                 {showPassword ? "Hide" : "Show"}
                 <span className="sr-only"> password</span>

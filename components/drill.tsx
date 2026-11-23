@@ -89,7 +89,7 @@ export function Drill(props: { timed: boolean; items: DrillItem[]; secondsAllowe
       <div className="space-y-4">
         <div className="card animate-rise space-y-1 p-6 text-center">
           <p className="font-display text-2xl font-semibold text-navy">{outOfTime && !finished ? "Time's up" : verdict(correct, items.length)}</p>
-          <p className="font-display text-5xl font-semibold tabular-nums text-accent">
+          <p className="font-display text-5xl font-semibold tabular-nums text-link">
             {correct} / {items.length}
           </p>
           {correct > 0 && <p className="font-semibold text-ink-2">+{correct * POINTS.drillCorrect} points</p>}

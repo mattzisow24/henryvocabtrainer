@@ -96,7 +96,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
                   key={a.day}
                   title={`${fmtDay(a.day)}: ${a.practiced ? `${a.minutes} min` : a.day === day ? "not yet" : "no practice"}`}
                   className={`flex h-7 w-7 items-center justify-center rounded-md text-[0.65rem] font-semibold ${
-                    a.practiced ? "bg-navy text-white" : a.day === day ? "border border-dashed border-muted text-muted" : "border border-bad text-bad"
+                    a.practiced ? "bg-brand text-white" : a.day === day ? "border border-dashed border-muted text-muted" : "border border-bad text-bad"
                   }`}
                 >
                   {new Date(`${a.day}T12:00:00Z`).getUTCDate()}
@@ -228,7 +228,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
                     {fmtDay(s.day)} · {sessionMinutes(s)} min
                     {s.status === "active" ? " · in progress" : ""}
                   </span>
-                  <Link href={`/dashboard/session/${s.id}`} className="text-accent underline">
+                  <Link href={`/dashboard/session/${s.id}`} className="text-link underline">
                     Transcript
                   </Link>
                 </p>
@@ -248,7 +248,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
             ? "all hold up."
             : `${flagged.length} were imprecise (${flagged.map((w) => w.word).join(", ")}), and the coach tells ${LEARNER_NAME} what they left out.`}
         </p>
-        <Link href="/words" className="text-accent underline">
+        <Link href="/words" className="text-link underline">
           See the words
         </Link>
       </section>
@@ -310,9 +310,9 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
             ))}
           </ul>
           <form action={addMember} className="grid gap-2 sm:grid-cols-[1fr_1fr_auto_auto]">
-            <input name="name" placeholder="Name" aria-label="Name" className="h-11 rounded-xl border border-line bg-white px-3" />
-            <input name="email" type="email" required placeholder="Email" aria-label="Email" className="h-11 rounded-xl border border-line bg-white px-3" />
-            <select name="role" aria-label="Role" className="h-11 rounded-xl border border-line bg-white px-3">
+            <input name="name" placeholder="Name" aria-label="Name" className="h-11 rounded-xl border border-line bg-field px-3" />
+            <input name="email" type="email" required placeholder="Email" aria-label="Email" className="h-11 rounded-xl border border-line bg-field px-3" />
+            <select name="role" aria-label="Role" className="h-11 rounded-xl border border-line bg-field px-3">
               <option value="parent">Parent</option>
             </select>
             <button className="btn btn-primary">Add</button>

@@ -4,11 +4,12 @@ import { LEARNER_NAME, NEW_WORD_CUTOFF_DAYS } from "@/lib/config";
 import { loadDrills, loadProfile, loadReviews, loadSessions, loadStates } from "@/lib/data";
 import { addDays, today } from "@/lib/dates";
 import { learnerLine } from "@/lib/exam";
-import { summarize } from "@/lib/progress";
+import { missedOn, summarize } from "@/lib/progress";
 import { computeRewards } from "@/lib/rewards";
 import { WORDS } from "@/lib/words";
 import { Badge } from "@/components/badge";
 import { Celebrate } from "@/components/celebrate";
+import { GoalRing } from "@/components/goal-ring";
 import { StageBar } from "@/components/stage-bar";
 
 export default async function HomePage() {
@@ -41,6 +42,7 @@ export default async function HomePage() {
             detail: `About 10 minutes, typed. ${p.due} due for review${reviewOnly ? "; no new words this close to the test" : p.notStarted ? `, ${p.notStarted} not started` : ""}.`,
           };
   const allDone = r.today.coach && r.today.drill;
+  const missedToday = missedOn(WORDS, reviews, day);
 
   return (
     <div className="stagger space-y-4">
@@ -50,7 +52,7 @@ export default async function HomePage() {
         storageKey={member.preview ? "rewards-seen-preview" : "rewards-seen"}
       />
 
-      <section className="rounded-2xl bg-navy p-5 text-white">
+      <section className="rounded-2xl bg-brand p-5 text-white">
         <div className="flex items-start justify-between gap-3">
           <div>
             <h1 className="text-2xl font-semibold">{LEARNER_NAME}</h1>
@@ -90,29 +92,51 @@ export default async function HomePage() {
       </Link>
 
       {onboardedAt && (
+        <section className="card flex items-center gap-4 p-4">
+          <GoalRing done={Number(r.today.coach) + Number(r.today.drill)} total={2} />
+          <div className="min-w-0 flex-1 space-y-2">
+            <h2 className="text-lg font-semibold leading-tight text-navy">{allDone ? "Today: done" : "Today, 20 minutes"}</h2>
+            <ul className="space-y-1.5">
+              {[
+                { done: r.today.coach, label: "One coach session", href: "/coach" },
+                { done: r.today.drill, label: "One Words in Context drill", href: "/drill" },
+              ].map((item) => (
+                <li key={item.href}>
+                  <Link href={item.href} className="flex items-center gap-2.5">
+                    <span
+                      aria-hidden
+                      className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 text-xs font-bold ${
+                        item.done ? "border-good bg-good text-white" : "border-line text-transparent"
+                      }`}
+                    >
+                      ✓
+                    </span>
+                    <span className={item.done ? "text-muted line-through" : ""}>{item.label}</span>
+                    <span className="sr-only">{item.done ? "(done)" : "(to do)"}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      {missedToday.length > 0 && (
         <section className="card space-y-3 p-4">
-          <h2 className="text-lg font-semibold text-navy">{allDone ? "Today: done" : "Today, 20 minutes"}</h2>
-          <ul className="space-y-2">
-            {[
-              { done: r.today.coach, label: "One coach session", href: "/coach" },
-              { done: r.today.drill, label: "One Words in Context drill", href: "/drill" },
-            ].map((item) => (
-              <li key={item.href}>
-                <Link href={item.href} className="flex items-center gap-3">
-                  <span
-                    aria-hidden
-                    className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-md border-2 text-xs font-bold ${
-                      item.done ? "border-good bg-good text-white" : "border-line text-transparent"
-                    }`}
-                  >
-                    ✓
-                  </span>
-                  <span className={item.done ? "text-muted line-through" : ""}>{item.label}</span>
-                  <span className="sr-only">{item.done ? "(done)" : "(to do)"}</span>
-                </Link>
+          <div className="flex items-baseline justify-between gap-3">
+            <h2 className="text-lg font-semibold text-navy">Missed today</h2>
+            <span className="text-sm tabular-nums text-ink-2">{missedToday.length}</span>
+          </div>
+          <ul className="flex flex-wrap gap-1.5">
+            {missedToday.map((w) => (
+              <li key={w.id} className="rounded-full bg-bad-soft px-2.5 py-0.5 text-sm font-medium text-bad">
+                {w.word}
               </li>
             ))}
           </ul>
+          <Link href="/cards?deck=missed" className="btn w-full">
+            Go over these now
+          </Link>
         </section>
       )}
 
@@ -135,7 +159,7 @@ export default async function HomePage() {
       <section className="card space-y-3 p-4">
         <div className="flex items-baseline justify-between">
           <h2 className="text-lg font-semibold text-navy">The {p.total} words</h2>
-          <Link href="/words" className="text-sm font-medium text-accent underline">
+          <Link href="/words" className="text-sm font-medium text-link underline">
             See the list
           </Link>
         </div>

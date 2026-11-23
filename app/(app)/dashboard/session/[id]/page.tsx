@@ -15,7 +15,7 @@ export default async function SessionTranscript({ params }: { params: Promise<{ 
 
   return (
     <div className="space-y-4">
-      <Link href="/dashboard" className="text-sm text-accent underline">
+      <Link href="/dashboard" className="text-sm text-link underline">
         Back to dashboard
       </Link>
       <h1 className="text-3xl font-semibold text-navy">

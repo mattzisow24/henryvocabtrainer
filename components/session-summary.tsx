@@ -18,7 +18,7 @@ export function SessionSummary({ text }: { text: string }) {
       )}
       {s.more && (
         <details>
-          <summary className="cursor-pointer text-accent underline">More</summary>
+          <summary className="cursor-pointer text-link underline">More</summary>
           <p className="mt-1 text-ink-2">{s.more}</p>
         </details>
       )}

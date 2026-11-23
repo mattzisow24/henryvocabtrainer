@@ -39,11 +39,11 @@ export function Celebrate(props: { earned: Earned[]; level: number; storageKey: 
 
   if (!fresh) return null;
   return (
-    <div className="fixed inset-0 z-40 flex animate-fade items-end justify-center bg-navy/40 p-4 sm:items-center" role="dialog" aria-modal="true" aria-label="New milestone">
+    <div className="fixed inset-0 z-40 flex animate-fade items-end justify-center bg-brand/40 p-4 sm:items-center" role="dialog" aria-modal="true" aria-label="New milestone">
       <div className="card max-h-[85dvh] w-full max-w-sm animate-rise space-y-4 overflow-y-auto p-6">
         {fresh.level && (
           <div>
-            <p className="text-sm font-semibold text-accent">Level up</p>
+            <p className="text-sm font-semibold text-link">Level up</p>
             <p className="font-display text-2xl font-semibold text-navy">Level {fresh.level}</p>
           </div>
         )}
@@ -51,7 +51,7 @@ export function Celebrate(props: { earned: Earned[]; level: number; storageKey: 
           <div key={t.id} className="flex items-center gap-3">
             <Badge mark={t.mark} className="h-14 w-14 text-base" />
             <div>
-              <p className="text-sm font-semibold text-accent">Milestone</p>
+              <p className="text-sm font-semibold text-link">Milestone</p>
               <p className="font-display text-xl font-semibold leading-tight text-navy">{t.name}</p>
               <p className="text-sm text-ink-2">{t.how}</p>
             </div>

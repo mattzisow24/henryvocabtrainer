@@ -115,7 +115,7 @@ export function Sort({ words, preview }: { words: Item[]; preview: boolean }) {
         {revealed ? (
           <p className="mt-1 animate-fade text-lg">{item.definition}</p>
         ) : (
-          <button className="mt-1 text-sm font-medium text-accent underline" onClick={() => setRevealed(true)}>
+          <button className="mt-1 text-sm font-medium text-link underline" onClick={() => setRevealed(true)}>
             Check the meaning
           </button>
         )}

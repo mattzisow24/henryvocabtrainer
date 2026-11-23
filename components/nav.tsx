@@ -59,7 +59,7 @@ export function Nav({ items }: { items: NavItem[] }) {
               <Link
                 href={item.href}
                 aria-current={active ? "page" : undefined}
-                className={`flex h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-semibold active:scale-95 ${active ? "text-accent" : "text-muted"}`}
+                className={`flex h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-semibold active:scale-95 ${active ? "text-link" : "text-muted"}`}
               >
                 <Glyph icon={item.icon} />
                 {item.label}
