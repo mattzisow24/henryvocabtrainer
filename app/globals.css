@@ -109,14 +109,18 @@
 }
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
   --ease-ui: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
 }
 
-/* Dark mode follows the device setting. Blues are lightened where they are
-   text and deepened where they are a background under white text. */
+/* Dark mode. The learner picks Auto, Light or Dark (components/theme-toggle.tsx);
+   the choice is stored on the device and set as data-theme on <html>. Auto
+   follows the device setting. Blues are lightened where they are text and
+   deepened where they are a background under white text. The two blocks
+   below must stay identical. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --color-canvas: #0b1120;
     --color-surface: #141c2e;
     --color-field: #0e1525;
@@ -138,6 +142,32 @@
     --color-stage-learning: #4f86c4;
     --color-stage-mastered: #cfdcfa;
   }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-canvas: #0b1120;
+  --color-surface: #141c2e;
+  --color-field: #0e1525;
+  --color-ink: #e9edf5;
+  --color-ink-2: #b6bfd0;
+  --color-muted: #8a94a8;
+  --color-line: #27324b;
+  --color-navy: #cfdcfa;
+  --color-brand: #1e3a8a;
+  --color-accent: #1f6fc0;
+  --color-link: #7fb6f2;
+  --color-accent-soft: #1a2947;
+  --color-gold-soft: #33290f;
+  --color-good: #4fb9ae;
+  --color-good-soft: #12302e;
+  --color-bad: #f0915c;
+  --color-bad-soft: #3a2015;
+  --color-stage-new: #2a3654;
+  --color-stage-learning: #4f86c4;
+  --color-stage-mastered: #cfdcfa;
+}
+:root[data-theme="light"] {
+  color-scheme: light;
 }
 
 html {
