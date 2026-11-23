@@ -141,7 +141,10 @@ export function Drill(props: { timed: boolean; items: DrillItem[]; secondsAllowe
   if (!timed) for (let i = answers.length - 1; i >= 0 && answers[i] === items[i].answer; i--) run++;
 
   return (
-    <div key={index} className="mx-auto max-w-xl animate-rise space-y-4">
+    <div className="mx-auto max-w-xl space-y-4">
+      <div className="h-1.5 overflow-hidden rounded-full bg-stage-new">
+        <div className="h-full rounded-full bg-accent transition-all duration-300" style={{ width: `${(index / items.length) * 100}%` }} />
+      </div>
       <div className="flex items-center justify-between text-sm text-ink-2">
         <span className="tabular-nums">
           {index + 1} of {items.length}
@@ -156,7 +159,7 @@ export function Drill(props: { timed: boolean; items: DrillItem[]; secondsAllowe
         )}
       </div>
 
-      <div className="card space-y-3 p-5">
+      <div key={index} className="card animate-rise space-y-3 p-5">
         <Passage text={item.passage} className="text-[17px] leading-relaxed" />
         <p className="text-sm font-medium text-ink-2">{item.stem}</p>
       </div>
@@ -184,7 +187,10 @@ export function Drill(props: { timed: boolean; items: DrillItem[]; secondsAllowe
       </div>
 
       {picked !== null && (
-        <div className="card animate-rise space-y-2 p-4" aria-live="polite">
+        <div
+          className={`animate-rise space-y-2 rounded-[0.875rem] border p-4 ${picked === item.answer ? "border-good/30 bg-good-soft" : "border-bad/30 bg-bad-soft"}`}
+          aria-live="polite"
+        >
           <p className={`font-display text-lg font-semibold ${picked === item.answer ? "text-good" : "text-bad"}`}>
             {picked === item.answer ? `Correct. +${POINTS.drillCorrect}` : "Incorrect."}
           </p>

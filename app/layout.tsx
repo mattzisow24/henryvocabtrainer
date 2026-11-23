@@ -12,7 +12,9 @@ export const metadata: Metadata = {
   appleWebApp: { capable: true, title: `${LEARNER_NAME}'s SAT Vocab`, statusBarStyle: "default" },
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#f1f3f8" };
+// viewportFit lets the tab bar sit above the home indicator; interactiveWidget
+// makes browsers that support it shrink the page when the keyboard opens.
+export const viewport: Viewport = { width: "device-width", initialScale: 1, themeColor: "#f1f3f8", viewportFit: "cover", interactiveWidget: "resizes-content" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

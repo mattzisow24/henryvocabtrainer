@@ -27,6 +27,8 @@ Typed SAT vocabulary trainer for one learner (Henry, 16), with a dashboard and d
 
 ## Conventions
 - Mobile-first: everything must work at 375px wide. Henry also uses a laptop, so the chat and drills widen to a comfortable reading column.
+- Navigation is the bottom tab bar in `components/nav.tsx`. During the sort, a drill round or a flashcard round it is replaced by a single Exit link, so a stray tap cannot discard the round.
+- The coach chat is a full-screen layout sized to the visible viewport (`useVisibleBox` in `components/coach-session.tsx`), so the keyboard never hides the question. The newest coach message is always the last item; the word card and result note go above it. When the coach ends a message with a line of slash-separated choices, they are shown as tap targets.
 - Server components by default; client components only for the coach chat, drills, the sort and login.
 - The coach's replies are shown as plain text: no markdown.
 - Colors follow Duke University's palette (navy `#012169`, royal blue `#00539B`). Use the tokens in `app/globals.css`; do not use Duke logos or wordmarks. The look is restrained: flat cards, no confetti, no illustrations. Motion is short and functional (content rises in, lists stagger, bars fill, cards flip, buttons respond); use the animation tokens and the `stagger` and `bar` classes in `app/globals.css`, and keep everything under half a second.
