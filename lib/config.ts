@@ -14,6 +14,10 @@ export const SESSION_REVIEW_CAP = 8;
 /** The fewest and most new words a session introduces; see dailyPlan. */
 export const SESSION_NEW_MIN = 4;
 export const SESSION_NEW_MAX = 10;
+/** Words in one lesson, and the most of them that can be new. */
+export const LESSON_WORDS = 8;
+export const LESSON_NEW_MAX = 3;
+
 /**
  * No new words once the test is this many days away or fewer. A word needs
  * a few spaced recalls to stick, so the last days are review only.

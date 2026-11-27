@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { addDays, daysBetween, streak } from "./dates";
-import { dailyPlan, drillPlan, newWordQuota } from "./plan";
+import { dailyPlan, drillPlan, lessonPlan, newWordQuota } from "./plan";
 import { applyCardMiss, applyCoachGrade, applyDrillAnswer, applySort, newState, stageOf, type WordState } from "./srs";
 import { QUESTIONS, questionsFor, WORDS } from "./words";
 
@@ -127,6 +127,40 @@ describe("session plans", () => {
   });
 });
 
+describe("coach and lesson plans", () => {
+  const waiting = (n: number) =>
+    new Map<string, WordState>(WORDS.slice(20, 20 + n).map((w) => [w.id, { ...newState(w.id, DAY), box: 1, due: DAY, seen: 1 }]));
+
+  it("gives the coach no new words when four or more are already waiting", () => {
+    expect(dailyPlan(WORDS, waiting(4), DAY, 13).fresh).toEqual([]);
+    expect(dailyPlan(WORDS, waiting(3), DAY, 13).fresh.length).toBeGreaterThan(0);
+  });
+
+  it("builds a lesson of eight words: up to three new, then due words weakest first", () => {
+    const states = waiting(10);
+    states.set("register", { ...newState("register", DAY), box: 3, due: DAY, seen: 2 });
+    const ids = lessonPlan(WORDS, states, DAY, 13);
+    expect(ids).toHaveLength(8);
+    expect(ids.slice(0, 3)).toEqual(["ameliorate", "eschew", "misconstrue"]);
+    expect(ids.slice(3).every((id) => states.get(id)?.box === 1)).toBe(true);
+  });
+
+  it("adds no new words to a lesson in the last three days", () => {
+    const ids = lessonPlan(WORDS, waiting(10), DAY, 3);
+    expect(ids).toHaveLength(8);
+    expect(ids.every((id) => waiting(10).has(id))).toBe(true);
+  });
+
+  it("always has a lesson to offer: due words first, then learning, then mastered", () => {
+    const states = new Map<string, WordState>(WORDS.map((w) => [w.id, { ...newState(w.id, DAY), box: 5, due: addDays(DAY, 5), seen: 4 }]));
+    states.set("proxy", { ...newState("proxy", DAY), box: 2, due: addDays(DAY, 1), seen: 2 });
+    states.set("dearth", { ...newState("dearth", DAY), box: 4, due: DAY, seen: 3 });
+    const ids = lessonPlan(WORDS, states, DAY, 13);
+    expect(ids).toHaveLength(8);
+    expect(ids.slice(0, 2)).toEqual(["dearth", "proxy"]);
+  });
+});
+
 describe("drill plans", () => {
   it("asks about due words first, then learning words, then unseen words in priority order", () => {
     const states = new Map<string, WordState>([
@@ -141,7 +175,7 @@ describe("drill plans", () => {
   });
 
   it("has at least two questions for every word", () => {
-    expect(QUESTIONS).toHaveLength(200);
+    expect(QUESTIONS.length).toBeGreaterThanOrEqual(200);
     for (const w of WORDS) expect(questionsFor(w.id).length).toBeGreaterThanOrEqual(2);
   });
 });

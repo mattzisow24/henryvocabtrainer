@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { requireLearner } from "@/lib/auth";
 import { SECONDS_PER_QUESTION } from "@/lib/config";
-import { loadStates } from "@/lib/data";
+import { loadStates, loadUsage } from "@/lib/data";
+import { pickQuestion } from "@/lib/lesson";
 import { today } from "@/lib/dates";
 import { drillPlan, shuffled } from "@/lib/plan";
-import { getWord, questionsFor, stemOf, WORDS } from "@/lib/words";
+import { getWord, stemOf, WORDS } from "@/lib/words";
 import { Drill, type DrillItem } from "@/components/drill";
 
 const OPTIONS = [
@@ -40,16 +41,16 @@ export default async function DrillPage({ searchParams }: { searchParams: Promis
 
   const timed = params.timed === "1";
   const count = Math.min(27, Math.max(5, Number(params.n) || 10));
-  const states = await loadStates(member.supabase);
+  const [states, usage] = await Promise.all([loadStates(member.supabase), loadUsage(member.supabase)]);
   // A new mix on every visit.
   // eslint-disable-next-line react-hooks/purity
   const seed = Date.now() % 2_147_483_647;
 
   const items: DrillItem[] = drillPlan(WORDS, states, today(), count, seed).flatMap((id, i) => {
     const w = getWord(id)!;
-    const options = questionsFor(id);
-    if (options.length === 0) return [];
-    const q = options[(seed + i) % options.length];
+    // The question he has seen least recently.
+    const q = pickQuestion(id, usage, seed + i);
+    if (!q) return [];
     const choices = shuffled(q.choices, seed + i);
     return [
       {

@@ -97,7 +97,7 @@ export function computeRewards(opts: {
     count("senses", "2nd", "Second meanings", "Master 10 words that the SAT uses in more than one sense.", multiMastered, Math.min(10, multi.length)),
     count("comeback", "Re", "Recovered", "Master 5 words you missed the first time.", comebacks, 5),
     count("context-100", "100", "A hundred in context", "Get 100 Words in Context questions right.", drillCorrect, 100),
-    flag("perfect", "10/10", "Clean round", "Get every question right in a drill of 10 or more.", drills.some((d) => d.total >= 10 && d.correct === d.total)),
+    flag("perfect", "10/10", "Clean round", "Get everything right first try in a lesson or drill of 10 or more.", drills.some((d) => d.total >= 10 && d.correct === d.total)),
     flag("clock", "Pace", "On pace", "Score 90% or better on a timed drill.", drills.some((d) => d.timed && d.total >= 10 && d.correct / d.total >= 0.9)),
   ];
 

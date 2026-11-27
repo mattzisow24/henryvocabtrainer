@@ -35,7 +35,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
   const weekAgo = addDays(day, -6);
   const recentDrills = drills.filter((d) => d.day >= weekAgo);
   const accuracy = [
-    { label: "Practice", ...drillAccuracy(recentDrills, false) },
+    { label: "Lessons and practice drills", ...drillAccuracy(recentDrills, false) },
     { label: "Timed", ...drillAccuracy(recentDrills, true) },
   ];
 
@@ -151,7 +151,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       </section>
 
       <section className="card space-y-3 p-4">
-        <h2 className="font-semibold">Words in Context accuracy, last 7 days</h2>
+        <h2 className="font-semibold">Lesson and drill accuracy, last 7 days</h2>
         <table className="w-full text-sm">
           <thead>
             <tr className="text-left text-ink-2">

@@ -74,3 +74,21 @@ export async function loadReviews(db: SupabaseClient, sinceDay: string): Promise
   if (error) throw new Error(error.message);
   return data as ReviewRow[];
 }
+
+/**
+ * How many times each question or lesson exercise was answered in recent
+ * rounds, keyed by the stored item id with any "q:" prefix removed.
+ */
+export async function loadUsage(db: SupabaseClient, rounds = 40): Promise<Map<string, number>> {
+  const { data, error } = await db.from("drill_runs").select("items").order("created_at", { ascending: false }).limit(rounds);
+  if (error) throw new Error(error.message);
+  const usage = new Map<string, number>();
+  for (const row of data ?? []) {
+    for (const item of (row.items as { id?: string }[] | null) ?? []) {
+      if (typeof item.id !== "string") continue;
+      const id = item.id.startsWith("q:") ? item.id.slice(2) : item.id;
+      usage.set(id, (usage.get(id) ?? 0) + 1);
+    }
+  }
+  return usage;
+}

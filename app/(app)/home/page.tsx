@@ -30,17 +30,20 @@ export default async function HomePage() {
   const earned = r.milestones.filter((t) => t.earned);
   const reviewOnly = p.exam.daysAway >= 0 && p.exam.daysAway <= NEW_WORD_CUTOFF_DAYS;
 
-  const coach = !onboardedAt
-    ? { href: "/sort", title: "Start here: sort the list", detail: `Rate all ${p.total} words once, about eight minutes, so your coach starts with the ones that need work.` }
-    : inProgress
-      ? { href: "/coach", title: "Resume session", detail: "Your session from earlier is still open." }
-      : r.today.coach
-        ? { href: "/coach", title: "Another session", detail: "Today's is done. More words are ready if you want them." }
-        : {
-            href: "/coach",
-            title: "Today's session",
-            detail: `About 10 minutes, typed. ${p.due} due for review${reviewOnly ? "; no new words this close to the test" : p.notStarted ? `, ${p.notStarted} not started` : ""}.`,
-          };
+  // Words waiting for the coach: due and still weak (missed or shaky).
+  const forCoach = [...states.values()].filter((st) => st.box === 1 && st.due <= day).length;
+  const main = !onboardedAt
+    ? { href: "/sort", title: "Start here: sort the list", detail: `Rate all ${p.total} words once, about eight minutes, so lessons start with the ones that need work.` }
+    : {
+        href: "/lesson",
+        title: r.today.drill ? "Another lesson" : "Today's lesson",
+        detail: `About 8 minutes, mostly taps. ${p.due} due for review${reviewOnly ? "; no new words this close to the test" : p.notStarted ? `, ${p.notStarted} not started` : ""}.`,
+      };
+  const coach = inProgress
+    ? { title: "Resume coach session", detail: "Your session from earlier is still open." }
+    : forCoach > 0
+      ? { title: "Coach", detail: `${forCoach} missed or shaky word${forCoach === 1 ? "" : "s"} waiting. This is where you explain why, in your own words.` }
+      : { title: "Coach", detail: "Nothing is waiting from your lessons. A session here pushes on words that are due." };
   const allDone = r.today.coach && r.today.drill;
   const missedToday = missedOn(WORDS, reviews, day);
 
@@ -86,10 +89,17 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <Link href={coach.href} className="block rounded-2xl bg-accent p-5 text-white transition-transform active:scale-[0.99]">
-        <p className="font-display text-xl font-semibold">{coach.title}</p>
-        <p className="text-white/85">{coach.detail}</p>
+      <Link href={main.href} className="block rounded-2xl bg-accent p-5 text-white transition-transform active:scale-[0.99]">
+        <p className="font-display text-xl font-semibold">{main.title}</p>
+        <p className="text-white/85">{main.detail}</p>
       </Link>
+
+      {onboardedAt && (
+        <Link href="/coach" className="card block p-4 transition-transform active:scale-[0.99]">
+          <p className="font-semibold text-navy">{coach.title}</p>
+          <p className="text-sm text-ink-2">{coach.detail}</p>
+        </Link>
+      )}
 
       {onboardedAt && (
         <section className="card flex items-center gap-4 p-4">
@@ -98,8 +108,8 @@ export default async function HomePage() {
             <h2 className="text-lg font-semibold leading-tight text-navy">{allDone ? "Today: done" : "Today, 20 minutes"}</h2>
             <ul className="space-y-1.5">
               {[
+                { done: r.today.drill, label: "One lesson", href: "/lesson" },
                 { done: r.today.coach, label: "One coach session", href: "/coach" },
-                { done: r.today.drill, label: "One Words in Context drill", href: "/drill" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="flex items-center gap-2.5">

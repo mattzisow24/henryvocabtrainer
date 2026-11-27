@@ -5,8 +5,9 @@ A typed SAT vocabulary trainer for one learner, with a dashboard and a daily ema
 ## What it does
 
 - **Sort (day one).** One pass through the 100 words, rating each "know it", "shaky" or "no idea". "Know it" is only a claim: those words go to the drills to be confirmed. The rest go to the coach, most frequently reported first.
+- **Lessons.** The daily default: about eight words through 15 to 20 short screens (new-word cards, match, fill the blank, meaning in context, pick the word, type the word), with instant feedback and no waiting. Misses repeat at the end and are sent to the coach.
 - **Coach sessions (typed).** About ten minutes a day in a chat. The coach tests words that are due and teaches new ones, mostly through fresh sentences with a blank, "why not this other word" follow-ups, secondary meanings, and look-alike contrasts. It grades each word, which sets when the word comes back.
-- **Words in Context drills.** The digital SAT's format: a short passage, four choices. Practice mode explains each answer; timed mode runs at test pace (about 71 seconds a question). 200 questions, two per word.
+- **Words in Context drills.** The digital SAT's format: a short passage, four choices. Practice mode explains each answer; timed mode runs at test pace (about 71 seconds a question). 400 questions, four per word; lessons and drills pick the ones seen least.
 - **Flashcards.** Flip through the words being learned, new words, or the whole list. Self-graded: "had it" changes nothing, a miss sends the word back to the coach.
 - **Word list.** Each word has a plain definition, an example, a memory hook, near-synonyms, what it gets confused with, and any second sense the SAT uses.
 - **Points, levels and milestones.** Worked out from existing practice records (`lib/rewards.ts`); nothing extra is stored.

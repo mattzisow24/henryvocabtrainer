@@ -7,8 +7,8 @@ import { exitPreview } from "./dashboard/actions";
 
 const LEARNER_NAV: NavItem[] = [
   { href: "/home", label: "Home", icon: "home" },
+  { href: "/lesson", label: "Learn", icon: "drill" },
   { href: "/coach", label: "Coach", icon: "coach" },
-  { href: "/drill", label: "Drills", icon: "drill" },
   { href: "/cards", label: "Cards", icon: "cards" },
   { href: "/words", label: "Words", icon: "words" },
 ];

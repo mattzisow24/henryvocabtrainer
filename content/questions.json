@@ -2798,5 +2798,2805 @@
   ],
   "answer": "made an impression on",
   "why": "\"Printed on every label, yet\" means it was there but did not sink in."
+ },
+ {
+  "id": "ameliorate-3",
+  "word": "ameliorate",
+  "type": "blank",
+  "passage": "Night shifts cannot be made harmless, the report concludes, but scheduled naps and brighter lighting can ______ their effects on workers' alertness.",
+  "choices": [
+   "belie",
+   "precipitate",
+   "ameliorate",
+   "enumerate"
+  ],
+  "answer": "ameliorate",
+  "why": "\"Cannot be made harmless, but\" points to partial improvement."
+ },
+ {
+  "id": "ameliorate-4",
+  "word": "ameliorate",
+  "type": "blank",
+  "passage": "The city's attempt to ______ traffic congestion by widening the highway backfired: within three years the added lanes had filled, and travel times were longer than before.",
+  "choices": [
+   "corroborate",
+   "ameliorate",
+   "renounce",
+   "obfuscate"
+  ],
+  "answer": "ameliorate",
+  "why": "The goal was to make congestion better; \"backfired\" shows it failed."
+ },
+ {
+  "id": "eschew-3",
+  "word": "eschew",
+  "type": "blank",
+  "passage": "The physicist was known to ______ elaborate equipment, preferring experiments she could run with a stopwatch, a ruler, and a bucket of water.",
+  "choices": [
+   "elicit",
+   "substantiate",
+   "augment",
+   "eschew"
+  ],
+  "answer": "eschew",
+  "why": "\"Preferring\" simple tools means she deliberately avoided elaborate ones."
+ },
+ {
+  "id": "eschew-4",
+  "word": "eschew",
+  "type": "blank",
+  "passage": "Although most startups in the field court publicity, the firm has ______ press coverage entirely, declining every interview request for a decade.",
+  "choices": [
+   "eschewed",
+   "appraised",
+   "catalyzed",
+   "evinced"
+  ],
+  "answer": "eschewed",
+  "why": "Declining every interview is deliberate avoidance."
+ },
+ {
+  "id": "misconstrue-3",
+  "word": "misconstrue",
+  "type": "blank",
+  "passage": "Because the survey question was worded ambiguously, many respondents ______ it, answering about their household's income when it asked only about their own.",
+  "choices": [
+   "misconstrued",
+   "augmented",
+   "repudiated",
+   "stipulated"
+  ],
+  "answer": "misconstrued",
+  "why": "They answered a different question from the one asked: they misread it."
+ },
+ {
+  "id": "misconstrue-4",
+  "word": "misconstrue",
+  "type": "blank",
+  "passage": "The diplomat chose her words with care, aware that a casual remark could be ______ as a formal change in policy.",
+  "choices": [
+   "misconstrued",
+   "attenuated",
+   "delineated",
+   "vindicated"
+  ],
+  "answer": "misconstrued",
+  "why": "A casual remark taken as a policy change is taken wrongly."
+ },
+ {
+  "id": "enumerate-3",
+  "word": "enumerate",
+  "type": "blank",
+  "passage": "The appendix ______ every instrument used in the study, from the mass spectrometer down to the brand of pipette.",
+  "choices": [
+   "supplants",
+   "belies",
+   "enumerates",
+   "eschews"
+  ],
+  "answer": "enumerates",
+  "why": "\"Every instrument ... from ... down to\" describes an item-by-item list."
+ },
+ {
+  "id": "enumerate-4",
+  "word": "enumerate",
+  "type": "blank",
+  "passage": "It would take too long to ______ all of the bill's provisions here; the summary below covers only the three most important.",
+  "choices": [
+   "mitigate",
+   "enumerate",
+   "discern",
+   "corroborate"
+  ],
+  "answer": "enumerate",
+  "why": "Listing them all one by one is what would take too long."
+ },
+ {
+  "id": "ubiquitous-3",
+  "word": "ubiquitous",
+  "type": "blank",
+  "passage": "Once a rarity found only in research laboratories, the laser is now ______, built into checkout scanners, printers, and millions of pointers.",
+  "choices": [
+   "diminutive",
+   "ubiquitous",
+   "anomalous",
+   "nebulous"
+  ],
+  "answer": "ubiquitous",
+  "why": "\"Once a rarity ... now\" in everyday devices everywhere."
+ },
+ {
+  "id": "ubiquitous-4",
+  "word": "ubiquitous",
+  "type": "blank",
+  "passage": "The plastic bag became so ______ in the late twentieth century that several countries eventually banned it simply to reduce the litter.",
+  "choices": [
+   "prohibitive",
+   "orthodox",
+   "ubiquitous",
+   "equivocal"
+  ],
+  "answer": "ubiquitous",
+  "why": "Enough bags to become a litter problem means they were everywhere."
+ },
+ {
+  "id": "spurious-3",
+  "word": "spurious",
+  "type": "blank",
+  "passage": "The website's claim that the supplement was \"clinically tested\" proved ______: no such trial had ever been conducted.",
+  "choices": [
+   "pragmatic",
+   "exhaustive",
+   "incipient",
+   "spurious"
+  ],
+  "answer": "spurious",
+  "why": "A claim about a trial that never happened is false."
+ },
+ {
+  "id": "spurious-4",
+  "word": "spurious",
+  "type": "blank",
+  "passage": "Editors reject papers whose precision is ______, such as a result reported to six decimal places from an instrument accurate to only two.",
+  "choices": [
+   "copious",
+   "scrupulous",
+   "spurious",
+   "palpable"
+  ],
+  "answer": "spurious",
+  "why": "Decimal places the instrument cannot support are fake precision."
+ },
+ {
+  "id": "supplant-3",
+  "word": "supplant",
+  "type": "blank",
+  "passage": "Synthetic dyes, cheaper and more consistent, had almost entirely ______ plant-based ones in European textile mills by 1900.",
+  "choices": [
+   "supplanted",
+   "corroborated",
+   "assuaged",
+   "delineated"
+  ],
+  "answer": "supplanted",
+  "why": "The new dyes took the place of the old ones."
+ },
+ {
+  "id": "supplant-4",
+  "word": "supplant",
+  "type": "blank",
+  "passage": "The author doubts that online lectures will ever ______ the classroom; more likely, she argues, the two will coexist.",
+  "choices": [
+   "lament",
+   "supplant",
+   "enumerate",
+   "precipitate"
+  ],
+  "answer": "supplant",
+  "why": "\"Coexist\" is contrasted with one replacing the other."
+ },
+ {
+  "id": "anomalous-3",
+  "word": "anomalous",
+  "type": "blank",
+  "passage": "Water is ______ among common liquids in that it expands when it freezes; nearly every other substance contracts.",
+  "choices": [
+   "ubiquitous",
+   "tantamount",
+   "perfunctory",
+   "anomalous"
+  ],
+  "answer": "anomalous",
+  "why": "It behaves unlike \"nearly every other substance.\""
+ },
+ {
+  "id": "anomalous-4",
+  "word": "anomalous",
+  "type": "blank",
+  "passage": "Auditors flagged the March invoices as ______ because each was for exactly $9,999, just under the amount that triggers a review.",
+  "choices": [
+   "extemporaneous",
+   "inconsequential",
+   "exhaustive",
+   "anomalous"
+  ],
+  "answer": "anomalous",
+  "why": "Identical amounts just under a threshold break the normal pattern."
+ },
+ {
+  "id": "engender-3",
+  "word": "engender",
+  "type": "blank",
+  "passage": "Far from settling the question, the committee's report ______ a new round of arguments about how the data had been collected.",
+  "choices": [
+   "recapitulated",
+   "precluded",
+   "engendered",
+   "assuaged"
+  ],
+  "answer": "engendered",
+  "why": "\"Far from settling\" means it produced more argument."
+ },
+ {
+  "id": "engender-4",
+  "word": "engender",
+  "type": "blank",
+  "passage": "A manager who takes credit for subordinates' work will ______ resentment, however generous the salaries.",
+  "choices": [
+   "engender",
+   "mitigate",
+   "stipulate",
+   "discern"
+  ],
+  "answer": "engender",
+  "why": "Taking credit gives rise to resentment."
+ },
+ {
+  "id": "evince-3",
+  "word": "evince",
+  "type": "blank",
+  "passage": "The cave paintings ______ a sophisticated grasp of animal anatomy: muscles and joints are rendered accurately even in creatures shown mid-stride.",
+  "choices": [
+   "lament",
+   "evince",
+   "preclude",
+   "supplant"
+  ],
+  "answer": "evince",
+  "why": "Accurate rendering is evidence of the grasp, so the paintings show it."
+ },
+ {
+  "id": "evince-4",
+  "word": "evince",
+  "type": "blank",
+  "passage": "Though he never said so directly, the director's detailed questions ______ a real interest in the proposal.",
+  "choices": [
+   "belied",
+   "attenuated",
+   "repudiated",
+   "evinced"
+  ],
+  "answer": "evinced",
+  "why": "The questions revealed interest. Belied would mean they disguised it."
+ },
+ {
+  "id": "idiosyncratic-3",
+  "word": "idiosyncratic",
+  "type": "blank",
+  "passage": "Each of the workshop's potters signs her bowls with an ______ mark, so that an expert can tell at a glance who made a given piece.",
+  "choices": [
+   "extraneous",
+   "idiosyncratic",
+   "equivocal",
+   "inconsequential"
+  ],
+  "answer": "idiosyncratic",
+  "why": "A mark that identifies one maker is peculiar to that individual."
+ },
+ {
+  "id": "idiosyncratic-4",
+  "word": "idiosyncratic",
+  "type": "blank",
+  "passage": "The spelling in the diary is ______ rather than careless: the writer misspells the same words in the same way on every page.",
+  "choices": [
+   "perfunctory",
+   "spurious",
+   "amorphous",
+   "idiosyncratic"
+  ],
+  "answer": "idiosyncratic",
+  "why": "Consistent personal quirks, not random errors."
+ },
+ {
+  "id": "efface-3",
+  "word": "efface",
+  "type": "blank",
+  "passage": "The regime tried to ______ every trace of its predecessor, chiseling names off monuments and pulping schoolbooks.",
+  "choices": [
+   "substantiate",
+   "corroborate",
+   "extol",
+   "efface"
+  ],
+  "answer": "efface",
+  "why": "Chiseling off names and pulping books is erasing."
+ },
+ {
+  "id": "efface-4",
+  "word": "efface",
+  "type": "meaning",
+  "passage": "Colleagues remember the Nobel laureate as a man given to [[effacing]] himself: he habitually credited his students for the laboratory's discoveries.",
+  "choices": [
+   "repeating",
+   "keeping out of the spotlight",
+   "defending",
+   "criticizing"
+  ],
+  "answer": "keeping out of the spotlight",
+  "why": "To efface oneself is to stay inconspicuous. Crediting others is modesty, not self-criticism."
+ },
+ {
+  "id": "incongruous-3",
+  "word": "incongruous",
+  "type": "blank",
+  "passage": "There was something ______ about the stern judge's fondness for comic books, which filled an entire wall of his chambers.",
+  "choices": [
+   "incongruous",
+   "pervasive",
+   "irrefutable",
+   "exhaustive"
+  ],
+  "answer": "incongruous",
+  "why": "Comic books do not fit the image of a stern judge."
+ },
+ {
+  "id": "incongruous-4",
+  "word": "incongruous",
+  "type": "blank",
+  "passage": "The modern steel staircase is not as ______ in the medieval hall as critics feared; its dark finish echoes the old iron fittings.",
+  "choices": [
+   "incongruous",
+   "pragmatic",
+   "scrupulous",
+   "prohibitive"
+  ],
+  "answer": "incongruous",
+  "why": "The fear was that it would clash with the setting; echoing the old ironwork is what makes it fit."
+ },
+ {
+  "id": "proxy-3",
+  "word": "proxy",
+  "type": "blank",
+  "passage": "Economists sometimes use nighttime satellite images of city lights as a ______ for economic activity in countries where official statistics are unreliable.",
+  "choices": [
+   "proxy",
+   "harbinger",
+   "pretext",
+   "admonition"
+  ],
+  "answer": "proxy",
+  "why": "Lights stand in for a quantity that cannot be measured reliably."
+ },
+ {
+  "id": "proxy-4",
+  "word": "proxy",
+  "type": "meaning",
+  "passage": "Shareholders who cannot attend the meeting may vote by [[proxy]], naming another person to cast their ballots.",
+  "choices": [
+   "through a representative",
+   "in advance",
+   "by estimate",
+   "in secret"
+  ],
+  "answer": "through a representative",
+  "why": "The person sense: someone else votes on their behalf."
+ },
+ {
+  "id": "superfluous-3",
+  "word": "superfluous",
+  "type": "blank",
+  "passage": "In a well-edited proof, no step is ______: remove any line and the argument no longer holds.",
+  "choices": [
+   "irrefutable",
+   "orthodox",
+   "superfluous",
+   "contrived"
+  ],
+  "answer": "superfluous",
+  "why": "If removing any line breaks the proof, none is unnecessary."
+ },
+ {
+  "id": "superfluous-4",
+  "word": "superfluous",
+  "type": "blank",
+  "passage": "The second lifeguard turned out to be far from ______ when two swimmers got into trouble at opposite ends of the beach at once.",
+  "choices": [
+   "conspicuous",
+   "superfluous",
+   "pragmatic",
+   "enigmatic"
+  ],
+  "answer": "superfluous",
+  "why": "She was needed, so not unnecessary."
+ },
+ {
+  "id": "lament-3",
+  "word": "lament",
+  "type": "blank",
+  "passage": "Astronomers ______ the spread of city lighting, which has made the Milky Way invisible to most of the world's population.",
+  "choices": [
+   "lament",
+   "catalyze",
+   "transpose",
+   "appraise"
+  ],
+  "answer": "lament",
+  "why": "Losing the night sky is something astronomers would mourn."
+ },
+ {
+  "id": "lament-4",
+  "word": "lament",
+  "type": "meaning",
+  "passage": "The song is a [[lament]] for a fishing village emptied when its harbor silted up.",
+  "choices": [
+   "history",
+   "complaint to authorities",
+   "celebration",
+   "expression of grief"
+  ],
+  "answer": "expression of grief",
+  "why": "Noun sense: a song of mourning for something lost."
+ },
+ {
+  "id": "admonition-3",
+  "word": "admonition",
+  "type": "blank",
+  "passage": "The label carries a stern ______: do not mix this product with bleach.",
+  "choices": [
+   "affinity",
+   "pretext",
+   "veneration",
+   "admonition"
+  ],
+  "answer": "admonition",
+  "why": "\"Do not\" on a label is a warning."
+ },
+ {
+  "id": "admonition-4",
+  "word": "admonition",
+  "type": "blank",
+  "passage": "The young climber dismissed the guide's ______ about afternoon storms and was caught on the ridge when the lightning began.",
+  "choices": [
+   "proxy",
+   "exoneration",
+   "attrition",
+   "admonition"
+  ],
+  "answer": "admonition",
+  "why": "Advice about a danger, ignored, is a warning."
+ },
+ {
+  "id": "unequivocal-3",
+  "word": "unequivocal",
+  "type": "blank",
+  "passage": "The ruling was ______: by a vote of nine to zero, the court held that the law could not stand.",
+  "choices": [
+   "nominal",
+   "nebulous",
+   "unequivocal",
+   "contrived"
+  ],
+  "answer": "unequivocal",
+  "why": "A unanimous, flat holding leaves no doubt."
+ },
+ {
+  "id": "unequivocal-4",
+  "word": "unequivocal",
+  "type": "blank",
+  "passage": "Asked whether the bridge was safe, the engineer gave an ______ answer, saying that it should be closed that same day.",
+  "choices": [
+   "unequivocal",
+   "equivocal",
+   "inconsequential",
+   "extemporaneous"
+  ],
+  "answer": "unequivocal",
+  "why": "\"Closed that same day\" leaves no room for doubt. Equivocal is the opposite."
+ },
+ {
+  "id": "corroborate-3",
+  "word": "corroborate",
+  "type": "blank",
+  "passage": "Pollen preserved in the lake bed ______ the written accounts of a prolonged drought in the ninth century.",
+  "choices": [
+   "obfuscates",
+   "precipitates",
+   "corroborates",
+   "eschews"
+  ],
+  "answer": "corroborates",
+  "why": "Physical evidence independently supports the written accounts."
+ },
+ {
+  "id": "corroborate-4",
+  "word": "corroborate",
+  "type": "blank",
+  "passage": "Because no second witness could ______ the driver's story, the insurer treated the claim with suspicion.",
+  "choices": [
+   "corroborate",
+   "catalyze",
+   "renounce",
+   "temper"
+  ],
+  "answer": "corroborate",
+  "why": "A second witness would have backed the story up."
+ },
+ {
+  "id": "nominal-3",
+  "word": "nominal",
+  "type": "blank",
+  "passage": "The two firms are ______ competitors, but because they share an owner and never undercut each other's prices, the rivalry exists only on paper.",
+  "choices": [
+   "palpable",
+   "nominal",
+   "irrefutable",
+   "scrupulous"
+  ],
+  "answer": "nominal",
+  "why": "\"Only on paper\" means in name only."
+ },
+ {
+  "id": "nominal-4",
+  "word": "nominal",
+  "type": "meaning",
+  "passage": "In [[nominal]] terms the grant has doubled since 1990, but after inflation it buys less than it did then.",
+  "choices": [
+   "official",
+   "not adjusted for inflation",
+   "very small",
+   "so-called"
+  ],
+  "answer": "not adjusted for inflation",
+  "why": "Economics sense, signaled by the contrast with \"after inflation.\""
+ },
+ {
+  "id": "imbue-3",
+  "word": "imbue",
+  "type": "blank",
+  "passage": "Years of fieldwork ______ the biologist with a patience that her laboratory colleagues found remarkable.",
+  "choices": [
+   "eschewed",
+   "imbued",
+   "discounted",
+   "supplanted"
+  ],
+  "answer": "imbued",
+  "why": "The pattern is imbue X with Y: fieldwork filled her with patience."
+ },
+ {
+  "id": "imbue-4",
+  "word": "imbue",
+  "type": "blank",
+  "passage": "The composer ______ even his cheerful dances with a trace of melancholy by ending each phrase on a falling note.",
+  "choices": [
+   "imbues",
+   "enumerates",
+   "vindicates",
+   "precludes"
+  ],
+  "answer": "imbues",
+  "why": "He saturates the dances with a quality."
+ },
+ {
+  "id": "dearth-3",
+  "word": "dearth",
+  "type": "blank",
+  "passage": "The ______ of affordable housing near the hospital means that many nurses commute more than an hour each way.",
+  "choices": [
+   "dearth",
+   "affinity",
+   "veneration",
+   "synthesis"
+  ],
+  "answer": "dearth",
+  "why": "Long commutes follow from a shortage of nearby housing."
+ },
+ {
+  "id": "dearth-4",
+  "word": "dearth",
+  "type": "blank",
+  "passage": "Critics have complained of a ______ of original screenplays, noting that nine of last year's ten top films were sequels or remakes.",
+  "choices": [
+   "pretext",
+   "harbinger",
+   "myriad",
+   "dearth"
+  ],
+  "answer": "dearth",
+  "why": "Almost no originals is a shortage. Myriad is the opposite."
+ },
+ {
+  "id": "detrimental-3",
+  "word": "detrimental",
+  "type": "blank",
+  "passage": "Small doses of the mineral are essential, but larger ones are ______, damaging the liver within weeks.",
+  "choices": [
+   "equivocal",
+   "detrimental",
+   "nominal",
+   "extraneous"
+  ],
+  "answer": "detrimental",
+  "why": "\"Damaging the liver\" is harm."
+ },
+ {
+  "id": "detrimental-4",
+  "word": "detrimental",
+  "type": "blank",
+  "passage": "The coach worried that the extra training sessions were proving ______ to the team: injuries had doubled since they began.",
+  "choices": [
+   "analogous",
+   "detrimental",
+   "tantamount",
+   "subordinate"
+  ],
+  "answer": "detrimental",
+  "why": "Doubled injuries show the sessions were doing harm."
+ },
+ {
+  "id": "precipitate-3",
+  "word": "precipitate",
+  "type": "blank",
+  "passage": "Historians still debate whether the tax ______ the revolt or merely gave a name to anger that would have boiled over anyway.",
+  "choices": [
+   "delineated",
+   "eclipsed",
+   "assuaged",
+   "precipitated"
+  ],
+  "answer": "precipitated",
+  "why": "The question is whether the tax triggered the revolt."
+ },
+ {
+  "id": "precipitate-4",
+  "word": "precipitate",
+  "type": "meaning",
+  "passage": "Adding the salt solution causes silver chloride to [[precipitate]] as a white solid at the bottom of the flask.",
+  "choices": [
+   "dissolve",
+   "happen suddenly",
+   "act rashly",
+   "come out of solution"
+  ],
+  "answer": "come out of solution",
+  "why": "Chemistry sense: a solid forming out of a liquid."
+ },
+ {
+  "id": "stipulate-3",
+  "word": "stipulate",
+  "type": "blank",
+  "passage": "The contest rules ______ that entries be no longer than 500 words; anything longer is discarded unread.",
+  "choices": [
+   "stipulate",
+   "extrapolate",
+   "evince",
+   "lament"
+  ],
+  "answer": "stipulate",
+  "why": "Rules set a required condition."
+ },
+ {
+  "id": "stipulate-4",
+  "word": "stipulate",
+  "type": "blank",
+  "passage": "The donor ______ that her gift be used only for scholarships, so the college could not spend it on the new stadium.",
+  "choices": [
+   "stipulated",
+   "discerned",
+   "recapitulated",
+   "accentuated"
+  ],
+  "answer": "stipulated",
+  "why": "She attached a binding condition to the gift."
+ },
+ {
+  "id": "paradigmatic-3",
+  "word": "paradigmatic",
+  "type": "blank",
+  "passage": "The fruit fly is the ______ model organism: generations of geneticists have learned their craft on it, and its name is nearly a synonym for laboratory genetics.",
+  "choices": [
+   "idiosyncratic",
+   "extraneous",
+   "paradigmatic",
+   "incipient"
+  ],
+  "answer": "paradigmatic",
+  "why": "The standard example that defines the category."
+ },
+ {
+  "id": "paradigmatic-4",
+  "word": "paradigmatic",
+  "type": "blank",
+  "passage": "The 1919 eclipse expedition is often cited as a ______ case of a theory making a risky prediction that observation then confirmed.",
+  "choices": [
+   "perfunctory",
+   "spurious",
+   "paradigmatic",
+   "nebulous"
+  ],
+  "answer": "paradigmatic",
+  "why": "\"Often cited as a case of\" marks it as the model example."
+ },
+ {
+  "id": "vindicate-3",
+  "word": "vindicate",
+  "type": "blank",
+  "passage": "The architect's costly insistence on deeper foundations was ______ decades later, when hers was the only tower on the block to survive the earthquake.",
+  "choices": [
+   "repudiated",
+   "supplanted",
+   "vindicated",
+   "obfuscated"
+  ],
+  "answer": "vindicated",
+  "why": "The earthquake proved her decision right."
+ },
+ {
+  "id": "vindicate-4",
+  "word": "vindicate",
+  "type": "blank",
+  "passage": "The whistleblower was dismissed in 2008 and felt ______ only in 2015, when an inquiry confirmed every one of her allegations.",
+  "choices": [
+   "eclipsed",
+   "admonished",
+   "subordinated",
+   "vindicated"
+  ],
+  "answer": "vindicated",
+  "why": "An inquiry confirming her claims showed she had been right."
+ },
+ {
+  "id": "exploit-3",
+  "word": "exploit",
+  "type": "blank",
+  "passage": "Bats ______ the echoes of their own calls to locate insects in total darkness.",
+  "choices": [
+   "exploit",
+   "lament",
+   "misconstrue",
+   "renounce"
+  ],
+  "answer": "exploit",
+  "why": "They make use of a resource. Neutral sense."
+ },
+ {
+  "id": "exploit-4",
+  "word": "exploit",
+  "type": "meaning",
+  "passage": "Critics charged that the mine's owners [[exploited]] migrant laborers, paying them a third of the legal wage.",
+  "choices": [
+   "made efficient use of",
+   "took unfair advantage of",
+   "trained",
+   "performed heroically for"
+  ],
+  "answer": "took unfair advantage of",
+  "why": "The negative sense: using people unfairly for gain, shown by the illegal wage."
+ },
+ {
+  "id": "eclipse-3",
+  "word": "eclipse",
+  "type": "blank",
+  "passage": "The inventor's later fame as a statesman has so ______ his scientific work that few people today know he held a dozen patents.",
+  "choices": [
+   "eclipsed",
+   "elicited",
+   "augmented",
+   "corroborated"
+  ],
+  "answer": "eclipsed",
+  "why": "One reputation has overshadowed the other."
+ },
+ {
+  "id": "eclipse-4",
+  "word": "eclipse",
+  "type": "blank",
+  "passage": "In sheer numbers, mobile phone subscriptions ______ fixed lines years ago and now outnumber them roughly eight to one.",
+  "choices": [
+   "assuaged",
+   "mitigated",
+   "eclipsed",
+   "denoted"
+  ],
+  "answer": "eclipsed",
+  "why": "Mobile overtook and far surpassed fixed lines."
+ },
+ {
+  "id": "amorphous-3",
+  "word": "amorphous",
+  "type": "blank",
+  "passage": "The protest movement remained deliberately ______, with no leaders, no membership list, and no fixed set of demands.",
+  "choices": [
+   "orthodox",
+   "unequivocal",
+   "scrupulous",
+   "amorphous"
+  ],
+  "answer": "amorphous",
+  "why": "No leaders, list or demands: no defined structure."
+ },
+ {
+  "id": "amorphous-4",
+  "word": "amorphous",
+  "type": "blank",
+  "passage": "What the sculptor began as an ______ lump of clay had, by evening, taken the unmistakable shape of a heron.",
+  "choices": [
+   "incongruous",
+   "amorphous",
+   "exhaustive",
+   "idiosyncratic"
+  ],
+  "answer": "amorphous",
+  "why": "A lump before it takes shape is shapeless."
+ },
+ {
+  "id": "irrefutable-3",
+  "word": "irrefutable",
+  "type": "blank",
+  "passage": "The photograph, time-stamped and showing the defendant two hundred miles from the scene, gave him an ______ alibi.",
+  "choices": [
+   "equivocal",
+   "incipient",
+   "extemporaneous",
+   "irrefutable"
+  ],
+  "answer": "irrefutable",
+  "why": "Proof of being elsewhere cannot be disproved."
+ },
+ {
+  "id": "irrefutable-4",
+  "word": "irrefutable",
+  "type": "blank",
+  "passage": "The lawyer conceded that the logic of the argument was ______; her quarrel was with its starting assumptions.",
+  "choices": [
+   "convoluted",
+   "irrefutable",
+   "spurious",
+   "nebulous"
+  ],
+  "answer": "irrefutable",
+  "why": "She cannot fault the logic, so she attacks the premises."
+ },
+ {
+  "id": "multifarious-3",
+  "word": "multifarious",
+  "type": "blank",
+  "passage": "A general practitioner must be ready for the ______ complaints that walk through the door, from sprained ankles to early signs of heart disease.",
+  "choices": [
+   "counterfactual",
+   "nominal",
+   "multifarious",
+   "spurious"
+  ],
+  "answer": "multifarious",
+  "why": "The range given shows complaints of many different kinds."
+ },
+ {
+  "id": "multifarious-4",
+  "word": "multifarious",
+  "type": "blank",
+  "passage": "The estate's ______ holdings, which included vineyards, a shipping line, two newspapers, and a quarry, took the lawyers three years to untangle.",
+  "choices": [
+   "multifarious",
+   "pragmatic",
+   "tantamount",
+   "diminutive"
+  ],
+  "answer": "multifarious",
+  "why": "Four unrelated kinds of property."
+ },
+ {
+  "id": "proponent-3",
+  "word": "proponent",
+  "type": "blank",
+  "passage": "An early ______ of handwashing in hospitals, Semmelweis was mocked by colleagues who saw no link between dirty hands and disease.",
+  "choices": [
+   "surrogate",
+   "detractor",
+   "harbinger",
+   "proponent"
+  ],
+  "answer": "proponent",
+  "why": "He argued for the practice while others mocked it."
+ },
+ {
+  "id": "proponent-4",
+  "word": "proponent",
+  "type": "blank",
+  "passage": "Even the plan's strongest ______ admit that it will be expensive, though they insist the benefits justify the cost.",
+  "choices": [
+   "detractors",
+   "proponents",
+   "beneficiaries",
+   "subordinates"
+  ],
+  "answer": "proponents",
+  "why": "People who defend the plan while admitting its cost are its supporters."
+ },
+ {
+  "id": "pragmatic-3",
+  "word": "pragmatic",
+  "type": "blank",
+  "passage": "The decision to reuse the old bridge piers was ______, not sentimental: new ones would have added two years to the project.",
+  "choices": [
+   "enigmatic",
+   "pragmatic",
+   "dogmatic",
+   "contrived"
+  ],
+  "answer": "pragmatic",
+  "why": "A practical reason, contrasted with a sentimental one."
+ },
+ {
+  "id": "pragmatic-4",
+  "word": "pragmatic",
+  "type": "blank",
+  "passage": "Her advice to new teachers is ______ rather than philosophical: learn every name in the first week and never turn your back to the room.",
+  "choices": [
+   "nebulous",
+   "pragmatic",
+   "perfunctory",
+   "orthodox"
+  ],
+  "answer": "pragmatic",
+  "why": "Concrete, workable tips, as opposed to theory."
+ },
+ {
+  "id": "attenuate-3",
+  "word": "attenuate",
+  "type": "blank",
+  "passage": "Earplugs do not block sound completely; they ______ it by about thirty decibels.",
+  "choices": [
+   "precipitate",
+   "efface",
+   "accentuate",
+   "attenuate"
+  ],
+  "answer": "attenuate",
+  "why": "\"Do not block completely\" but reduce: weaken. Efface would mean erase."
+ },
+ {
+  "id": "attenuate-4",
+  "word": "attenuate",
+  "type": "blank",
+  "passage": "Each layer of rock ______ the seismic signal further, until at the surface it can be detected only by the most sensitive instruments.",
+  "choices": [
+   "delineates",
+   "corroborates",
+   "augments",
+   "attenuates"
+  ],
+  "answer": "attenuates",
+  "why": "The signal grows weaker with each layer."
+ },
+ {
+  "id": "pervasive-3",
+  "word": "pervasive",
+  "type": "blank",
+  "passage": "Corruption in the customs office was not confined to a few officials; it was ______, reaching from the clerks at the gate to the director himself.",
+  "choices": [
+   "pervasive",
+   "nominal",
+   "diminutive",
+   "incipient"
+  ],
+  "answer": "pervasive",
+  "why": "\"Not confined to a few\" and present at every level."
+ },
+ {
+  "id": "pervasive-4",
+  "word": "pervasive",
+  "type": "blank",
+  "passage": "The novel's sense of dread is ______, coloring even its scenes of celebration.",
+  "choices": [
+   "spurious",
+   "counterfactual",
+   "pervasive",
+   "extraneous"
+  ],
+  "answer": "pervasive",
+  "why": "Present throughout, even where you would not expect it."
+ },
+ {
+  "id": "induce-3",
+  "word": "induce",
+  "type": "blank",
+  "passage": "Low doses of the compound ______ drowsiness in most patients within half an hour.",
+  "choices": [
+   "abate",
+   "discern",
+   "deduce",
+   "induce"
+  ],
+  "answer": "induce",
+  "why": "The compound causes drowsiness."
+ },
+ {
+  "id": "induce-4",
+  "word": "induce",
+  "type": "meaning",
+  "passage": "The railway offered free land to [[induce]] farmers to settle along its new line.",
+  "choices": [
+   "cause to exist",
+   "compel",
+   "persuade",
+   "infer"
+  ],
+  "answer": "persuade",
+  "why": "An offer persuades; it does not force."
+ },
+ {
+  "id": "perfunctory-3",
+  "word": "perfunctory",
+  "type": "blank",
+  "passage": "After a ______ glance at the visitor's badge, the guard waved her through without noticing that it had expired.",
+  "choices": [
+   "perfunctory",
+   "exhaustive",
+   "palpable",
+   "scrupulous"
+  ],
+  "answer": "perfunctory",
+  "why": "A glance that misses an expired badge was careless and minimal."
+ },
+ {
+  "id": "perfunctory-4",
+  "word": "perfunctory",
+  "type": "blank",
+  "passage": "The applause was ______, a few seconds of polite clapping before the audience reached for its coats.",
+  "choices": [
+   "idiosyncratic",
+   "perfunctory",
+   "unequivocal",
+   "copious"
+  ],
+  "answer": "perfunctory",
+  "why": "Brief, polite clapping done out of duty."
+ },
+ {
+  "id": "copious-3",
+  "word": "copious",
+  "type": "blank",
+  "passage": "The patient was advised to drink ______ amounts of water in the days after the procedure.",
+  "choices": [
+   "nominal",
+   "copious",
+   "incipient",
+   "spurious"
+  ],
+  "answer": "copious",
+  "why": "A large quantity. Nominal would mean a token amount."
+ },
+ {
+  "id": "copious-4",
+  "word": "copious",
+  "type": "blank",
+  "passage": "The translator's ______ annotations, which run to twice the length of the poem itself, explain every allusion.",
+  "choices": [
+   "amorphous",
+   "equivocal",
+   "perfunctory",
+   "copious"
+  ],
+  "answer": "copious",
+  "why": "Notes twice as long as the text are abundant."
+ },
+ {
+  "id": "extraneous-3",
+  "word": "extraneous",
+  "type": "blank",
+  "passage": "A good experimental design controls for ______ variables, factors that are not the subject of the study but could still affect its outcome.",
+  "choices": [
+   "extraneous",
+   "unequivocal",
+   "paradigmatic",
+   "pragmatic"
+  ],
+  "answer": "extraneous",
+  "why": "Variables \"not the subject of the study\" come from outside it."
+ },
+ {
+  "id": "extraneous-4",
+  "word": "extraneous",
+  "type": "blank",
+  "passage": "The witness kept adding ______ details about the weather and her lunch until the judge asked her to confine herself to what she had seen.",
+  "choices": [
+   "scrupulous",
+   "conspicuous",
+   "extraneous",
+   "irrefutable"
+  ],
+  "answer": "extraneous",
+  "why": "Details beside the point are irrelevant."
+ },
+ {
+  "id": "augment-3",
+  "word": "augment",
+  "type": "blank",
+  "passage": "The orchestra ______ its string section with six extra cellos for the performance of the symphony.",
+  "choices": [
+   "augmented",
+   "attenuated",
+   "supplanted",
+   "appraised"
+  ],
+  "answer": "augmented",
+  "why": "Extra players were added to what was there."
+ },
+ {
+  "id": "augment-4",
+  "word": "augment",
+  "type": "blank",
+  "passage": "Volunteers ______ the park's small professional staff during the summer, when visitor numbers triple.",
+  "choices": [
+   "eschew",
+   "augment",
+   "supersede",
+   "lament"
+  ],
+  "answer": "augment",
+  "why": "They add to the staff; they do not replace it."
+ },
+ {
+  "id": "buttress-3",
+  "word": "buttress",
+  "type": "blank",
+  "passage": "To ______ their case for a new clinic, the residents gathered statistics on how far their neighbors traveled for routine care.",
+  "choices": [
+   "undermine",
+   "renounce",
+   "buttress",
+   "obfuscate"
+  ],
+  "answer": "buttress",
+  "why": "Statistics gathered for a case are meant to strengthen it."
+ },
+ {
+  "id": "buttress-4",
+  "word": "buttress",
+  "type": "meaning",
+  "passage": "The medieval builders added a stone [[buttress]] to the north wall after cracks appeared.",
+  "choices": [
+   "decorative carving",
+   "foundation",
+   "window",
+   "supporting structure"
+  ],
+  "answer": "supporting structure",
+  "why": "Noun sense: a support built against a wall."
+ },
+ {
+  "id": "obfuscate-3",
+  "word": "obfuscate",
+  "type": "blank",
+  "passage": "The spokesman's long answer seemed designed to ______: after five minutes, no one in the room knew whether the factory would close.",
+  "choices": [
+   "enumerate",
+   "obfuscate",
+   "ameliorate",
+   "substantiate"
+  ],
+  "answer": "obfuscate",
+  "why": "An answer that leaves everyone unsure was meant to cloud the issue."
+ },
+ {
+  "id": "obfuscate-4",
+  "word": "obfuscate",
+  "type": "blank",
+  "passage": "Technical vocabulary should make an idea more exact; too often it is used to ______ the fact that the writer has nothing exact to say.",
+  "choices": [
+   "vindicate",
+   "obfuscate",
+   "accentuate",
+   "foreground"
+  ],
+  "answer": "obfuscate",
+  "why": "Jargon used to hide emptiness makes things unclear."
+ },
+ {
+  "id": "tantamount-3",
+  "word": "tantamount",
+  "type": "blank",
+  "passage": "In a town with a single employer, the mill's closing was ______ to the end of the town itself.",
+  "choices": [
+   "tantamount",
+   "subordinate",
+   "analogous",
+   "detrimental"
+  ],
+  "answer": "tantamount",
+  "why": "The closing amounted to the town's end. Analogous would only compare the two."
+ },
+ {
+  "id": "tantamount-4",
+  "word": "tantamount",
+  "type": "blank",
+  "passage": "The editor argued that printing the rumor without checking it would be ______ to endorsing it.",
+  "choices": [
+   "tantamount",
+   "pervasive",
+   "extraneous",
+   "immaterial"
+  ],
+  "answer": "tantamount",
+  "why": "Printing it unchecked would be as good as endorsing it."
+ },
+ {
+  "id": "convoluted-3",
+  "word": "convoluted",
+  "type": "blank",
+  "passage": "The treaty's ______ wording, with clauses nested three deep, has kept lawyers arguing over its meaning for decades.",
+  "choices": [
+   "convoluted",
+   "diminutive",
+   "unequivocal",
+   "perfunctory"
+  ],
+  "answer": "convoluted",
+  "why": "Nested clauses nobody can agree on are tangled and hard to follow."
+ },
+ {
+  "id": "convoluted-4",
+  "word": "convoluted",
+  "type": "blank",
+  "passage": "She explained the ______ route to the cabin twice, and we still took a wrong turn at the second fork.",
+  "choices": [
+   "convoluted",
+   "incipient",
+   "pragmatic",
+   "nominal"
+  ],
+  "answer": "convoluted",
+  "why": "A route with many twists that is hard to follow."
+ },
+ {
+  "id": "reconcile-3",
+  "word": "reconcile",
+  "type": "blank",
+  "passage": "The historian struggled to ______ the general's reputation for caution with his reckless charge at the river.",
+  "choices": [
+   "accentuate",
+   "precipitate",
+   "enumerate",
+   "reconcile"
+  ],
+  "answer": "reconcile",
+  "why": "Two conflicting facts need to be made consistent."
+ },
+ {
+  "id": "reconcile-4",
+  "word": "reconcile",
+  "type": "meaning",
+  "passage": "After a decade of silence, the two founders [[reconciled]] at their old partner's funeral.",
+  "choices": [
+   "restored friendly relations",
+   "settled their accounts",
+   "accepted the loss",
+   "compared notes"
+  ],
+  "answer": "restored friendly relations",
+  "why": "The personal sense: ending a quarrel."
+ },
+ {
+  "id": "mitigate-3",
+  "word": "mitigate",
+  "type": "blank",
+  "passage": "Wide firebreaks cannot stop a wildfire, but they can ______ its spread enough to give crews time to respond.",
+  "choices": [
+   "belie",
+   "enumerate",
+   "mitigate",
+   "catalyze"
+  ],
+  "answer": "mitigate",
+  "why": "\"Cannot stop, but\" lessen."
+ },
+ {
+  "id": "mitigate-4",
+  "word": "mitigate",
+  "type": "blank",
+  "passage": "The judge cited the defendant's age and clean record as factors that ______ the seriousness of the offense.",
+  "choices": [
+   "mitigated",
+   "substantiated",
+   "precluded",
+   "accentuated"
+  ],
+  "answer": "mitigated",
+  "why": "Such factors lessen how severe the offense is judged to be."
+ },
+ {
+  "id": "conspicuous-3",
+  "word": "conspicuous",
+  "type": "blank",
+  "passage": "Camouflage works by making an animal less ______ against its background.",
+  "choices": [
+   "detrimental",
+   "conspicuous",
+   "pervasive",
+   "copious"
+  ],
+  "answer": "conspicuous",
+  "why": "Camouflage makes an animal harder to notice."
+ },
+ {
+  "id": "conspicuous-4",
+  "word": "conspicuous",
+  "type": "blank",
+  "passage": "The senator was ______ by her absence at the signing ceremony, which every other sponsor of the bill attended.",
+  "choices": [
+   "subordinate",
+   "conspicuous",
+   "eclipsed",
+   "vindicated"
+  ],
+  "answer": "conspicuous",
+  "why": "\"Conspicuous by her absence\": her not being there was what everyone noticed."
+ },
+ {
+  "id": "orthodox-3",
+  "word": "orthodox",
+  "type": "blank",
+  "passage": "The surgeon's technique, though now ______, was denounced as reckless when she introduced it forty years ago.",
+  "choices": [
+   "anomalous",
+   "spurious",
+   "orthodox",
+   "untenable"
+  ],
+  "answer": "orthodox",
+  "why": "\"Though now\" accepted practice, it was once attacked."
+ },
+ {
+  "id": "orthodox-4",
+  "word": "orthodox",
+  "type": "blank",
+  "passage": "Rejecting the ______ account, in which the city fell to a siege, the archaeologist argues that it was abandoned after a drought.",
+  "choices": [
+   "counterfactual",
+   "orthodox",
+   "nebulous",
+   "idiosyncratic"
+  ],
+  "answer": "orthodox",
+  "why": "The established account is the one being rejected."
+ },
+ {
+  "id": "exhaustive-3",
+  "word": "exhaustive",
+  "type": "blank",
+  "passage": "The checklist is long but not ______: pilots are expected to notice problems that it does not mention.",
+  "choices": [
+   "perfunctory",
+   "exhaustive",
+   "pragmatic",
+   "superfluous"
+  ],
+  "answer": "exhaustive",
+  "why": "It does not cover everything."
+ },
+ {
+  "id": "exhaustive-4",
+  "word": "exhaustive",
+  "type": "blank",
+  "passage": "Before recommending the drug, the panel conducted an ______ review of all 312 published trials.",
+  "choices": [
+   "exhaustive",
+   "extemporaneous",
+   "incongruous",
+   "equivocal"
+  ],
+  "answer": "exhaustive",
+  "why": "Reviewing every published trial is a complete review."
+ },
+ {
+  "id": "catalyze-3",
+  "word": "catalyze",
+  "type": "blank",
+  "passage": "The discovery of gold in 1848 ______ a migration that carried some 300,000 people to California within a few years.",
+  "choices": [
+   "catalyzed",
+   "precluded",
+   "attenuated",
+   "recapitulated"
+  ],
+  "answer": "catalyzed",
+  "why": "The discovery set the migration in motion."
+ },
+ {
+  "id": "catalyze-4",
+  "word": "catalyze",
+  "type": "blank",
+  "passage": "A single well-placed grant can ______ research that would otherwise take a decade to begin.",
+  "choices": [
+   "catalyze",
+   "efface",
+   "renounce",
+   "temper"
+  ],
+  "answer": "catalyze",
+  "why": "The grant makes the research start sooner."
+ },
+ {
+  "id": "counterfactual-3",
+  "word": "counterfactual",
+  "type": "blank",
+  "passage": "The film's premise is ______: it imagines a world in which the printing press was never invented.",
+  "choices": [
+   "pragmatic",
+   "orthodox",
+   "counterfactual",
+   "exhaustive"
+  ],
+  "answer": "counterfactual",
+  "why": "Imagining what did not happen is contrary to fact."
+ },
+ {
+  "id": "counterfactual-4",
+  "word": "counterfactual",
+  "type": "blank",
+  "passage": "Judging a vaccine's value requires a ______ estimate of how many people would have fallen ill without it.",
+  "choices": [
+   "conspicuous",
+   "perfunctory",
+   "nominal",
+   "counterfactual"
+  ],
+  "answer": "counterfactual",
+  "why": "\"Would have ... without it\" is a what-if estimate."
+ },
+ {
+  "id": "foreground-3",
+  "word": "foreground",
+  "type": "blank",
+  "passage": "The new edition ______ the author's letters, moving them from an appendix to the opening pages.",
+  "choices": [
+   "effaces",
+   "discounts",
+   "abates",
+   "foregrounds"
+  ],
+  "answer": "foregrounds",
+  "why": "Moving them to the front gives them prominence."
+ },
+ {
+  "id": "foreground-4",
+  "word": "foreground",
+  "type": "blank",
+  "passage": "Rather than ______ the scandal, the biography mentions it in a single paragraph near the end.",
+  "choices": [
+   "precluding",
+   "substantiating",
+   "foregrounding",
+   "obfuscating"
+  ],
+  "answer": "foregrounding",
+  "why": "\"Rather than\" contrasts with burying it in one late paragraph."
+ },
+ {
+  "id": "quintessential-3",
+  "word": "quintessential",
+  "type": "blank",
+  "passage": "Rainy, green, and built around a harbor, it is the ______ port city of the northern coast.",
+  "choices": [
+   "anomalous",
+   "contrived",
+   "incipient",
+   "quintessential"
+  ],
+  "answer": "quintessential",
+  "why": "It has all the typical features of its kind."
+ },
+ {
+  "id": "quintessential-4",
+  "word": "quintessential",
+  "type": "blank",
+  "passage": "For many listeners the saxophone is the ______ jazz instrument, though the music existed for decades before it became common.",
+  "choices": [
+   "superfluous",
+   "diminutive",
+   "quintessential",
+   "spurious"
+  ],
+  "answer": "quintessential",
+  "why": "The instrument most typical of the genre."
+ },
+ {
+  "id": "untenable-3",
+  "word": "untenable",
+  "type": "blank",
+  "passage": "With three of its five members resigning in protest, the committee chair's position became ______, and she stepped down the next morning.",
+  "choices": [
+   "orthodox",
+   "scrupulous",
+   "untenable",
+   "palpable"
+  ],
+  "answer": "untenable",
+  "why": "A position she could no longer hold."
+ },
+ {
+  "id": "untenable-4",
+  "word": "untenable",
+  "type": "blank",
+  "passage": "The theory that the disease spread through bad air grew ______ once microscopes revealed the bacteria responsible.",
+  "choices": [
+   "pervasive",
+   "untenable",
+   "irrefutable",
+   "extemporaneous"
+  ],
+  "answer": "untenable",
+  "why": "New evidence made the theory impossible to defend."
+ },
+ {
+  "id": "diminutive-3",
+  "word": "diminutive",
+  "type": "blank",
+  "passage": "The gallery's most valuable painting is also its most ______, a portrait barely larger than a postcard.",
+  "choices": [
+   "multifarious",
+   "conspicuous",
+   "palpable",
+   "diminutive"
+  ],
+  "answer": "diminutive",
+  "why": "\"Barely larger than a postcard\" is very small."
+ },
+ {
+  "id": "diminutive-4",
+  "word": "diminutive",
+  "type": "meaning",
+  "passage": "\"Lizzie\" began as a [[diminutive]] of Elizabeth and only later came to be given as a name in its own right.",
+  "choices": [
+   "nickname for a child",
+   "shortened form",
+   "misspelling",
+   "small version"
+  ],
+  "answer": "shortened form",
+  "why": "Noun sense: a shortened or affectionate form of a name."
+ },
+ {
+  "id": "temper-3",
+  "word": "temper",
+  "type": "blank",
+  "passage": "Experience had ______ the young surgeon's confidence with caution.",
+  "choices": [
+   "evinced",
+   "tempered",
+   "catalyzed",
+   "augmented"
+  ],
+  "answer": "tempered",
+  "why": "Pattern temper X with Y: confidence moderated by caution."
+ },
+ {
+  "id": "temper-4",
+  "word": "temper",
+  "type": "meaning",
+  "passage": "The architect [[tempered]] the building's severe concrete exterior with a courtyard full of trees.",
+  "choices": [
+   "concealed",
+   "completed",
+   "softened",
+   "strengthened"
+  ],
+  "answer": "softened",
+  "why": "The trees balance and soften the severity."
+ },
+ {
+  "id": "harbinger-3",
+  "word": "harbinger",
+  "type": "blank",
+  "passage": "A sudden drop in orders for machine tools has often been a ______ of recession, appearing months before unemployment rises.",
+  "choices": [
+   "surrogate",
+   "harbinger",
+   "pretext",
+   "proponent"
+  ],
+  "answer": "harbinger",
+  "why": "It appears first and signals what follows."
+ },
+ {
+  "id": "harbinger-4",
+  "word": "harbinger",
+  "type": "blank",
+  "passage": "Farmers took the early return of the swallows as a ______ of a mild spring.",
+  "choices": [
+   "buttress",
+   "harbinger",
+   "proxy",
+   "dearth"
+  ],
+  "answer": "harbinger",
+  "why": "An early sign of what is coming."
+ },
+ {
+  "id": "abate-3",
+  "word": "abate",
+  "type": "blank",
+  "passage": "The fever began to ______ on the fourth day, and by the sixth the patient was sitting up.",
+  "choices": [
+   "abate",
+   "manifest",
+   "catalyze",
+   "augment"
+  ],
+  "answer": "abate",
+  "why": "Recovery follows the fever dying down."
+ },
+ {
+  "id": "abate-4",
+  "word": "abate",
+  "type": "blank",
+  "passage": "Calls for the minister's resignation have not ______; a third newspaper joined them this morning.",
+  "choices": [
+   "manifested",
+   "reconciled",
+   "abated",
+   "mounted"
+  ],
+  "answer": "abated",
+  "why": "More papers joining means the calls have not died down."
+ },
+ {
+  "id": "appraise-3",
+  "word": "appraise",
+  "type": "blank",
+  "passage": "A structural engineer was brought in to ______ the damage before any repairs were attempted.",
+  "choices": [
+   "eschew",
+   "apprise",
+   "appraise",
+   "assuage"
+  ],
+  "answer": "appraise",
+  "why": "Assessing the damage comes before repairs. Apprise means inform."
+ },
+ {
+  "id": "appraise-4",
+  "word": "appraise",
+  "type": "blank",
+  "passage": "The editor ______ each submission quickly, sorting the pile into three stacks within an hour.",
+  "choices": [
+   "induced",
+   "denoted",
+   "appraised",
+   "lamented"
+  ],
+  "answer": "appraised",
+  "why": "Sorting by quality requires judging each one."
+ },
+ {
+  "id": "insuperable-3",
+  "word": "insuperable",
+  "type": "blank",
+  "passage": "Early aviators regarded the Atlantic as an ______ obstacle until engines became reliable enough to run for thirty hours without stopping.",
+  "choices": [
+   "extraneous",
+   "orthodox",
+   "insuperable",
+   "equivocal"
+  ],
+  "answer": "insuperable",
+  "why": "\"Until\" engines improved, it seemed impossible to overcome."
+ },
+ {
+  "id": "insuperable-4",
+  "word": "insuperable",
+  "type": "blank",
+  "passage": "The cost of tuition, once an ______ barrier for students from the village, fell away when the scholarship fund was established.",
+  "choices": [
+   "inconsequential",
+   "idiosyncratic",
+   "incipient",
+   "insuperable"
+  ],
+  "answer": "insuperable",
+  "why": "A barrier nobody could get past until help arrived."
+ },
+ {
+  "id": "attrition-3",
+  "word": "attrition",
+  "type": "blank",
+  "passage": "Of the 400 volunteers who began the ten-year study, only 180 remained at the end, a rate of ______ that the researchers had not anticipated.",
+  "choices": [
+   "affinity",
+   "veneration",
+   "synthesis",
+   "attrition"
+  ],
+  "answer": "attrition",
+  "why": "Participants gradually dropping out is attrition."
+ },
+ {
+  "id": "attrition-4",
+  "word": "attrition",
+  "type": "blank",
+  "passage": "Neither army won a decisive battle; the war was settled by ______, as the side with fewer reserves gradually lost the ability to fight.",
+  "choices": [
+   "attrition",
+   "proxy",
+   "pretext",
+   "admonition"
+  ],
+  "answer": "attrition",
+  "why": "Gradual wearing down decided it."
+ },
+ {
+  "id": "elicit-3",
+  "word": "elicit",
+  "type": "blank",
+  "passage": "The teacher's question ______ no response at first, so she rephrased it.",
+  "choices": [
+   "abated",
+   "elicited",
+   "tempered",
+   "belied"
+  ],
+  "answer": "elicited",
+  "why": "A question draws out responses; this one drew none."
+ },
+ {
+  "id": "elicit-4",
+  "word": "elicit",
+  "type": "blank",
+  "passage": "Skilled interviewers ______ candid answers by asking about specific events instead of general opinions.",
+  "choices": [
+   "preclude",
+   "supersede",
+   "efface",
+   "elicit"
+  ],
+  "answer": "elicit",
+  "why": "They draw candid answers out."
+ },
+ {
+  "id": "scrupulous-3",
+  "word": "scrupulous",
+  "type": "blank",
+  "passage": "The lab is ______ about contamination: every surface is wiped between samples, and gloves are changed after each one.",
+  "choices": [
+   "pragmatic",
+   "scrupulous",
+   "perfunctory",
+   "nebulous"
+  ],
+  "answer": "scrupulous",
+  "why": "Extreme, consistent care."
+ },
+ {
+  "id": "scrupulous-4",
+  "word": "scrupulous",
+  "type": "blank",
+  "passage": "A ______ historian, she refused to quote the letter until she had examined the original herself.",
+  "choices": [
+   "diminutive",
+   "scrupulous",
+   "contrived",
+   "dogmatic"
+  ],
+  "answer": "scrupulous",
+  "why": "Insisting on the original shows painstaking care for accuracy."
+ },
+ {
+  "id": "byzantine-3",
+  "word": "byzantine",
+  "type": "blank",
+  "passage": "The company's ______ reimbursement rules require four signatures and two separate forms for a taxi fare.",
+  "choices": [
+   "amorphous",
+   "byzantine",
+   "pragmatic",
+   "nominal"
+  ],
+  "answer": "byzantine",
+  "why": "Absurdly complicated procedures."
+ },
+ {
+  "id": "byzantine-4",
+  "word": "byzantine",
+  "type": "blank",
+  "passage": "New residents often give up on the city's ______ permit system, which assigns different offices to fences, sheds, and driveways.",
+  "choices": [
+   "diminutive",
+   "perfunctory",
+   "unequivocal",
+   "byzantine"
+  ],
+  "answer": "byzantine",
+  "why": "A system of overlapping offices that is hard to navigate."
+ },
+ {
+  "id": "subordinate-3",
+  "word": "subordinate",
+  "type": "blank",
+  "passage": "A good editor ______ her own preferences to the author's voice.",
+  "choices": [
+   "subordinates",
+   "accentuates",
+   "extrapolates",
+   "reconciles"
+  ],
+  "answer": "subordinates",
+  "why": "She ranks her preferences below the author's."
+ },
+ {
+  "id": "subordinate-4",
+  "word": "subordinate",
+  "type": "meaning",
+  "passage": "The clause is [[subordinate]] to the main agreement and has no force if that agreement is canceled.",
+  "choices": [
+   "contradictory to",
+   "equal to",
+   "independent of",
+   "dependent on and ranked below"
+  ],
+  "answer": "dependent on and ranked below",
+  "why": "Adjective sense: lower in rank, shown by its depending on the main agreement."
+ },
+ {
+  "id": "accentuate-3",
+  "word": "accentuate",
+  "type": "blank",
+  "passage": "The architect used vertical lines to ______ the tower's height.",
+  "choices": [
+   "mitigate",
+   "accentuate",
+   "attenuate",
+   "obfuscate"
+  ],
+  "answer": "accentuate",
+  "why": "The lines make the height more noticeable."
+ },
+ {
+  "id": "accentuate-4",
+  "word": "accentuate",
+  "type": "blank",
+  "passage": "Far from hiding the repair, the restorer chose to ______ it, filling the crack in the bowl with a line of gold.",
+  "choices": [
+   "efface",
+   "abate",
+   "discount",
+   "accentuate"
+  ],
+  "answer": "accentuate",
+  "why": "\"Far from hiding\": she made it stand out."
+ },
+ {
+  "id": "analogous-3",
+  "word": "analogous",
+  "type": "blank",
+  "passage": "The role of the conductor is roughly ______ to that of a film director: neither performs, but both shape every performance.",
+  "choices": [
+   "immaterial",
+   "subordinate",
+   "analogous",
+   "detrimental"
+  ],
+  "answer": "analogous",
+  "why": "A comparison of two parallel roles."
+ },
+ {
+  "id": "analogous-4",
+  "word": "analogous",
+  "type": "blank",
+  "passage": "Finding no direct precedent, the judge reasoned from an ______ case involving telegraph messages.",
+  "choices": [
+   "analogous",
+   "exhaustive",
+   "anomalous",
+   "orthodox"
+  ],
+  "answer": "analogous",
+  "why": "A similar case that allows a comparison."
+ },
+ {
+  "id": "inconsequential-3",
+  "word": "inconsequential",
+  "type": "blank",
+  "passage": "The typo in the footnote was ______, but the error in the dosage table could have cost lives.",
+  "choices": [
+   "inconsequential",
+   "pervasive",
+   "conspicuous",
+   "detrimental"
+  ],
+  "answer": "inconsequential",
+  "why": "Contrasted with an error that mattered."
+ },
+ {
+  "id": "inconsequential-4",
+  "word": "inconsequential",
+  "type": "blank",
+  "passage": "Details that seem ______ to a witness, such as the color of a passing car, sometimes turn out to be what solves the case.",
+  "choices": [
+   "paradigmatic",
+   "spurious",
+   "untenable",
+   "inconsequential"
+  ],
+  "answer": "inconsequential",
+  "why": "They seem unimportant, then prove important."
+ },
+ {
+  "id": "manifest-3",
+  "word": "manifest",
+  "type": "blank",
+  "passage": "The stress of the long campaign began to ______ itself in the candidate's voice, which grew hoarser each day.",
+  "choices": [
+   "abate",
+   "efface",
+   "manifest",
+   "temper"
+  ],
+  "answer": "manifest",
+  "why": "The stress showed itself."
+ },
+ {
+  "id": "manifest-4",
+  "word": "manifest",
+  "type": "meaning",
+  "passage": "The ship's [[manifest]] listed forty crates of tea that customs officers could not find in the hold.",
+  "choices": [
+   "captain",
+   "declaration of aims",
+   "cargo list",
+   "logbook of events"
+  ],
+  "answer": "cargo list",
+  "why": "Noun sense: the official list of a ship's cargo."
+ },
+ {
+  "id": "myriad-3",
+  "word": "myriad",
+  "type": "blank",
+  "passage": "The night sky away from the city reveals ______ stars invisible from downtown.",
+  "choices": [
+   "nominal",
+   "myriad",
+   "scrupulous",
+   "contrived"
+  ],
+  "answer": "myriad",
+  "why": "Countless stars."
+ },
+ {
+  "id": "myriad-4",
+  "word": "myriad",
+  "type": "meaning",
+  "passage": "The software update fixed a [[myriad]] of small bugs.",
+  "choices": [
+   "great number",
+   "handful",
+   "category",
+   "sequence"
+  ],
+  "answer": "great number",
+  "why": "Noun sense: a very large number."
+ },
+ {
+  "id": "assuage-3",
+  "word": "assuage",
+  "type": "blank",
+  "passage": "The landlord's promise to repair the roof by Friday did little to ______ the tenants' frustration after three months of leaks.",
+  "choices": [
+   "accentuate",
+   "elicit",
+   "assuage",
+   "denote"
+  ],
+  "answer": "assuage",
+  "why": "A promise meant to ease a feeling; it barely did."
+ },
+ {
+  "id": "assuage-4",
+  "word": "assuage",
+  "type": "blank",
+  "passage": "A glass of water ______ her thirst but not her hunger.",
+  "choices": [
+   "precipitated",
+   "delineated",
+   "assuaged",
+   "manifested"
+  ],
+  "answer": "assuaged",
+  "why": "It relieved the thirst."
+ },
+ {
+  "id": "contrived-3",
+  "word": "contrived",
+  "type": "blank",
+  "passage": "The quiz show's suspense felt ______: the host paused for ten seconds before every answer, however obvious.",
+  "choices": [
+   "pervasive",
+   "contrived",
+   "inconsequential",
+   "palpable"
+  ],
+  "answer": "contrived",
+  "why": "Manufactured pauses are artificial."
+ },
+ {
+  "id": "contrived-4",
+  "word": "contrived",
+  "type": "blank",
+  "passage": "The scientist distrusted results from such a ______ setting, arguing that animals behave differently in the wild than in a bare cage.",
+  "choices": [
+   "analogous",
+   "exhaustive",
+   "scrupulous",
+   "contrived"
+  ],
+  "answer": "contrived",
+  "why": "A bare cage is an artificial setup."
+ },
+ {
+  "id": "palpable-3",
+  "word": "palpable",
+  "type": "blank",
+  "passage": "As the countdown reached ten seconds, the excitement in the control room was ______.",
+  "choices": [
+   "nominal",
+   "palpable",
+   "byzantine",
+   "immaterial"
+  ],
+  "answer": "palpable",
+  "why": "A feeling so strong you could almost touch it."
+ },
+ {
+  "id": "palpable-4",
+  "word": "palpable",
+  "type": "blank",
+  "passage": "The difference in quality between the two recordings is ______ even to an untrained ear.",
+  "choices": [
+   "equivocal",
+   "palpable",
+   "spurious",
+   "extraneous"
+  ],
+  "answer": "palpable",
+  "why": "Plainly perceptible to anyone."
+ },
+ {
+  "id": "prohibitive-3",
+  "word": "prohibitive",
+  "type": "blank",
+  "passage": "Desalination could supply the city indefinitely, but its energy costs are ______ for now.",
+  "choices": [
+   "nominal",
+   "prohibitive",
+   "palpable",
+   "analogous"
+  ],
+  "answer": "prohibitive",
+  "why": "\"Could ... but\" the cost rules it out."
+ },
+ {
+  "id": "prohibitive-4",
+  "word": "prohibitive",
+  "type": "blank",
+  "passage": "The ______ price of land downtown has pushed new housing to the edges of the city.",
+  "choices": [
+   "prohibitive",
+   "diminutive",
+   "orthodox",
+   "inconsequential"
+  ],
+  "answer": "prohibitive",
+  "why": "A price high enough to prevent building there."
+ },
+ {
+  "id": "ascribe-3",
+  "word": "ascribe",
+  "type": "blank",
+  "passage": "The villagers ______ the spring's healing powers to a saint; chemists later traced them to dissolved magnesium.",
+  "choices": [
+   "transposed",
+   "ascribed",
+   "subordinated",
+   "assuaged"
+  ],
+  "answer": "ascribed",
+  "why": "They credited the powers to a source."
+ },
+ {
+  "id": "ascribe-4",
+  "word": "ascribe",
+  "type": "blank",
+  "passage": "It would be a mistake to ______ the team's success to luck alone.",
+  "choices": [
+   "belie",
+   "ascribe",
+   "elicit",
+   "supersede"
+  ],
+  "answer": "ascribe",
+  "why": "To attribute success to a cause."
+ },
+ {
+  "id": "veneration-3",
+  "word": "veneration",
+  "type": "blank",
+  "passage": "The old teacher was held in such ______ that former students crossed the country to attend her retirement.",
+  "choices": [
+   "attrition",
+   "dearth",
+   "pretext",
+   "veneration"
+  ],
+  "answer": "veneration",
+  "why": "Deep respect, shown by the distance they traveled."
+ },
+ {
+  "id": "veneration-4",
+  "word": "veneration",
+  "type": "blank",
+  "passage": "The author warns that ______ of the founders can slide into a refusal to see their faults.",
+  "choices": [
+   "attrition",
+   "affinity",
+   "admonition",
+   "veneration"
+  ],
+  "answer": "veneration",
+  "why": "Reverence that blinds people to faults."
+ },
+ {
+  "id": "enigmatic-3",
+  "word": "enigmatic",
+  "type": "blank",
+  "passage": "The message was ______: three numbers and a single word, with no hint of who had sent it or why.",
+  "choices": [
+   "exhaustive",
+   "contrived",
+   "enigmatic",
+   "palpable"
+  ],
+  "answer": "enigmatic",
+  "why": "With no hint of sender or purpose, it is a puzzle."
+ },
+ {
+  "id": "enigmatic-4",
+  "word": "enigmatic",
+  "type": "blank",
+  "passage": "Even to her closest colleagues the director remained ______, rarely explaining her decisions and never her reasons.",
+  "choices": [
+   "pragmatic",
+   "enigmatic",
+   "scrupulous",
+   "conspicuous"
+  ],
+  "answer": "enigmatic",
+  "why": "Someone who never explains herself is hard to read."
+ },
+ {
+  "id": "recapitulate-3",
+  "word": "recapitulate",
+  "type": "blank",
+  "passage": "To ______: the bridge is unsafe, repairs will take a year, and no detour exists.",
+  "choices": [
+   "recapitulate",
+   "renounce",
+   "capitulate",
+   "extrapolate"
+  ],
+  "answer": "recapitulate",
+  "why": "A brief restatement of the main points. Capitulate means surrender."
+ },
+ {
+  "id": "recapitulate-4",
+  "word": "recapitulate",
+  "type": "blank",
+  "passage": "The last movement ______ themes from the first three, drawing the symphony together.",
+  "choices": [
+   "recapitulates",
+   "repudiates",
+   "discounts",
+   "precludes"
+  ],
+  "answer": "recapitulates",
+  "why": "It restates earlier themes."
+ },
+ {
+  "id": "repudiate-3",
+  "word": "repudiate",
+  "type": "blank",
+  "passage": "The scientist publicly ______ the paper that bore her name, saying her signature had been added without her consent.",
+  "choices": [
+   "substantiated",
+   "venerated",
+   "repudiated",
+   "recapitulated"
+  ],
+  "answer": "repudiated",
+  "why": "She refused to be associated with it."
+ },
+ {
+  "id": "repudiate-4",
+  "word": "repudiate",
+  "type": "blank",
+  "passage": "Voters ______ the proposal by a margin of three to one.",
+  "choices": [
+   "delineated",
+   "ascribed",
+   "repudiated",
+   "appraised"
+  ],
+  "answer": "repudiated",
+  "why": "A three-to-one defeat is a firm rejection."
+ },
+ {
+  "id": "substantiate-3",
+  "word": "substantiate",
+  "type": "blank",
+  "passage": "The company has yet to ______ its claim that the battery lasts a week; independent tests put the figure at two days.",
+  "choices": [
+   "denote",
+   "substantiate",
+   "assuage",
+   "repudiate"
+  ],
+  "answer": "substantiate",
+  "why": "It has not backed the claim with evidence."
+ },
+ {
+  "id": "substantiate-4",
+  "word": "substantiate",
+  "type": "blank",
+  "passage": "A single anonymous source is not enough to ______ an accusation of this gravity.",
+  "choices": [
+   "substantiate",
+   "transpose",
+   "preclude",
+   "lament"
+  ],
+  "answer": "substantiate",
+  "why": "Not enough evidence to support it."
+ },
+ {
+  "id": "pretext-3",
+  "word": "pretext",
+  "type": "blank",
+  "passage": "The landlord used the cracked window as a ______ for raising the rent, which he had planned to do anyway.",
+  "choices": [
+   "harbinger",
+   "veneration",
+   "pretext",
+   "proxy"
+  ],
+  "answer": "pretext",
+  "why": "\"Planned to do anyway\" shows the window was an excuse."
+ },
+ {
+  "id": "pretext-4",
+  "word": "pretext",
+  "type": "blank",
+  "passage": "The meeting was called on the ______ of reviewing the budget; its real aim was to remove the treasurer.",
+  "choices": [
+   "attrition",
+   "pretext",
+   "dearth",
+   "manifest"
+  ],
+  "answer": "pretext",
+  "why": "\"Real aim\" marks the stated reason as a cover."
+ },
+ {
+  "id": "transpose-3",
+  "word": "transpose",
+  "type": "blank",
+  "passage": "The singer asked the pianist to ______ the song down a tone to suit her voice.",
+  "choices": [
+   "delineate",
+   "transpose",
+   "recapitulate",
+   "extrapolate"
+  ],
+  "answer": "transpose",
+  "why": "Moving music into another key is transposing it."
+ },
+ {
+  "id": "transpose-4",
+  "word": "transpose",
+  "type": "blank",
+  "passage": "In the second draft, the author ______ the first two chapters so that the book opens with the trial.",
+  "choices": [
+   "discerned",
+   "transposed",
+   "renounced",
+   "substantiated"
+  ],
+  "answer": "transposed",
+  "why": "The chapters swapped places."
+ },
+ {
+  "id": "denote-3",
+  "word": "denote",
+  "type": "blank",
+  "passage": "On the map, a dotted line ______ a footpath and a solid one a paved road.",
+  "choices": [
+   "discerns",
+   "denotes",
+   "precludes",
+   "elicits"
+  ],
+  "answer": "denotes",
+  "why": "A symbol stands for a meaning."
+ },
+ {
+  "id": "denote-4",
+  "word": "denote",
+  "type": "blank",
+  "passage": "In chemistry, the prefix \"iso\" is used to ______ compounds that share a formula but differ in structure.",
+  "choices": [
+   "ascribe",
+   "transpose",
+   "denote",
+   "repudiate"
+  ],
+  "answer": "denote",
+  "why": "The prefix signifies a category."
+ },
+ {
+  "id": "discern-3",
+  "word": "discern",
+  "type": "blank",
+  "passage": "From the summit we could just ______ the outline of the coast through the haze.",
+  "choices": [
+   "denote",
+   "transpose",
+   "preclude",
+   "discern"
+  ],
+  "answer": "discern",
+  "why": "Making out something faint."
+ },
+ {
+  "id": "discern-4",
+  "word": "discern",
+  "type": "blank",
+  "passage": "It is hard to ______ any pattern in the first hundred results; only with thousands does the trend appear.",
+  "choices": [
+   "discern",
+   "recapitulate",
+   "ascribe",
+   "renounce"
+  ],
+  "answer": "discern",
+  "why": "Detecting a pattern that is not obvious."
+ },
+ {
+  "id": "extrapolate-3",
+  "word": "extrapolate",
+  "type": "blank",
+  "passage": "It is risky to ______ from the behavior of mice to that of humans.",
+  "choices": [
+   "extrapolate",
+   "transpose",
+   "recapitulate",
+   "substantiate"
+  ],
+  "answer": "extrapolate",
+  "why": "Extending findings beyond what was studied."
+ },
+ {
+  "id": "extrapolate-4",
+  "word": "extrapolate",
+  "type": "blank",
+  "passage": "By ______ the curve beyond the last data point, the team predicted that the reservoir would be empty by August.",
+  "choices": [
+   "delineating",
+   "denoting",
+   "repudiating",
+   "extrapolating"
+  ],
+  "answer": "extrapolating",
+  "why": "Extending a known trend to estimate the unknown."
+ },
+ {
+  "id": "extemporaneous-3",
+  "word": "extemporaneous",
+  "type": "blank",
+  "passage": "When the projector failed, the lecturer gave an ______ talk that many in the audience preferred to the planned one.",
+  "choices": [
+   "enigmatic",
+   "extraneous",
+   "extemporaneous",
+   "exhaustive"
+  ],
+  "answer": "extemporaneous",
+  "why": "With the plan gone, she improvised. Extraneous is the look-alike."
+ },
+ {
+  "id": "extemporaneous-4",
+  "word": "extemporaneous",
+  "type": "blank",
+  "passage": "The debate format rewards ______ speaking: contestants learn their topic only ten minutes before they begin.",
+  "choices": [
+   "orthodox",
+   "contrived",
+   "scrupulous",
+   "extemporaneous"
+  ],
+  "answer": "extemporaneous",
+  "why": "Ten minutes' notice means speaking without preparation."
+ },
+ {
+  "id": "immaterial-3",
+  "word": "immaterial",
+  "type": "blank",
+  "passage": "The applicant's age is ______; the only question is whether she can do the work.",
+  "choices": [
+   "palpable",
+   "tantamount",
+   "prohibitive",
+   "immaterial"
+  ],
+  "answer": "immaterial",
+  "why": "\"The only question is\" something else, so age has no bearing."
+ },
+ {
+  "id": "immaterial-4",
+  "word": "immaterial",
+  "type": "meaning",
+  "passage": "The philosopher held that the mind is [[immaterial]] and so cannot be located anywhere in the brain.",
+  "choices": [
+   "irrelevant",
+   "without physical substance",
+   "unimportant",
+   "unknowable"
+  ],
+  "answer": "without physical substance",
+  "why": "The physical sense: something with no location has no matter."
+ },
+ {
+  "id": "supersede-3",
+  "word": "supersede",
+  "type": "blank",
+  "passage": "The new safety code ______ the 1998 regulations, which are no longer in force.",
+  "choices": [
+   "supersedes",
+   "recapitulates",
+   "denotes",
+   "substantiates"
+  ],
+  "answer": "supersedes",
+  "why": "The old rules are no longer in force: replaced."
+ },
+ {
+  "id": "supersede-4",
+  "word": "supersede",
+  "type": "blank",
+  "passage": "Steel-hulled ships had largely ______ wooden ones by the end of the nineteenth century.",
+  "choices": [
+   "superseded",
+   "ascribed",
+   "discerned",
+   "extrapolated"
+  ],
+  "answer": "superseded",
+  "why": "The newer kind took the older one's place."
+ },
+ {
+  "id": "affinity-3",
+  "word": "affinity",
+  "type": "blank",
+  "passage": "The two composers felt an immediate ______, having both grown up playing folk music in small mountain towns.",
+  "choices": [
+   "affinity",
+   "admonition",
+   "pretext",
+   "attrition"
+  ],
+  "answer": "affinity",
+  "why": "A natural sense of connection from shared background."
+ },
+ {
+  "id": "affinity-4",
+  "word": "affinity",
+  "type": "meaning",
+  "passage": "Linguists have long noted the [[affinity]] between Finnish and Hungarian, which share grammatical features found in few other European languages.",
+  "choices": [
+   "resemblance suggesting a common origin",
+   "chemical attraction",
+   "rivalry",
+   "fondness"
+  ],
+  "answer": "resemblance suggesting a common origin",
+  "why": "Shared features point to a relationship between the languages."
+ },
+ {
+  "id": "surrogate-3",
+  "word": "surrogate",
+  "type": "blank",
+  "passage": "For researchers who cannot measure stress hormones directly, heart rate serves as a convenient ______.",
+  "choices": [
+   "surrogate",
+   "buttress",
+   "harbinger",
+   "pretext"
+  ],
+  "answer": "surrogate",
+  "why": "A stand-in measure."
+ },
+ {
+  "id": "surrogate-4",
+  "word": "surrogate",
+  "type": "blank",
+  "passage": "The older sister acted as a ______ parent during the months their mother spent in the hospital.",
+  "choices": [
+   "subordinate",
+   "nominal",
+   "proponent",
+   "surrogate"
+  ],
+  "answer": "surrogate",
+  "why": "She stood in for the parent."
+ },
+ {
+  "id": "delineate-3",
+  "word": "delineate",
+  "type": "blank",
+  "passage": "The contract carefully ______ which repairs are the tenant's responsibility and which are the owner's.",
+  "choices": [
+   "transposes",
+   "delineates",
+   "supersedes",
+   "extrapolates"
+  ],
+  "answer": "delineates",
+  "why": "It marks out precisely who does what."
+ },
+ {
+  "id": "delineate-4",
+  "word": "delineate",
+  "type": "blank",
+  "passage": "Surveyors spent the summer ______ the boundaries of the new park.",
+  "choices": [
+   "delineating",
+   "repudiating",
+   "discerning",
+   "recapitulating"
+  ],
+  "answer": "delineating",
+  "why": "Marking out boundaries precisely. Discerning would mean merely detecting them."
+ },
+ {
+  "id": "nebulous-3",
+  "word": "nebulous",
+  "type": "blank",
+  "passage": "The term \"natural\" on food labels is ______: no regulation says what it must mean.",
+  "choices": [
+   "nebulous",
+   "palpable",
+   "exhaustive",
+   "scrupulous"
+  ],
+  "answer": "nebulous",
+  "why": "A term with no fixed meaning is vague."
+ },
+ {
+  "id": "nebulous-4",
+  "word": "nebulous",
+  "type": "blank",
+  "passage": "His plans for after graduation were still ______, something about travel and perhaps a job abroad.",
+  "choices": [
+   "unequivocal",
+   "byzantine",
+   "prohibitive",
+   "nebulous"
+  ],
+  "answer": "nebulous",
+  "why": "Hazy, undefined plans."
+ },
+ {
+  "id": "equivocal-3",
+  "word": "equivocal",
+  "type": "blank",
+  "passage": "The evidence for the treatment remains ______, with as many studies finding no benefit as finding one.",
+  "choices": [
+   "palpable",
+   "equivocal",
+   "exhaustive",
+   "unequivocal"
+  ],
+  "answer": "equivocal",
+  "why": "Evidence split evenly points both ways."
+ },
+ {
+  "id": "equivocal-4",
+  "word": "equivocal",
+  "type": "blank",
+  "passage": "Her ______ reply, \"I wouldn't say no,\" left him unsure whether he had been hired.",
+  "choices": [
+   "equivocal",
+   "extemporaneous",
+   "scrupulous",
+   "inconsequential"
+  ],
+  "answer": "equivocal",
+  "why": "A noncommittal answer that could be read either way."
+ },
+ {
+  "id": "renounce-3",
+  "word": "renounce",
+  "type": "blank",
+  "passage": "On entering the monastery, he ______ all personal property, keeping only a razor and a pair of sandals.",
+  "choices": [
+   "delineated",
+   "discerned",
+   "renounced",
+   "denounced"
+  ],
+  "answer": "renounced",
+  "why": "He formally gave it up. Denounce means condemn."
+ },
+ {
+  "id": "renounce-4",
+  "word": "renounce",
+  "type": "blank",
+  "passage": "The treaty required both countries to ______ any future claim to the islands.",
+  "choices": [
+   "extrapolate",
+   "supersede",
+   "substantiate",
+   "renounce"
+  ],
+  "answer": "renounce",
+  "why": "Giving up a claim formally."
+ },
+ {
+  "id": "preclude-3",
+  "word": "preclude",
+  "type": "blank",
+  "passage": "A prior commitment ______ the ambassador from attending the ceremony.",
+  "choices": [
+   "elicited",
+   "precluded",
+   "renounced",
+   "denoted"
+  ],
+  "answer": "precluded",
+  "why": "It made attending impossible."
+ },
+ {
+  "id": "preclude-4",
+  "word": "preclude",
+  "type": "blank",
+  "passage": "The small sample does not ______ the possibility that the effect is real, but it does make the result hard to trust.",
+  "choices": [
+   "delineate",
+   "substantiate",
+   "recapitulate",
+   "preclude"
+  ],
+  "answer": "preclude",
+  "why": "It does not rule the possibility out."
+ },
+ {
+  "id": "incipient-3",
+  "word": "incipient",
+  "type": "blank",
+  "passage": "Engineers caught the ______ crack during a routine inspection, when it was still shorter than a fingernail.",
+  "choices": [
+   "exhaustive",
+   "insuperable",
+   "equivocal",
+   "incipient"
+  ],
+  "answer": "incipient",
+  "why": "A crack just beginning."
+ },
+ {
+  "id": "incipient-4",
+  "word": "incipient",
+  "type": "blank",
+  "passage": "The essay traces the ______ stages of the movement, before it had a name or a leader.",
+  "choices": [
+   "incipient",
+   "extemporaneous",
+   "immaterial",
+   "inconsequential"
+  ],
+  "answer": "incipient",
+  "why": "The earliest, beginning stages."
+ },
+ {
+  "id": "belie-3",
+  "word": "belie",
+  "type": "blank",
+  "passage": "The building's plain brick front ______ the richness of its interior, which is covered floor to ceiling in mosaics.",
+  "choices": [
+   "substantiates",
+   "belies",
+   "denotes",
+   "delineates"
+  ],
+  "answer": "belies",
+  "why": "The plain exterior gives a false impression of what is inside."
+ },
+ {
+  "id": "belie-4",
+  "word": "belie",
+  "type": "blank",
+  "passage": "The company's cheerful press release was ______ by its own figures, which showed sales falling for the third straight quarter.",
+  "choices": [
+   "evinced",
+   "precluded",
+   "recapitulated",
+   "belied"
+  ],
+  "answer": "belied",
+  "why": "The figures contradicted the cheerful release."
+ },
+ {
+  "id": "discount-3",
+  "word": "discount",
+  "type": "blank",
+  "passage": "Investors who ______ early warnings about the company's debts lost heavily when it collapsed.",
+  "choices": [
+   "substantiated",
+   "delineated",
+   "elicited",
+   "discounted"
+  ],
+  "answer": "discounted",
+  "why": "They dismissed the warnings."
+ },
+ {
+  "id": "discount-4",
+  "word": "discount",
+  "type": "meaning",
+  "passage": "The detective did not [[discount]] the gardener's story, odd as it sounded, and checked each detail.",
+  "choices": [
+   "pay less for",
+   "dismiss",
+   "reduce",
+   "repeat"
+  ],
+  "answer": "dismiss",
+  "why": "She took it seriously enough to check: she did not dismiss it."
+ },
+ {
+  "id": "register-3",
+  "word": "register",
+  "type": "meaning",
+  "passage": "The actor's face [[registered]] nothing as the verdict was read.",
+  "choices": [
+   "enrolled",
+   "noticed",
+   "recorded officially",
+   "showed"
+  ],
+  "answer": "showed",
+  "why": "A face shows a feeling; here it showed none."
+ },
+ {
+  "id": "register-4",
+  "word": "register",
+  "type": "meaning",
+  "passage": "The essay moves between the formal [[register]] of a legal brief and the slang of the street.",
+  "choices": [
+   "recording device",
+   "official list",
+   "range of notes",
+   "level of language"
+  ],
+  "answer": "level of language",
+  "why": "The language sense: a level of formality."
  }
 ]

@@ -1,7 +1,7 @@
 "use client";
 
 // The tab bar at the bottom of every screen. During a focused activity (the
-// sort, a drill round, a flashcard round) it is replaced by a single exit
+// sort, a lesson, a drill round, a flashcard round) it is replaced by a single exit
 // link at the top, so a stray tap cannot throw away the round.
 
 import Link from "next/link";
@@ -32,13 +32,13 @@ function Glyph({ icon }: { icon: Icon }) {
 export function Nav({ items }: { items: NavItem[] }) {
   const path = usePathname();
   const params = useSearchParams();
-  const focused = path === "/sort" || (path === "/drill" && params.has("n")) || (path === "/cards" && params.has("deck"));
+  const focused = path === "/sort" || path === "/lesson" || (path === "/drill" && params.has("n")) || (path === "/cards" && params.has("deck"));
 
   if (focused) {
     return (
       <div className="fixed inset-x-0 top-0 z-30 bg-canvas/90 backdrop-blur">
         <div className="mx-auto flex h-11 max-w-3xl items-center px-4">
-          <Link href={path === "/sort" ? "/home" : path} className="-ml-2 flex h-9 items-center gap-1 rounded-lg px-2 text-sm font-semibold text-ink-2" aria-label="Exit">
+          <Link href={path === "/sort" || path === "/lesson" ? "/home" : path} className="-ml-2 flex h-9 items-center gap-1 rounded-lg px-2 text-sm font-semibold text-ink-2" aria-label="Exit">
             <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden>
               <path d="M6 6l12 12M18 6L6 18" />
             </svg>
